@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>台灣 CDC 疫情監測系統</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="台灣 CDC 疫情監測儀表板與每週簡報，依公衛資料視覺化風格指南設計。">
+<style>
+  :root {
+    --p-100: #E9EFE6;
+    --p-300: #B6CDB0;
+    --p-500: #739A6D;
+    --p-600: #5D7F58;
+    --p-800: #3C5237;
+    --n-50:  #F7F6F2;
+    --n-100: #EFEDE6;
+    --n-200: #DCD8CD;
+    --n-400: #A39B8A;
+    --n-700: #4A4538;
+    --n-900: #1F1C16;
+    --danger: #BE373C;
+    --warning: #D2962D;
+    --font-serif: "Noto Serif TC", "Songti TC", "PingFang TC", serif;
+    --font-sans:  "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: var(--font-sans);
+    color: var(--n-900);
+    background: var(--n-50);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background: linear-gradient(180deg, var(--p-500), var(--p-600));
+    color: white;
+    padding: 4rem 2rem 3rem;
+    text-align: center;
+  }
+  header .logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px; height: 56px;
+    background: white;
+    border-radius: 14px;
+    font-size: 1.8rem;
+    margin-bottom: 1.25rem;
+  }
+  header h1 {
+    font-family: var(--font-serif);
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    margin: 0 0 .35rem;
+    letter-spacing: .02em;
+  }
+  header p.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    font-size: .75rem;
+    opacity: .85;
+    margin: 0 0 1.5rem;
+  }
+  header p.lead {
+    max-width: 580px;
+    margin: 0 auto;
+    font-size: 1.05rem;
+    opacity: .95;
+  }
+  main {
+    flex: 1;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+    width: 100%;
+  }
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  a.card {
+    display: block;
+    background: white;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid var(--n-200);
+    border-left: 4px solid var(--p-500);
+    border-radius: 10px;
+    padding: 1.75rem 1.75rem 1.5rem;
+    transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+  }
+  a.card:hover, a.card:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(60, 82, 55, .12);
+    border-left-color: var(--p-800);
+    outline: none;
+  }
+  a.card .icon {
+    font-size: 2rem;
+    margin-bottom: .75rem;
+    display: block;
+  }
+  a.card h2 {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    margin: 0 0 .5rem;
+    color: var(--p-800);
+  }
+  a.card p {
+    margin: 0 0 1rem;
+    color: var(--n-700);
+    font-size: .95rem;
+  }
+  a.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: .85rem;
+    color: var(--n-400);
+  }
+  a.card ul li::before {
+    content: "·";
+    color: var(--p-500);
+    font-weight: bold;
+    margin-right: .4rem;
+  }
+  .meta {
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    background: white;
+    border: 1px solid var(--n-200);
+    border-radius: 10px;
+  }
+  .meta h3 {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    margin: 0 0 .75rem;
+    color: var(--n-700);
+  }
+  .meta dl {
+    margin: 0;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: .4rem 1.25rem;
+    font-size: .9rem;
+  }
+  .meta dt { color: var(--n-400); }
+  .meta dd { margin: 0; color: var(--n-900); }
+  .meta dd a { color: var(--p-600); text-decoration: none; border-bottom: 1px dotted var(--p-300); }
+  .meta dd a:hover { color: var(--p-800); }
+  footer {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    color: var(--n-400);
+    font-size: .85rem;
+    border-top: 1px solid var(--n-200);
+    background: white;
+  }
+  footer a { color: var(--p-600); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🩺</div>
+  <p class="eyebrow">Epidemic Surveillance · Taiwan CDC</p>
+  <h1>台灣 CDC 疫情監測系統</h1>
+  <p class="lead">同一套資料管線，輸出兩種視覺化：給公衛人員日常使用的互動式儀表板，與給長官每週簡報的列印投影片。</p>
+</header>
+
+<main>
+  <div class="grid">
+
+    <a class="card" href="dashboard/">
+      <span class="icon">📊</span>
+      <h2>互動式儀表板</h2>
+      <p>NIDSS-style 即時查詢介面，依警示嚴重度排序六大疾病卡片。</p>
+      <ul>
+        <li>趨勢圖 + 4 週移動平均 + 紅黃閾值線</li>
+        <li>縣市分布、年齡層分布、本土/境外堆疊條</li>
+        <li>範圍切換：近 1 年 / 近 3 年</li>
+      </ul>
+    </a>
+
+    <a class="card" href="weekly_report/">
+      <span class="icon">📰</span>
+      <h2>每週監測簡報</h2>
+      <p>A4 橫向 6 頁投影片，瀏覽器直接列印成 PDF 給長官。</p>
+      <ul>
+        <li>封面、總覽、區域 + 年齡、警示與防疫</li>
+        <li>歷年同期比較（近 3 年同 ISO 週疊圖）</li>
+        <li>嚴守公衛資料視覺化風格指南</li>
+      </ul>
+    </a>
+
+  </div>
+
+  <section class="meta">
+    <h3>關於資料</h3>
+    <dl>
+      <dt>來源</dt>
+      <dd>衛生福利部疾病管制署 <a href="https://data.cdc.gov.tw/" target="_blank" rel="noopener">開放資料平台</a></dd>
+      <dt>授權</dt>
+      <dd>政府資料開放授權條款</dd>
+      <dt>更新頻率</dt>
+      <dd>依 CDC 來源更新，本站需重跑 pipeline 並 push 才會更新</dd>
+      <dt>原始碼</dt>
+      <dd><a href="https://github.com/drhao/epidemic-intelligence-weekly-report" target="_blank" rel="noopener">github.com/drhao/epidemic-intelligence-weekly-report</a></dd>
+    </dl>
+  </section>
+</main>
+
+<footer>
+  Designed in accordance with the Epidemic Data Visualization Style Guide ·
+  資料來源：衛生福利部疾病管制署
+</footer>
+
+</body>
+</html>
