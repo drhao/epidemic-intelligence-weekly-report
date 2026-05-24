@@ -76,7 +76,7 @@ A4 橫向 6 頁，純為列印 PDF 設計：
 | 頁次 | 內容 |
 |---|---|
 | 1 | 封面（週次戳印 + 警示總覽 4 格） |
-| 2 | 六大疾病總覽（3×2 卡 + sparkline + 變化率） |
+| 2 | 主要傳染病總覽（卡片 + sparkline + 變化率） |
 | 3 | 最高警示疾病：縣市熱區 + 年齡層 + 3 重點 callouts |
 | 4 | 警示與防疫建議（高/中/低分區） |
 | 5 | 歷年同期比較（近 3 年同 ISO 週疊圖 + YTD 對比） |
@@ -112,12 +112,12 @@ CDC 公開資料平台，每日更新：
 
 | 疾病 | URL |
 |---|---|
-| 法定傳染病每週統計 | https://od.cdc.gov.tw/eic/NotifiableDiseases_5y.csv |
 | 登革熱每日確診 | https://od.cdc.gov.tw/eic/Dengue_Daily.csv |
-| 流感類流感監測 | https://od.cdc.gov.tw/eic/FluLikeAndCovidILI.csv |
-| 腸病毒門急診 | https://od.cdc.gov.tw/eic/Enterovirus.csv |
+| 類流感健保門急診 | https://od.cdc.gov.tw/eic/NHI_Influenza_like_illness.csv |
+| 腸病毒健保門急診 | https://od.cdc.gov.tw/eic/NHI_EnteroviralInfection.csv |
 | COVID-19 法定傳染病 | https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.csv |
-| RSV 監測 | https://od.cdc.gov.tw/eic/RSV.csv |
+
+> 早期版本曾納入「呼吸道融合病毒 (RSV)」與「法定傳染病五年統計」兩筆，2026-05 確認 CDC 開放資料平台已下架，等重新公布再恢復。
 
 > 資料授權：政府資料開放授權條款
 > 引用：「資料來源：衛生福利部疾病管制署」

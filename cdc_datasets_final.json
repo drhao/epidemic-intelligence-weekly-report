@@ -1,0 +1,1586 @@
+[
+  {
+    "title": "tmprescription",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/tmprescription",
+    "resources": "國際旅遊處方箋網頁內容 (CSV): https://od.cdc.gov.tw/quarantine/TMPrescription.csv"
+  },
+  {
+    "title": "tmclinicslist",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/tmclinicslist",
+    "resources": "旅遊醫學合約醫院列表 (CSV): https://od.cdc.gov.tw/quarantine/TMClinicsList.csv"
+  },
+  {
+    "title": "tmclinicstimetable",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/tmclinicstimetable",
+    "resources": "旅遊醫學合約醫院旅遊醫學門診服務時間表 (CSV): https://od.cdc.gov.tw/quarantine/ClinicsTime.csv"
+  },
+  {
+    "title": "MDRTB",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/mdrtb",
+    "resources": "結核病－多重抗藥結核病個案數統計 (CSV): https://od.cdc.gov.tw/chronic/MDRCaseNum.csv"
+  },
+  {
+    "title": "aagstable-weekly-tuberculosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-tuberculosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_010.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_010.json"
+  },
+  {
+    "title": "aagstable-tuberculosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-tuberculosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_010.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_010.json"
+  },
+  {
+    "title": "tb-care-incident",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/tb-care-incident",
+    "resources": "結核病－新案發生率(鄉鎮別) (CSV): https://od.cdc.gov.tw/chronic/tb_town_inc_rate.csv"
+  },
+  {
+    "title": "dead",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/dead",
+    "resources": "結核病死亡 (CSV): https://od.cdc.gov.tw/chronic/CareMagDeadInfo.csv"
+  },
+  {
+    "title": "TB_faraway_care",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/tb-faraway-care",
+    "resources": "結核病－山地鄉新案發生情形統計 (CSV): https://od.cdc.gov.tw/chronic/tb_faraway_care.csv"
+  },
+  {
+    "title": "tbcaretown",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/tbcaretown",
+    "resources": "結核病－新案發生數統計(鄉鎮別) (CSV): https://od.cdc.gov.tw/chronic/tb_town_inc_num.csv"
+  },
+  {
+    "title": "tbcare",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/tbcare",
+    "resources": "結核病－新案發生數統計(縣市別、性別、年齡別) (CSV): https://od.cdc.gov.tw/chronic/tb_city_age_inc_num.csv"
+  },
+  {
+    "title": "TB_treat_success",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/tb-treat-success",
+    "resources": "結核病－治療成功率統計 (CSV): https://od.cdc.gov.tw/chronic/TreatSuccessPercent.csv"
+  },
+  {
+    "title": "",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/hi-visit-covid-19",
+    "resources": "健保門診及住院就診人次統計-COVID-19 (CSV): https://od.cdc.gov.tw/eic/NHI_COVID-19.csv; 健保門診及住院就診人次統計-COVID-19 (JSON): https://od.cdc.gov.tw/eic/NHI_COVID-19.json"
+  },
+  {
+    "title": "",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/rods-covid-19",
+    "resources": "急診傳染病監測統計-COVID-19 (CSV): https://od.cdc.gov.tw/eic/RODS_COVID-19.csv; 急診傳染病監測統計-COVID-19 (JSON): https://od.cdc.gov.tw/eic/RODS_COVID-19.json"
+  },
+  {
+    "title": "Annual Vaccination Doses",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/annual-vaccination-doses",
+    "resources": "各項預防接種工作量統計2022年 (CSV): https://od.cdc.gov.tw/acute/2022 Annual Vaccination Doses.csv; 各項預防接種工作量統計2023年 (CSV): https://od.cdc.gov.tw/acute/2023 Annual Vaccination Doses.csv; 各項預防接種工作量統計2024年 (CSV): https://od.cdc.gov.tw/acute/2024 Annual Vaccination Doses.csv"
+  },
+  {
+    "title": "Immunization Coverage",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/immunization-coverage",
+    "resources": "各項預防接種完成率統計2022年 (CSV): https://od.cdc.gov.tw/acute/2022 Immunization Coverage Annual Data.csv; 各項預防接種完成率統計2023年 (CSV): https://od.cdc.gov.tw/acute/2023 Immunization Coverage Annual Data.csv; 各項預防接種完成率統計2024年 (CSV): https://od.cdc.gov.tw/acute/2024 Immunization Coverage Annual Data.csv"
+  },
+  {
+    "title": "monthly-accounting-statement-of-centers-for-disease-control",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/monthly-accounting-statement-of-centers-for-disease-control",
+    "resources": "109年度1月會計月報 (ZIP): https://od.cdc.gov.tw/as/04.疾病管制署公務會計報告/109/10901.zip; 110年度會計月報 (ZIP): https://od.cdc.gov.tw/as/04.疾病管制署公務會計報告/110/11001.zip; 111年度會計月報 (ZIP): https://od.cdc.gov.tw/as/04.疾病管制署公務會計報告/111/11101.zip; 112年度會計月報 (ZIP): https://od.cdc.gov.tw/as/04.疾病管制署公務會計報告/112/11201.zip"
+  },
+  {
+    "title": "hi-outpatient-emergency-visit-acute-upper-respiratory-infections",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/hi-outpatient-emergency-visit-acute-upper-respiratory-infections",
+    "resources": "健保門診及住院就診人次統計 (CSV): https://od.cdc.gov.tw/eic/NHI_AcuteUpperRespiratoryInfections.csv; 健保門診及住院就診人次統計 (JSON): https://od.cdc.gov.tw/eic/NHI_AcuteUpperRespiratoryInfections.json"
+  },
+  {
+    "title": "hi-outpatient-emergency-visit-influenza-like-illness",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/hi-outpatient-emergency-visit-influenza-like-illness",
+    "resources": "健保門診及住院就診人次統計 (CSV): https://od.cdc.gov.tw/eic/NHI_Influenza_like_illness.csv; 健保門診及住院就診人次統計 (JSON): https://od.cdc.gov.tw/eic/NHI_Influenza_like_illness.json"
+  },
+  {
+    "title": "hi-outpatient-emergency-visit-enteroviral-infection",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/hi-outpatient-emergency-visit-enteroviral-infection",
+    "resources": "健保門診及住院就診人次統計 (CSV): https://od.cdc.gov.tw/eic/NHI_EnteroviralInfection.csv; 健保門診及住院就診人次統計 (JSON): https://od.cdc.gov.tw/eic/NHI_EnteroviralInfection.json"
+  },
+  {
+    "title": "final-accounting-document-of-centers-for-disease-control-verified-divisions",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/final-accounting-document-of-centers-for-disease-control-verified-divisions",
+    "resources": "疾病管制署公務決算書 (ZIP): https://od.cdc.gov.tw/as/03.疾病管制署公務決算書(審定本)/113年決算書.zip"
+  },
+  {
+    "title": "proposal-budget-document-of-vaccination-victims-relief-fund",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/proposal-budget-document-of-vaccination-victims-relief-fund1",
+    "resources": "預防接種受害救濟基金預算書 (ZIP): https://od.cdc.gov.tw/as/09.預防接種受害救濟基金預算書(預算案)/109-預算案.zip"
+  },
+  {
+    "title": "aagstable-weekly-mers-cov",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-mers-cov",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_NoCoV.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/d4c84064-930b-42bf-a354-e6eb2cb059d2.json"
+  },
+  {
+    "title": "aagstable-weekly-brucellosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-brucellosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_023.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_023.json"
+  },
+  {
+    "title": "aagstable-weekly-toxoplasmosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-toxoplasmosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_130.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_130.json"
+  },
+  {
+    "title": "aagstable-weekly-herpesvirus-simiae-infection",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-herpesvirus-simiae-infection",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0543.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/d4c84064-930b-42bf-a354-e6eb2cb059d2.json"
+  },
+  {
+    "title": "aagstable-weekly-pneumococcus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-pneumococcus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0412.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0412.json"
+  },
+  {
+    "title": "aagstable-weekly-complicated-varicella",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-complicated-varicella",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_052VC.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_052VC.json"
+  },
+  {
+    "title": "aagstable-weekly-acute-hepatitis-c",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-acute-hepatitis-c",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0705.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0705.json"
+  },
+  {
+    "title": "aagstable-weekly-acute-hepatitis-d",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-acute-hepatitis-d",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_070d.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_070d.json"
+  },
+  {
+    "title": "aagstable-weekly-acute-hepatitis-e",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-acute-hepatitis-e",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_070e.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_070e.json"
+  },
+  {
+    "title": "aagstable-weekly-mumps",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-mumps",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_072.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_072.json"
+  },
+  {
+    "title": "aagstable-weekly-syphilis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-syphilis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_090.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_090.json"
+  },
+  {
+    "title": "aagstable-weekly-gonorrhea",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-gonorrhea",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_098.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_098.json"
+  },
+  {
+    "title": "aagstable-weekly-hib",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-hib",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_3200.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_3200.json"
+  },
+  {
+    "title": "aagstable-weekly-legionnaires",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-legionnaires",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_4828.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_4828.json"
+  },
+  {
+    "title": "aagstable-weekly-neonatal-tetanus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-neonatal-tetanus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_7713.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/d4c84064-930b-42bf-a354-e6eb2cb059d2.json"
+  },
+  {
+    "title": "aagstable-weekly-acute-viral-hepatitis-unspecified",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-acute-viral-hepatitis-unspecified",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_070x.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_070x.json"
+  },
+  {
+    "title": "aagstable-weekly-botulism",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-botulism",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0051.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0051.json"
+  },
+  {
+    "title": "aagstable-weekly-creutzfeldt-jacob-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-creutzfeldt-jacob-disease",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0461.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0461.json"
+  },
+  {
+    "title": "aagstable-weekly-lyme",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-lyme",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_1048.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_1048.json"
+  },
+  {
+    "title": "aagstable-weekly-endemic-typhus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-endemic-typhus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0820.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0820.json"
+  },
+  {
+    "title": "aagstable-weekly-q-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-q-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0830.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0830.json"
+  },
+  {
+    "title": "aagstable-weekly-diphtheria",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-diphtheria",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_032.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/d4c84064-930b-42bf-a354-e6eb2cb059d2.json"
+  },
+  {
+    "title": "aagstable-weekly- meningococcal-meningitis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-meningococcal-meningitis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0360.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0360.json"
+  },
+  {
+    "title": "aagstable-weekly-typhoid-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-typhoid-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_002.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_002.json"
+  },
+  {
+    "title": "aagstable-weekly-paratyphoid-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-paratyphoid-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_002a.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_002a.json"
+  },
+  {
+    "title": "aagstable-weekly-polio",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-polio",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_045.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/d4c84064-930b-42bf-a354-e6eb2cb059d2.json"
+  },
+  {
+    "title": "aagstable-weekly-acute-flaccid-paralysis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-acute-flaccid-paralysis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_045a.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_045a.json"
+  },
+  {
+    "title": "aagstable-weekly-malaria",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-malaria",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_084.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_084.json"
+  },
+  {
+    "title": "aagstable-weekly-measles",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-measles",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_055.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_055.json"
+  },
+  {
+    "title": "aagstable-weekly-acute-hepatitis-a",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-acute-hepatitis-a",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0701.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0701.json"
+  },
+  {
+    "title": "aagstable-weekly-ehec-infection",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-ehec-infection",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0080.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0080.json"
+  },
+  {
+    "title": "aagstable-weekly-hemorrhagic-fever-with-renal-syndrome",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-hemorrhagic-fever-with-renal-syndrome",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0786.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0786.json"
+  },
+  {
+    "title": "aagstable-weekly-multidrug resistant tuberculosise",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-multidrug-resistant-tuberculosise",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_010m.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_010m.json"
+  },
+  {
+    "title": "aagstable-weekly-pertussis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-pertussis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_033.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_033.json"
+  },
+  {
+    "title": "aagstable-weekly-tetanus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-tetanus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_037.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/d4c84064-930b-42bf-a354-e6eb2cb059d2.json"
+  },
+  {
+    "title": "aagstable-weekly-acute-hepatitis-b",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-acute-hepatitis-b",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0703.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0703.json"
+  },
+  {
+    "title": "aagstable-toxoplasmosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-toxoplasmosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_130.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_130.json"
+  },
+  {
+    "title": "aagstable-brucellosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-brucellosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_023.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_023.json"
+  },
+  {
+    "title": "aagstable-mers-cov",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-mers-cov",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_NoCoV.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-yellow-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-yellow-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_060.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-ebola",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-ebola",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0788.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-lassa-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-lassa-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0788b.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-marburg-hemorrhagic-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-marburg-hemorrhagic-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0788a.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-rift-valley-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-rift-valley-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0663a.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-influenza-a",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-influenza-a",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_NFluA.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_NFluA.json"
+  },
+  {
+    "title": "aagstable-influenza",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-influenza",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_487a.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_487a.json"
+  },
+  {
+    "title": "aagstable-weekly-smallpox",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-smallpox",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_050.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/d4c84064-930b-42bf-a354-e6eb2cb059d2.json"
+  },
+  {
+    "title": "aagstable-weekly-sars",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-sars",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_SARS.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_SARS.json"
+  },
+  {
+    "title": "aagstable-weekly-rubella",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-rubella",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_056.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_056.json"
+  },
+  {
+    "title": "aagstable-weekly-cholera",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-cholera",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_001.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_001.json"
+  },
+  {
+    "title": "aagstable-weekly-anthrax",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-anthrax",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_022.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/d4c84064-930b-42bf-a354-e6eb2cb059d2.json"
+  },
+  {
+    "title": "aagstable-mumps",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-mumps",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_072.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_072.json"
+  },
+  {
+    "title": "aagstable-syphilis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-syphilis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_090.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_090.json"
+  },
+  {
+    "title": "aagstable-hib",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-hib",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_3200.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_3200.json"
+  },
+  {
+    "title": "aagstable-legionnaires",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-legionnaires",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_4828.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_4828.json"
+  },
+  {
+    "title": "aagstable-congenital-rubella-syndrome",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-congenital-rubella-syndrome",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_7710.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_7710.json"
+  },
+  {
+    "title": "aagstable-neonatal-tetanus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-neonatal-tetanus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_7713.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-acute-viral-hepatitis-unspecified",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-acute-viral-hepatitis-unspecified",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_070x.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_070x.json"
+  },
+  {
+    "title": "aagstable-creutzfeldt-jacob-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-creutzfeldt-jacob-disease",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0461.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0461.json"
+  },
+  {
+    "title": "aagstable-lyme",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-lyme",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_1048.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_1048.json"
+  },
+  {
+    "title": "aagstable-endemic-typhus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-endemic-typhus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0820.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0820.json"
+  },
+  {
+    "title": "aagstable-q-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-q-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0830.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0830.json"
+  },
+  {
+    "title": "aagstable-complicated-varicella",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-complicated-varicella",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_052VC.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_052VC.json"
+  },
+  {
+    "title": "aagstable-tularemia",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-tularemia",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_021.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_021.json"
+  },
+  {
+    "title": "aagstable-invasive-pneumococcal-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-invasive-pneumococcal-disease",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0412.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0412.json"
+  },
+  {
+    "title": "aagstable-herpesvirus-simiae-infection",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-herpesvirus-simiae-infection",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0543.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-measles",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-measles",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_055.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_055.json"
+  },
+  {
+    "title": "aagstable-acute-hepatitis-a",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-acute-hepatitis-a",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0701.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0701.json"
+  },
+  {
+    "title": "aagstable-ehec-infection",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-ehec-infection",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0080.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0080.json"
+  },
+  {
+    "title": "aagstable-hemorrhagic-fever-with-renal-syndrome",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-hemorrhagic-fever-with-renal-syndrome",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0786.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0786.json"
+  },
+  {
+    "title": "aagstable-multidrug-resistant-tuberculosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-multidrug-resistant-tuberculosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_010m.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_010m.json"
+  },
+  {
+    "title": "aagstable-pertussis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-pertussis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_033.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_033.json"
+  },
+  {
+    "title": "aagstable-tetanus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-tetanus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_037.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-acute-hepatitis-b",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-acute-hepatitis-b",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0703.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0703.json"
+  },
+  {
+    "title": "aagstable-acute-hepatitis-c",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-acute-hepatitis-c",
+    "resources": "地區年齡性別統計表-急性病毒性C型肝炎 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0705.csv; 地區年齡性別統計表-急性病毒性C型肝炎 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0705.json"
+  },
+  {
+    "title": "aagstable-acute-hepatitis-d",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-acute-hepatitis-d",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_070d.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_070d.json"
+  },
+  {
+    "title": "aagstable-acute-hepatitis-e",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-acute-hepatitis-e",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_070e.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_070e.json"
+  },
+  {
+    "title": "aagstable-weekly-tularemia",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-tularemia",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_021.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_021.json"
+  },
+  {
+    "title": "aagstable-weekly-congenital-rubella-syndrome",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-congenital-rubella-syndrome",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_7710.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_7710.json"
+  },
+  {
+    "title": "aagstable-gonorrhea",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-gonorrhea",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_098.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_098.json"
+  },
+  {
+    "title": "aagstable-malaria",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-malaria",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_084.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_084.json"
+  },
+  {
+    "title": "aagstable-rabies",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-rabies",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_071.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_071.json"
+  },
+  {
+    "title": "aagstable-leptospirosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-leptospirosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_100.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_100.json"
+  },
+  {
+    "title": "aagstable-melioidosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-melioidosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_025.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_025.json"
+  },
+  {
+    "title": "aagstable-smallpox",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-smallpox",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_050.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-sars",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-sars",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_SARS.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_SARS.json"
+  },
+  {
+    "title": "aagstable-plague",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-plague",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_020.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-rubella",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-rubella",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_056.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_056.json"
+  },
+  {
+    "title": "aagstable-cholera",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-cholera",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_001.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_001.json"
+  },
+  {
+    "title": "aagstable-anthrax",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-anthrax",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_022.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-diphtheria",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-diphtheria",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_032.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-meningococcal-meningitis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-meningococcal-meningitis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0360.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0360.json"
+  },
+  {
+    "title": "aagstable-typhoid-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-typhoid-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_002.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_002.json"
+  },
+  {
+    "title": "aagstable-paratyphoid-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-paratyphoid-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_002a.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_002a.json"
+  },
+  {
+    "title": "aagstable-polio",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-polio",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_045.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-acute-flaccid-paralysis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-acute-flaccid-paralysis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_045a.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_045a.json"
+  },
+  {
+    "title": "aagstable-hiv",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-hiv",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_044.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_044.json"
+  },
+  {
+    "title": "aagstable-aids",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-aids",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_042.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_042.json"
+  },
+  {
+    "title": "aagstable-scrub-typhus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-scrub-typhus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0812.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0812.json"
+  },
+  {
+    "title": "aagstable-west-nile-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-west-nile-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0663b.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-epidemic-typhus-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-epidemic-typhus-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_080.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/a755b7df-a13c-4ee6-8d20-6ec9e514011e.json"
+  },
+  {
+    "title": "aagstable-enterovirus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-enterovirus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0749.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0749.json"
+  },
+  {
+    "title": "aagstable-dengue",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-dengue",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_061.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_061.json"
+  },
+  {
+    "title": "aagstable-chikungunya-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-chikungunya-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_A920.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_A920.json"
+  },
+  {
+    "title": "aagstable-japanese-encephalitis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-japanese-encephalitis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0620.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0620.json"
+  },
+  {
+    "title": "aagstable-amoebiasis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-amoebiasis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_006.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_006.json"
+  },
+  {
+    "title": "aagstable-shigellosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-shigellosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_004.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_004.json"
+  },
+  {
+    "title": "aagstable-weekly-enterovirus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-enterovirus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0749.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0749.json"
+  },
+  {
+    "title": "aagstable-weekly-shigellosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-shigellosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_004.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_004.json"
+  },
+  {
+    "title": "aagstable-weekly-amoebiasis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-amoebiasis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_006.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_006.json"
+  },
+  {
+    "title": "aagstable-weekly-scrub-typhus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-scrub-typhus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0812.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0812.json"
+  },
+  {
+    "title": "aagstable-weekly-japanese-encephalitis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-japanese-encephalitis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0620.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0620.json"
+  },
+  {
+    "title": "aagstable-weekly-chikungunya-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-chikungunya-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_A920.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_A920.json"
+  },
+  {
+    "title": "aagstable-weekly-west-nile-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-west-nile-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_0663b.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/d4c84064-930b-42bf-a354-e6eb2cb059d2.json"
+  },
+  {
+    "title": "agstable-weekly-19cov",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-19cov",
+    "resources": "地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依發病日統計(以週為單位) (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.csv; 地區年齡性別統計表-嚴重特殊傳傳性肺炎(112/3/19以前病例定義版本)-依發病日統計(以週為單位) (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.json; 地區年齡性別統計表-嚴重特殊傳染性肺炎-依發病日統計(以週為單位) (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CVS.csv; 地區年齡性別統計表-嚴重特殊傳染性肺炎-依發病日統計(以週為單位) (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CVS.json"
+  },
+  {
+    "title": "aagstable-19cov",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-19cov",
+    "resources": "地區年齡性別統計表-嚴重特殊傳傳性肺炎(112/3/19以前病例定義版本)-依發病日統計(以月為單位) (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_19CoV.csv; 地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依發病日統計(以月為單位) (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_19CoV.json; 地區年齡性別統計表-嚴重特殊傳染性肺炎-依發病日統計(以月為單位) (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_19CVS.csv; 地區年齡性別統計表-嚴重特殊傳傳性肺炎-依發病日統計(以月為單位) (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_19CVS.json"
+  },
+  {
+    "title": "aagstable-weekly-epidemic-typhus-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-epidemic-typhus-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_080.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/d4c84064-930b-42bf-a354-e6eb2cb059d2.json"
+  },
+  {
+    "title": "agsdctable-weekly-19cov",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/agsdctable-weekly-19cov",
+    "resources": "地區年齡性別統計表-嚴重特殊傳傳性肺炎(112/3/19以前病例定義版本)-依個案研判日統計(以週為單位) (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_19CoV.csv; 地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依個案研判日統計(以週為單位) (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_19CoV.json; 地區年齡性別統計表-嚴重特殊傳染性肺炎-依個案研判日統計(以週為單位) (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_19CVS.csv; 地區年齡性別統計表-嚴重特殊傳染性肺炎-依個案研判日統計(以週為單位) (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_19CVS.json"
+  },
+  {
+    "title": "aagstable-weekly-leptospirosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-leptospirosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_100.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_100.json"
+  },
+  {
+    "title": "aagstable-weekly-rabies",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-rabies",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_071.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_071.json"
+  },
+  {
+    "title": "aagstable-weekly-influenza",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-influenza",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_487a.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_487a.json"
+  },
+  {
+    "title": "aagsdctable-day-19cov",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-day-19cov",
+    "resources": "地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依個案研判日統計(以日為單位) (CSV): https://od.cdc.gov.tw/eic/Day_Confirmation_Age_County_Gender_19CoV.csv; 地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依個案研判日統計(以日為單位) (JSON): https://od.cdc.gov.tw/eic/Day_Confirmation_Age_County_Gender_19CoV.json; 地區年齡性別統計表-嚴重特殊傳染性肺炎-依個案研判日統計(以日為單位) (CSV): https://od.cdc.gov.tw/eic/Day_Confirmation_Age_County_Gender_19CVS.csv; 地區年齡性別統計表-嚴重特殊傳染性肺炎-依個案研判日統計(以日為單位) (JSON): https://od.cdc.gov.tw/eic/Day_Confirmation_Age_County_Gender_19CVS.json"
+  },
+  {
+    "title": "aagstable-weekly-zika-virus-infection",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-zika-virus-infection",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_ZIKAV.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_ZIKAV.json"
+  },
+  {
+    "title": "aagstable-zika-virus-infection",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-zika-virus-infection",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_ZIKAV.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_ZIKAV.json"
+  },
+  {
+    "title": "aagstable-Listeriosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-listeriosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_027.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_027.json"
+  },
+  {
+    "title": "aagstable-weekly-Listeriosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-listeriosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_027.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_027.json"
+  },
+  {
+    "title": "aagstable-weekly-melioidosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-melioidosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_025.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_025.json"
+  },
+  {
+    "title": "aagsdctable-weekly-mers-cov",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-mers-cov",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_NoCoV.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-severe-complicated-influenza",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-severe-complicated-influenza",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_487a.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_487a.json"
+  },
+  {
+    "title": "aagsdctable-weekly-invasive-pneumococcal-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-invasive-pneumococcal-disease",
+    "resources": "侵襲性肺炎鏈球菌感染症 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0412.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0412.json"
+  },
+  {
+    "title": "aagsdctable-weekly-qfever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-qfever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0830.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0830.json"
+  },
+  {
+    "title": "aagsdctable-weekly-toxoplasmosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-toxoplasmosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_130.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0830.json"
+  },
+  {
+    "title": "aagsdctable-weekly-smallpox",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-smallpox",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_050.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-japanese-encephalitis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-japanese-encephalitis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0620.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0620.json"
+  },
+  {
+    "title": "aagsdctable-weekly-complicated-varicella",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-complicated-varicella",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_052VC.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_052VC.json"
+  },
+  {
+    "title": "aagsdctable-weekly-brucellosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-brucellosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_023.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-diphtheria",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-diphtheria",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_032.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-ebola-virus-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-ebola-virus-disease",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0788.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-congenital-rubella-syndrome",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-congenital-rubella-syndrome",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_7710.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-endemic-typhus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-endemic-typhus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0820.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0820.json"
+  },
+  {
+    "title": "aagsdctable-weekly-pertussis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-pertussis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_033.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_033.json"
+  },
+  {
+    "title": "aagsdctable-weekly-botulism",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-botulism",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0051.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0051.json"
+  },
+  {
+    "title": "aagstable-botulism",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-botulism",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_0051.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_0051.json"
+  },
+  {
+    "title": "aagsdctable-weekly-west-nile-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-west-nile-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0663b.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-listeriosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-listeriosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_027.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_027.json"
+  },
+  {
+    "title": "aagsdctable-weekly-rabies",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-rabies",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_071.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-tularemia",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-tularemia",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_021.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_021.json"
+  },
+  {
+    "title": "aagsdctable-weekly-chikungunya-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-chikungunya-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_A920.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_A920.json"
+  },
+  {
+    "title": "aagsdctable-weekly-lassa-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-lassa-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0788b.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-amoebiasis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-amoebiasis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_006.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_006.json"
+  },
+  {
+    "title": "aagsdctable-weekly-hib-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-hib-disease",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_3200.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_3200.json"
+  },
+  {
+    "title": "aagsdctable-weekly-acute-hepatitis-a",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-acute-hepatitis-a",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0701.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0701.json"
+  },
+  {
+    "title": "aagsdctable-weekly-acute-hepatitis-b",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-acute-hepatitis-b",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0703.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0703.json"
+  },
+  {
+    "title": "aagsdctable-weekly-acute-hepatitis-c",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-acute-hepatitis-c",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0705.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0705.json"
+  },
+  {
+    "title": "aagsdctable-weekly-acute-hepatitis-d",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-acute-hepatitis-d",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_070d.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_070d.json"
+  },
+  {
+    "title": "aagsdctable-weekly-acute-hepatitis-e",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-acute-hepatitis-e",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_070e.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_070e.json"
+  },
+  {
+    "title": "aagsdctable-weekly-acute-viral-hepatitis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-acute-viral-hepatitis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_070x.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_070x.json"
+  },
+  {
+    "title": "aagsdctable-weekly-acute-flaccid-paralysis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-acute-flaccid-paralysis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_045a.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_045a.json"
+  },
+  {
+    "title": "aagsdctable-weekly-epidemic-typhus-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-epidemic-typhus-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_080.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-meningococcal-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-meningococcal-disease",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0360.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0360.json"
+  },
+  {
+    "title": "aagsdctable-weekly-mumps",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-mumps",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_072.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-anthrax",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-anthrax",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_022.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-creutzfeldt-jakob-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-creutzfeldt-jakob-disease",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0461.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0461.json"
+  },
+  {
+    "title": "aagsdctable-weekly-scrub-typhus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-scrub-typhus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0812.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0812.json"
+  },
+  {
+    "title": "aagsdctable-weekly-herpesvirus-simiae-b-virus-infection",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-herpesvirus-simiae-b-virus-infection",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0543.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-tetanus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-tetanus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_037.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-zika-virus-infection",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-zika-virus-infection",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_ZIKAV.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_ZIKAV.json"
+  },
+  {
+    "title": "aagsdctable-weekly-legionellosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-legionellosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_4828.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_4828.json"
+  },
+  {
+    "title": "aagsdctable-weekly-marburg-hemorrhagic-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-marburg-hemorrhagic-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0788a.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-paratyphoid-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-paratyphoid-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_002a.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_002a.json"
+  },
+  {
+    "title": "aagsdctable-weekly-shigellosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-shigellosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_004.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_004.json"
+  },
+  {
+    "title": "aagsdctable-weekly-measles",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-measles",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_055.csv; 麻疹(以週為單位)-依個案研判日統計 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_055.json"
+  },
+  {
+    "title": "aagsdctable-weekly-dengue-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-dengue-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_061.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_061.json"
+  },
+  {
+    "title": "aagsdctable-weekly-lyme-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-lyme-disease",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_1048.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_1048.json"
+  },
+  {
+    "title": "aagsdctable-weekly-rift-valley-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-rift-valley-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0663a.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-yellow-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-yellow-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_060.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-typhoid-fever",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-typhoid-fever",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_002.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_002.json"
+  },
+  {
+    "title": "aagsdctable-weekly-neonatal-tetanus",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-neonatal-tetanus",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_7713.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "aagsdctable-weekly-novel-influenza-a-virus-infections",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-novel-influenza-a-virus-infections",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_NFluA.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_NFluA.json"
+  },
+  {
+    "title": "aagsdctable-weekly-enterovirus-infection-with-severe-complications",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-enterovirus-infection-with-severe-complications",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0749.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0749.json"
+  },
+  {
+    "title": "aagsdctable-weekly-ehec",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-ehec",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0080.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0080.json"
+  },
+  {
+    "title": "aagsdctable-weekly-leptospirosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-leptospirosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_100.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_100.json"
+  },
+  {
+    "title": "aagsdctable-weekly-plague",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-plague",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_020.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/e8629655-5cda-4722-994d-d2ac4568a6cc.json"
+  },
+  {
+    "title": "antibiotic-resistance-surveillance-data-Salmonella",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/antibiotic-resistance-surveillance-data-salmonella",
+    "resources": "2015到2023年非傷寒沙門氏菌臨床菌株血清型對應重要抗生素抗藥性監測資料 (CSV UTF-8 (逗號分隔)(*.csv)檔): https://od.cdc.gov.tw/rdvd/2015到2023年非傷寒沙門氏菌臨床菌株血清型對應重要抗生素抗藥性監測資料.csv"
+  },
+  {
+    "title": "aagstable-imported-cases",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-imported-cases",
+    "resources": "地區年齡性別統計表-境外移入個案之感染國別 (CSV): https://od.cdc.gov.tw/eic/Imported_Cases.csv; 地區年齡性別統計表-境外移入個案之感染國別 (JSON): https://od.cdc.gov.tw/eic/Imported_Cases.json"
+  },
+  {
+    "title": "aagsdctable-weekly-hfrs",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-hfrs",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0786.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0786.json"
+  },
+  {
+    "title": "aagsdctable-weekly-malaria",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-malaria",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_084.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_084.json"
+  },
+  {
+    "title": "aagsdctable-weekly-rubella",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-rubella",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_056.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_056.json"
+  },
+  {
+    "title": "aagsdctable-weekly-cholera",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-cholera",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_001.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_001.json"
+  },
+  {
+    "title": "aagsdctable-weekly-melioidosis",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-melioidosis",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_025.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_025.json"
+  },
+  {
+    "title": "aagsdctable-weekly-sars",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-sars",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_SARS.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_SARS.json"
+  },
+  {
+    "title": "death-week-statistics-cases-19cov",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/death-week-statistics-cases-19cov",
+    "resources": "死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依死亡日統計(以週為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_3.csv; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依死亡日統計(以週為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_3.json; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎-依死亡日統計(以週為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_3.csv; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎-依死亡日統計(以週為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_3.json"
+  },
+  {
+    "title": "death-date-statistics-cases-19cov-2",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/death-date-statistics-cases-19cov-2",
+    "resources": "死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依死亡日統計(以月為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_1.csv; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依死亡日統計(以月為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_1.json; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎-依死亡日統計(以月為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_1.json; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎-依死亡日統計(以月為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_1.csv"
+  },
+  {
+    "title": "death-week-statistics-cases-19cov2",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/death-week-statistics-cases-19cov2",
+    "resources": "死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依發病日統計(以週為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_6.csv; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依發病日統計(以週為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_6.json; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎-依發病日統計(以週為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_6.csv; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎-依發病日統計(以週為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_6.json"
+  },
+  {
+    "title": "death-date-statistics-cases-19cov-3",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/death-date-statistics-cases-19cov-3",
+    "resources": "死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依發病日統計(以日為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_5.csv; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依發病日統計(以日為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_5.json; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎-依發病日統計(以日為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_5.csv; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎-依發病日統計(以日為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_5.json"
+  },
+  {
+    "title": "death-statistics-cases-19cov",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/death-statistics-cases-19cov",
+    "resources": "死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依發病日統計(以月為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_4.csv; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依發病日統計(以月為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_4.json; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎-依發病日統計(以月為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_4.csv; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎-依發病日統計(以月為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_4.json"
+  },
+  {
+    "title": "Weekly_Age_County_Gender_MPXV",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/weekly_age_county_gender_mpxv",
+    "resources": "地區年齡性別統計表-M痘-依發病日統計(以週為單位) (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_MPXV.csv; 地區年齡性別統計表-M痘-依發病日統計(以週為單位) (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_MPXV.json"
+  },
+  {
+    "title": "Age_County_Gender_MPXV",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/age_county_gender_mpxv",
+    "resources": "地區年齡性別統計表-M痘-依發病日統計(以月為單位) (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_MPXV.csv; 地區年齡性別統計表-M痘-依發病日統計(以月為單位) (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_MPXV.json"
+  },
+  {
+    "title": "death date statistics cases 19cov",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/death-date-statistics-cases-19cov",
+    "resources": "死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依死亡日統計(以日為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_2.csv; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎(112/3/19以前病例定義版本)-依死亡日統計(以日為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CoV_2.json; 死亡病例地區年齡性別統計表-嚴重特殊傳染性肺炎-依死亡日統計(以日為單位) (CSV): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_2.csv; 死亡病例地區年齡性別統計表-嚴重特殊傳傳染性肺炎-依死亡日統計(以日為單位) (JSON): https://od.cdc.gov.tw/eic/open_data_death_date_statistics_19CVS_2.json"
+  },
+  {
+    "title": "2019-2023年各縣市各月份抗蛇毒血清購買量",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/dataset",
+    "resources": "各類抗蛇毒血清按縣市按月份供應量 (CSV): https://od.cdc.gov.tw/rdvd/近5年各縣市抗蛇毒血清購買量.csv"
+  },
+  {
+    "title": "110-111年Relenza使用情形",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/relenza-use-status",
+    "resources": "110-111年Relenza使用情形 (CSV): https://od.cdc.gov.tw/emerging/110-111relanza.csv; 110-111年Relenza使用情形 (XLSX): https://od.cdc.gov.tw/emerging/110-111relanza.xlsx"
+  },
+  {
+    "title": "dengue-case-clustering-area-2w",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/dengue-case-clustering-area-2w",
+    "resources": "近兩週台南市登革熱病例聚集區域GeoJSON (GeoJSON): https://od.cdc.gov.tw/eic/DengueCluster/DengueCluster_Tainan.json; 近兩週高雄市登革熱病例聚集區域GeoJSON (GeoJSON): https://od.cdc.gov.tw/eic/DengueCluster/DengueCluster_Kaohsiung.json; 近兩週屏東縣登革熱病例聚集區域GeoJSON (GeoJSON): https://od.cdc.gov.tw/eic/DengueCluster/DengueCluster_Pingtung.json; 近兩週台北市登革熱病例聚集區域GeoJSON (GeoJSON): https://od.cdc.gov.tw/eic/DengueCluster/DengueCluster_Taipei.json; 近兩週新北市登革熱病例聚集區域GeoJSON (GeoJSON): https://od.cdc.gov.tw/eic/DengueCluster/DengueCluster_NewTaipei.json; 近兩週台中市登革熱病例聚集區域GeoJSON (GeoJSON): https://od.cdc.gov.tw/eic/DengueCluster/DengueCluster_Taichung.json; 近兩週桃園市登革熱病例聚集區域GeoJSON (GeoJSON): https://od.cdc.gov.tw/eic/DengueCluster/DengueCluster_Taoyuan.json"
+  },
+  {
+    "title": "icu-infection",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/icu-infection",
+    "resources": "加護病房種類別醫療照護相關感染密度資料 (CSV): https://od.cdc.gov.tw/icb/THAS_HAI_ICU_9.csv"
+  },
+  {
+    "title": "icu-infection-invasive-catheters",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/icu-infection-invasive-catheters",
+    "resources": "加護病房醫療照護相關感染個案侵入性導管相關比率資料 (CSV): https://od.cdc.gov.tw/icb/THAS_HAI_ICU_13.csv"
+  },
+  {
+    "title": "icu-infection-density-invasive-catheters",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/icu-infection-density-invasive-catheters",
+    "resources": "加護病房侵入性導管相關感染密度與導管使用比率資料 (CSV): https://od.cdc.gov.tw/icb/THAS_HAI_ICU_135.csv"
+  },
+  {
+    "title": "icu-infection-site-density",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/icu-infection-site-density",
+    "resources": "加護病房醫療照護相關感染部位別感染密度資料 (CSV): https://od.cdc.gov.tw/icb/THAS_HAI_ICU_11.csv"
+  },
+  {
+    "title": "rapiacta use status",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/rapiacta-use-status",
+    "resources": "110-111年瑞貝塔注射液(Rapiacta)使用情形 (CSV): https://od.cdc.gov.tw/emerging/110-111rapiacta.csv; 110-111年瑞貝塔注射液(Rapiacta)使用情形 (XLSX): https://od.cdc.gov.tw/emerging/110-111rapiacta.xlsx"
+  },
+  {
+    "title": "2021-2022 Eraflu use status",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/2021-2022-eraflu-use-status",
+    "resources": " 110-111年易剋冒膠囊使用情形 (CSV): https://od.cdc.gov.tw/emerging/110-111eraflu.csv;  110-111年易剋冒膠囊使用情形 (XLSX): https://od.cdc.gov.tw/emerging/110-111eraflu.xlsx"
+  },
+  {
+    "title": "data.cdc.gov.tw/zh_TW/dataset/EVINF2017",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/data-cdc-gov-tw-zh_tw-dataset-evinf2017",
+    "resources": "2017年病原微生物基因資料庫腸病毒/流感序列流病資料表 (CSV): https://od.cdc.gov.tw/rdvd/2017年病原微生物基因資料庫腸病毒與流感序列流病資料表.csv"
+  },
+  {
+    "title": "http://61.57.41.133/professional/downloadfile.aspx?fid=99B3ABA194B4B62F",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/http-61-57-41-133-professional-downloadfile-aspx-fid-99b3aba194b4b62f",
+    "resources": "2016年病原微生物基因資料庫腸病毒/流感序列流病資料表 (CSV): https://od.cdc.gov.tw/rdvd/2016年病原微生物基因資料庫腸病毒與流感序列流病資料表.csv"
+  },
+  {
+    "title": "http://61.57.41.133/professional/downloadfile.aspx?fid=141ADF3E5C44AAB0",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/http-61-57-41-133-professional-downloadfile-aspx-fid-141adf3e5c44aab0",
+    "resources": "2016年國內腸病毒EVD68統計表 (CSV): https://od.cdc.gov.tw/rdvd/2016年國內腸病毒EVD68統計表.csv"
+  },
+  {
+    "title": "aagstable-weekly-plague",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-plague",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_020.csv; 地區年齡性別統計表 (JSON): https://www.cdc.gov.tw/Uploads/d4c84064-930b-42bf-a354-e6eb2cb059d2.json"
+  },
+  {
+    "title": "epidemic-information",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/epidemic-information",
+    "resources": "國際重要疫情資訊 (CSV): https://od.cdc.gov.tw/cdc/TCDCIntlEpidAll.csv"
+  },
+  {
+    "title": "travelers-health",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/travelers-health",
+    "resources": "國際旅遊疫情建議等級表 (CSV): https://od.cdc.gov.tw/cdc/TCDCTravelAlert.csv; 國際旅遊疫情建議等級表_嚴重特殊傳染性肺炎歷史資料(截至2020/3/20) (CSV): https://od.cdc.gov.tw/cdc/TCDCTravelAlert_history.csv"
+  },
+  {
+    "title": "biotoxin",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/biotoxin",
+    "resources": "2023年第4季 (CSV): https://od.cdc.gov.tw/icb//toxin_2023s4_20240321dl.csv"
+  },
+  {
+    "title": "rg3-microbes",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/rg3-microbes",
+    "resources": "2023年第4季 (CSV): https://od.cdc.gov.tw/icb/rg3_2023s4_20240321dl.csv"
+  },
+  {
+    "title": "rg2-microbes",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/rg2-microbes",
+    "resources": "2023年第4季 (CSV): https://od.cdc.gov.tw/icb/rg2_2023s4_20240321dl.csv"
+  },
+  {
+    "title": "biosafety-organization",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/biosafety-organization",
+    "resources": "2023年第4季 (CSV): https://od.cdc.gov.tw/icb/ibc_2023s4_20240321dl.csv"
+  },
+  {
+    "title": "dengue-ns1",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/dengue_ns1_clinics",
+    "resources": "登革熱 NS1 快篩試劑配置醫療院所 (CSV): https://od.cdc.gov.tw/acute/ns1hosp.csv; 登革熱 NS1 快篩試劑配置醫療院所 (GeoJSON): https://od.cdc.gov.tw/acute/ns1hosp.json"
+  },
+  {
+    "title": "bsl2-lab",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/bsl2-lab",
+    "resources": "2023年第4季 (CSV): https://od.cdc.gov.tw/icb/bsl2up_2023s4_20240321dl.csv"
+  },
+  {
+    "title": "2022-number-of-locations-that-distribute-influenza-antivirals",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/2022-number-of-locations-that-distribute-influenza-antivirals-csv",
+    "resources": "111年度流感抗病毒藥劑合約醫療機構名冊 (CSV): https://od.cdc.gov.tw/emerging/111年流感抗病毒藥劑合約院所名冊.csv; 111年度流感抗病毒藥劑合約醫療機構名冊 (XLSX): https://od.cdc.gov.tw/emerging/111年流感抗病毒藥劑合約院所名冊.xlsx"
+  },
+  {
+    "title": "2021-2022 Tamiflu use status",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/2021-2022-tamiflu-use-status",
+    "resources": "110-111年克流感膠囊(Tamiflu)使用情形 (CSV): https://od.cdc.gov.tw/emerging/110-111tamiflu.csv; 110-111年克流感膠囊(Tamiflu)使用情形 (XLSX): https://od.cdc.gov.tw/emerging/110-111tamiflu.xlsx"
+  },
+  {
+    "title": "dengue-daily-determined-cases-1998-moi",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/dengue-daily-determined-cases-1998-moi",
+    "resources": "Dengue Daily Confirmed Cases Since 1998 (JSON): https://od.cdc.gov.tw/eic/Dengue_Daily_EN.json; Dengue Daily Confirmed Cases Since 1998 (CSV): https://od.cdc.gov.tw/eic/Dengue_Daily_EN.csv"
+  },
+  {
+    "title": "dengue-daily-confirmed-cases-1998",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/dengue-daily-determined-cases-1998",
+    "resources": "登革熱1998年起每日確定病例統計 (CSV): https://od.cdc.gov.tw/eic/Dengue_Daily.csv; 登革熱1998年起每日確定病例統計 (JSON): https://od.cdc.gov.tw/eic/Dengue_Daily.json"
+  },
+  {
+    "title": "the-list-of-communicable-disease-isolation-hospitals-and-responding-hospitals-2020-2022",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/http-od-cdc-gov-tw-emerging-communicable-disease-isolation-hospitals-and-responding-hospitals-2017",
+    "resources": "109-111年傳染病指定隔離醫院及應變醫院名單 (CSV): https://od.cdc.gov.tw/emerging/the-list-of-communicable-disease-isolation-hospitals-and-responding-hospitals-2020-2022.csv"
+  },
+  {
+    "title": "Disease QA",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/disease-qa",
+    "resources": "疾病管制署傳染病問答集 (CSV): https://od.cdc.gov.tw/pr/CDC_chatbox.csv"
+  },
+  {
+    "title": "aagstable-hansen’s-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-hansens-disease",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_030.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_030.json"
+  },
+  {
+    "title": "aagstable-weekly-hansen’s-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-hansens-disease",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_030.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_030.json"
+  },
+  {
+    "title": "aagsdctable-weekly-hansen’s-disease",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-hansen-s-disease",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_030.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_030.json"
+  },
+  {
+    "title": "aagstable-hantavirus-pulmonary-syndrome",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-hantavirus-pulmonary-syndrome",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Age_County_Gender_4808.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Age_County_Gender_4808.json"
+  },
+  {
+    "title": "aagstable-weekly-hantavirus-pulmonary-syndrome",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagstable-weekly-hantavirus-pulmonary-syndrome",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_4808.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_4808.json"
+  },
+  {
+    "title": "aagsdctable-weekly-hantavirus-pulmonary-syndrome",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/aagsdctable-weekly-hantavirus-pulmonary-syndrome",
+    "resources": "地區年齡性別統計表 (CSV): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_4808.csv; 地區年齡性別統計表 (JSON): https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_4808.json"
+  },
+  {
+    "title": "dengue-daily-confirmed-cases-latest-12m",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/dengue-daily-determined-cases-latest-12m",
+    "resources": "登革熱近12個月每日確定病例統計 (CSV): https://od.cdc.gov.tw/eic/Dengue_Daily_last12m.csv; 登革熱近12個月每日確定病例統計 (JSON): https://od.cdc.gov.tw/eic/Dengue_Daily_last12m.json"
+  },
+  {
+    "title": "current-status-and-level-of-biological-material-bank-storage-virus-strains",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/current-status-and-level-of-biological-material-bank-storage-virus-strains",
+    "resources": "生物材料庫貯存病毒細菌株現況等級 (CSV): https://od.cdc.gov.tw/rdvd/公開資料/生物材料庫貯存病毒細菌現況等級.csv"
+  },
+  {
+    "title": "http://61.57.41.133/professional/downloadfile.aspx?fid=0587DB004F24D16F",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/http-61-57-41-133-professional-downloadfile-aspx-fid-0587db004f24d16f",
+    "resources": "2016年NPEV腸病毒統計表 (CSV): https://od.cdc.gov.tw/rdvd/2016年NPEV腸病毒統計表.csv"
+  },
+  {
+    "title": "data.cdc.gov.tw/zh_TW/dataset/wujessy",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/wujessy",
+    "resources": "2016-2017腸病毒統計 (CSV): https://od.cdc.gov.tw/rdvd/更新-2016-2017年腸病毒.csv"
+  },
+  {
+    "title": "https://www.cdc.gov.tw/professional/downloadfile.aspx?fid=61DA9A405B4EDE68",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/kiho-ev",
+    "resources": "2001-2019年腸病毒分離前五大基因型 (CSV): https://od.cdc.gov.tw/rdvd/公開資料/2001-2019年腸病毒分離前五大型別.csv"
+  },
+  {
+    "title": "http://61.57.41.133/professional/downloadfile.aspx?fid=DDB5522C81DEF3D9",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/http-61-57-41-133-professional-downloadfile-aspx-fid-ddb5522c81def3d9",
+    "resources": "2016-2017年國內流感定序統計表 (CSV): https://od.cdc.gov.tw/rdvd/流感週報rev.csv"
+  },
+  {
+    "title": "current-status-and-level-of-biological-material-bank-storage",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/current-status-and-level-of-biological-material-bank-storage",
+    "resources": "生物材料庫貯存現況 (CSV): https://od.cdc.gov.tw/rdvd/生物材料庫貯存現況.csv"
+  },
+  {
+    "title": "https://www.cdc.gov.tw/professional/downloadfile.aspx?fid=AB47B839E57429B2",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/kiho",
+    "resources": "2001-2018呼吸道病毒分離前五大基因型 (CSV): https://od.cdc.gov.tw/rdvd/公開資料/2001-2018定醫呼吸道病毒分離前五大基因型.csv"
+  },
+  {
+    "title": "tbmedicine",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/tbmedicine",
+    "resources": "結核病一線藥物依體重建議劑量表 (CSV): https://od.cdc.gov.tw/erc/tbmedicaladvice.csv"
+  },
+  {
+    "title": "dengue-daily-determined-cases-latest-12m-moi",
+    "notes": "",
+    "url": "https://data.cdc.gov.tw/dataset/dengue-daily-determined-cases-latest-12m-moi",
+    "resources": "Dengue Daily Determined Cases in Latest 12 months (CSV): https://od.cdc.gov.tw/eic/Dengue_Daily_last12m_EN.csv; Dengue Daily Determined Cases in Latest 12 months (JSON): https://od.cdc.gov.tw/eic/Dengue_Daily_last12m_EN.json"
+  }
+]

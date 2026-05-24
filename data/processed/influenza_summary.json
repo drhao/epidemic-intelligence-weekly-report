@@ -1,637 +1,2303 @@
 {
-  "total_cases": 9589368,
+  "total_cases": 33506753,
   "weekly_series": [
     {
+      "period": "2016-W01",
+      "cases": 59617
+    },
+    {
+      "period": "2016-W02",
+      "cases": 65691
+    },
+    {
+      "period": "2016-W03",
+      "cases": 76773
+    },
+    {
+      "period": "2016-W04",
+      "cases": 91517
+    },
+    {
+      "period": "2016-W05",
+      "cases": 126980
+    },
+    {
+      "period": "2016-W06",
+      "cases": 70988
+    },
+    {
+      "period": "2016-W07",
+      "cases": 153008
+    },
+    {
+      "period": "2016-W08",
+      "cases": 167600
+    },
+    {
+      "period": "2016-W09",
+      "cases": 161697
+    },
+    {
+      "period": "2016-W10",
+      "cases": 148140
+    },
+    {
+      "period": "2016-W11",
+      "cases": 142719
+    },
+    {
+      "period": "2016-W12",
+      "cases": 116354
+    },
+    {
+      "period": "2016-W13",
+      "cases": 123077
+    },
+    {
+      "period": "2016-W14",
+      "cases": 95095
+    },
+    {
+      "period": "2016-W15",
+      "cases": 85386
+    },
+    {
+      "period": "2016-W16",
+      "cases": 79151
+    },
+    {
+      "period": "2016-W17",
+      "cases": 75057
+    },
+    {
+      "period": "2016-W18",
+      "cases": 62029
+    },
+    {
+      "period": "2016-W19",
+      "cases": 58070
+    },
+    {
+      "period": "2016-W20",
+      "cases": 55761
+    },
+    {
+      "period": "2016-W21",
+      "cases": 51671
+    },
+    {
+      "period": "2016-W22",
+      "cases": 47303
+    },
+    {
+      "period": "2016-W23",
+      "cases": 42307
+    },
+    {
+      "period": "2016-W24",
+      "cases": 45332
+    },
+    {
+      "period": "2016-W25",
+      "cases": 43549
+    },
+    {
+      "period": "2016-W26",
+      "cases": 41776
+    },
+    {
+      "period": "2016-W27",
+      "cases": 39034
+    },
+    {
+      "period": "2016-W28",
+      "cases": 40626
+    },
+    {
+      "period": "2016-W29",
+      "cases": 40239
+    },
+    {
+      "period": "2016-W30",
+      "cases": 40039
+    },
+    {
+      "period": "2016-W31",
+      "cases": 40749
+    },
+    {
+      "period": "2016-W32",
+      "cases": 41551
+    },
+    {
+      "period": "2016-W33",
+      "cases": 41205
+    },
+    {
+      "period": "2016-W34",
+      "cases": 42143
+    },
+    {
+      "period": "2016-W35",
+      "cases": 42961
+    },
+    {
+      "period": "2016-W36",
+      "cases": 42089
+    },
+    {
+      "period": "2016-W37",
+      "cases": 39854
+    },
+    {
+      "period": "2016-W38",
+      "cases": 47654
+    },
+    {
+      "period": "2016-W39",
+      "cases": 40086
+    },
+    {
+      "period": "2016-W40",
+      "cases": 44490
+    },
+    {
+      "period": "2016-W41",
+      "cases": 44109
+    },
+    {
+      "period": "2016-W42",
+      "cases": 48282
+    },
+    {
+      "period": "2016-W43",
+      "cases": 51458
+    },
+    {
+      "period": "2016-W44",
+      "cases": 56973
+    },
+    {
+      "period": "2016-W45",
+      "cases": 56335
+    },
+    {
+      "period": "2016-W46",
+      "cases": 57852
+    },
+    {
+      "period": "2016-W47",
+      "cases": 55481
+    },
+    {
+      "period": "2016-W48",
+      "cases": 57722
+    },
+    {
+      "period": "2016-W49",
+      "cases": 59649
+    },
+    {
+      "period": "2016-W50",
+      "cases": 61030
+    },
+    {
+      "period": "2016-W51",
+      "cases": 61422
+    },
+    {
+      "period": "2016-W52",
+      "cases": 61479
+    },
+    {
+      "period": "2017-W01",
+      "cases": 59423
+    },
+    {
+      "period": "2017-W02",
+      "cases": 59849
+    },
+    {
+      "period": "2017-W03",
+      "cases": 61744
+    },
+    {
+      "period": "2017-W04",
+      "cases": 59466
+    },
+    {
+      "period": "2017-W05",
+      "cases": 47132
+    },
+    {
+      "period": "2017-W06",
+      "cases": 58254
+    },
+    {
+      "period": "2017-W07",
+      "cases": 57781
+    },
+    {
+      "period": "2017-W08",
+      "cases": 57456
+    },
+    {
+      "period": "2017-W09",
+      "cases": 53852
+    },
+    {
+      "period": "2017-W10",
+      "cases": 55887
+    },
+    {
+      "period": "2017-W11",
+      "cases": 58476
+    },
+    {
+      "period": "2017-W12",
+      "cases": 60027
+    },
+    {
+      "period": "2017-W13",
+      "cases": 63145
+    },
+    {
+      "period": "2017-W14",
+      "cases": 57330
+    },
+    {
+      "period": "2017-W15",
+      "cases": 56950
+    },
+    {
+      "period": "2017-W16",
+      "cases": 54804
+    },
+    {
+      "period": "2017-W17",
+      "cases": 57699
+    },
+    {
+      "period": "2017-W18",
+      "cases": 60641
+    },
+    {
+      "period": "2017-W19",
+      "cases": 60378
+    },
+    {
+      "period": "2017-W20",
+      "cases": 63215
+    },
+    {
+      "period": "2017-W21",
+      "cases": 66866
+    },
+    {
+      "period": "2017-W22",
+      "cases": 65434
+    },
+    {
+      "period": "2017-W23",
+      "cases": 76676
+    },
+    {
+      "period": "2017-W24",
+      "cases": 85882
+    },
+    {
+      "period": "2017-W25",
+      "cases": 107801
+    },
+    {
+      "period": "2017-W26",
+      "cases": 114814
+    },
+    {
+      "period": "2017-W27",
+      "cases": 108113
+    },
+    {
+      "period": "2017-W28",
+      "cases": 104313
+    },
+    {
+      "period": "2017-W29",
+      "cases": 96439
+    },
+    {
+      "period": "2017-W30",
+      "cases": 83304
+    },
+    {
+      "period": "2017-W31",
+      "cases": 69535
+    },
+    {
+      "period": "2017-W32",
+      "cases": 64660
+    },
+    {
+      "period": "2017-W33",
+      "cases": 57489
+    },
+    {
+      "period": "2017-W34",
+      "cases": 51517
+    },
+    {
+      "period": "2017-W35",
+      "cases": 50160
+    },
+    {
+      "period": "2017-W36",
+      "cases": 50018
+    },
+    {
+      "period": "2017-W37",
+      "cases": 51048
+    },
+    {
+      "period": "2017-W38",
+      "cases": 50828
+    },
+    {
+      "period": "2017-W39",
+      "cases": 48079
+    },
+    {
+      "period": "2017-W40",
+      "cases": 44648
+    },
+    {
+      "period": "2017-W41",
+      "cases": 40787
+    },
+    {
+      "period": "2017-W42",
+      "cases": 43599
+    },
+    {
+      "period": "2017-W43",
+      "cases": 48316
+    },
+    {
+      "period": "2017-W44",
+      "cases": 49695
+    },
+    {
+      "period": "2017-W45",
+      "cases": 49890
+    },
+    {
+      "period": "2017-W46",
+      "cases": 49583
+    },
+    {
+      "period": "2017-W47",
+      "cases": 51061
+    },
+    {
+      "period": "2017-W48",
+      "cases": 53763
+    },
+    {
+      "period": "2017-W49",
+      "cases": 57166
+    },
+    {
+      "period": "2017-W50",
+      "cases": 65425
+    },
+    {
+      "period": "2017-W51",
+      "cases": 75937
+    },
+    {
+      "period": "2017-W52",
+      "cases": 93461
+    },
+    {
+      "period": "2018-W01",
+      "cases": 94477
+    },
+    {
+      "period": "2018-W02",
+      "cases": 97009
+    },
+    {
+      "period": "2018-W03",
+      "cases": 122064
+    },
+    {
+      "period": "2018-W04",
+      "cases": 126697
+    },
+    {
+      "period": "2018-W05",
+      "cases": 109811
+    },
+    {
+      "period": "2018-W06",
+      "cases": 106329
+    },
+    {
+      "period": "2018-W07",
+      "cases": 87983
+    },
+    {
+      "period": "2018-W08",
+      "cases": 104232
+    },
+    {
+      "period": "2018-W09",
+      "cases": 104786
+    },
+    {
+      "period": "2018-W10",
+      "cases": 97165
+    },
+    {
+      "period": "2018-W11",
+      "cases": 98161
+    },
+    {
+      "period": "2018-W12",
+      "cases": 88856
+    },
+    {
+      "period": "2018-W13",
+      "cases": 83821
+    },
+    {
+      "period": "2018-W14",
+      "cases": 59959
+    },
+    {
+      "period": "2018-W15",
+      "cases": 62024
+    },
+    {
+      "period": "2018-W16",
+      "cases": 54985
+    },
+    {
+      "period": "2018-W17",
+      "cases": 53228
+    },
+    {
+      "period": "2018-W18",
+      "cases": 50323
+    },
+    {
+      "period": "2018-W19",
+      "cases": 48376
+    },
+    {
+      "period": "2018-W20",
+      "cases": 47034
+    },
+    {
+      "period": "2018-W21",
+      "cases": 45875
+    },
+    {
+      "period": "2018-W22",
+      "cases": 45311
+    },
+    {
+      "period": "2018-W23",
+      "cases": 45076
+    },
+    {
+      "period": "2018-W24",
+      "cases": 45585
+    },
+    {
+      "period": "2018-W25",
+      "cases": 42823
+    },
+    {
+      "period": "2018-W26",
+      "cases": 45016
+    },
+    {
+      "period": "2018-W27",
+      "cases": 45068
+    },
+    {
+      "period": "2018-W28",
+      "cases": 45964
+    },
+    {
+      "period": "2018-W29",
+      "cases": 47143
+    },
+    {
+      "period": "2018-W30",
+      "cases": 46564
+    },
+    {
+      "period": "2018-W31",
+      "cases": 47020
+    },
+    {
+      "period": "2018-W32",
+      "cases": 48864
+    },
+    {
+      "period": "2018-W33",
+      "cases": 49458
+    },
+    {
+      "period": "2018-W34",
+      "cases": 47399
+    },
+    {
+      "period": "2018-W35",
+      "cases": 49866
+    },
+    {
+      "period": "2018-W36",
+      "cases": 52148
+    },
+    {
+      "period": "2018-W37",
+      "cases": 54283
+    },
+    {
+      "period": "2018-W38",
+      "cases": 55036
+    },
+    {
+      "period": "2018-W39",
+      "cases": 51386
+    },
+    {
+      "period": "2018-W40",
+      "cases": 54262
+    },
+    {
+      "period": "2018-W41",
+      "cases": 47902
+    },
+    {
+      "period": "2018-W42",
+      "cases": 49531
+    },
+    {
+      "period": "2018-W43",
+      "cases": 50147
+    },
+    {
+      "period": "2018-W44",
+      "cases": 52883
+    },
+    {
+      "period": "2018-W45",
+      "cases": 51013
+    },
+    {
+      "period": "2018-W46",
+      "cases": 52056
+    },
+    {
+      "period": "2018-W47",
+      "cases": 50723
+    },
+    {
+      "period": "2018-W48",
+      "cases": 54466
+    },
+    {
+      "period": "2018-W49",
+      "cases": 59182
+    },
+    {
+      "period": "2018-W50",
+      "cases": 59385
+    },
+    {
+      "period": "2018-W51",
+      "cases": 64138
+    },
+    {
+      "period": "2018-W52",
+      "cases": 70530
+    },
+    {
+      "period": "2019-W01",
+      "cases": 69493
+    },
+    {
+      "period": "2019-W02",
+      "cases": 82390
+    },
+    {
+      "period": "2019-W03",
+      "cases": 87673
+    },
+    {
+      "period": "2019-W04",
+      "cases": 95222
+    },
+    {
+      "period": "2019-W05",
+      "cases": 111165
+    },
+    {
+      "period": "2019-W06",
+      "cases": 42862
+    },
+    {
+      "period": "2019-W07",
+      "cases": 90615
+    },
+    {
+      "period": "2019-W08",
+      "cases": 83884
+    },
+    {
+      "period": "2019-W09",
+      "cases": 78402
+    },
+    {
+      "period": "2019-W10",
+      "cases": 75546
+    },
+    {
+      "period": "2019-W11",
+      "cases": 78894
+    },
+    {
+      "period": "2019-W12",
+      "cases": 77860
+    },
+    {
+      "period": "2019-W13",
+      "cases": 74671
+    },
+    {
+      "period": "2019-W14",
+      "cases": 62653
+    },
+    {
+      "period": "2019-W15",
+      "cases": 67724
+    },
+    {
+      "period": "2019-W16",
+      "cases": 65464
+    },
+    {
+      "period": "2019-W17",
+      "cases": 66214
+    },
+    {
+      "period": "2019-W18",
+      "cases": 66243
+    },
+    {
+      "period": "2019-W19",
+      "cases": 69028
+    },
+    {
+      "period": "2019-W20",
+      "cases": 71042
+    },
+    {
+      "period": "2019-W21",
+      "cases": 73342
+    },
+    {
+      "period": "2019-W22",
+      "cases": 74608
+    },
+    {
+      "period": "2019-W23",
+      "cases": 69876
+    },
+    {
+      "period": "2019-W24",
+      "cases": 73266
+    },
+    {
+      "period": "2019-W25",
+      "cases": 76431
+    },
+    {
+      "period": "2019-W26",
+      "cases": 70903
+    },
+    {
+      "period": "2019-W27",
+      "cases": 70089
+    },
+    {
+      "period": "2019-W28",
+      "cases": 69760
+    },
+    {
+      "period": "2019-W29",
+      "cases": 70895
+    },
+    {
+      "period": "2019-W30",
+      "cases": 69296
+    },
+    {
+      "period": "2019-W31",
+      "cases": 67624
+    },
+    {
+      "period": "2019-W32",
+      "cases": 63635
+    },
+    {
+      "period": "2019-W33",
+      "cases": 64786
+    },
+    {
+      "period": "2019-W34",
+      "cases": 65325
+    },
+    {
+      "period": "2019-W35",
+      "cases": 69479
+    },
+    {
+      "period": "2019-W36",
+      "cases": 71076
+    },
+    {
+      "period": "2019-W37",
+      "cases": 70873
+    },
+    {
+      "period": "2019-W38",
+      "cases": 77319
+    },
+    {
+      "period": "2019-W39",
+      "cases": 72331
+    },
+    {
+      "period": "2019-W40",
+      "cases": 67581
+    },
+    {
+      "period": "2019-W41",
+      "cases": 63940
+    },
+    {
+      "period": "2019-W42",
+      "cases": 64821
+    },
+    {
+      "period": "2019-W43",
+      "cases": 63099
+    },
+    {
+      "period": "2019-W44",
+      "cases": 63026
+    },
+    {
+      "period": "2019-W45",
+      "cases": 65406
+    },
+    {
+      "period": "2019-W46",
+      "cases": 67782
+    },
+    {
+      "period": "2019-W47",
+      "cases": 67790
+    },
+    {
+      "period": "2019-W48",
+      "cases": 70004
+    },
+    {
+      "period": "2019-W49",
+      "cases": 71961
+    },
+    {
+      "period": "2019-W50",
+      "cases": 86210
+    },
+    {
+      "period": "2019-W51",
+      "cases": 93188
+    },
+    {
+      "period": "2019-W52",
+      "cases": 101916
+    },
+    {
+      "period": "2020-W01",
+      "cases": 102762
+    },
+    {
+      "period": "2020-W02",
+      "cases": 112648
+    },
+    {
+      "period": "2020-W03",
+      "cases": 106885
+    },
+    {
+      "period": "2020-W04",
+      "cases": 98574
+    },
+    {
+      "period": "2020-W05",
+      "cases": 71754
+    },
+    {
+      "period": "2020-W06",
+      "cases": 74100
+    },
+    {
+      "period": "2020-W07",
+      "cases": 56073
+    },
+    {
+      "period": "2020-W08",
+      "cases": 47090
+    },
+    {
+      "period": "2020-W09",
+      "cases": 40822
+    },
+    {
+      "period": "2020-W10",
+      "cases": 39955
+    },
+    {
+      "period": "2020-W11",
+      "cases": 35516
+    },
+    {
+      "period": "2020-W12",
+      "cases": 38146
+    },
+    {
+      "period": "2020-W13",
+      "cases": 34201
+    },
+    {
+      "period": "2020-W14",
+      "cases": 30377
+    },
+    {
+      "period": "2020-W15",
+      "cases": 34597
+    },
+    {
+      "period": "2020-W16",
+      "cases": 31147
+    },
+    {
+      "period": "2020-W17",
+      "cases": 27349
+    },
+    {
+      "period": "2020-W18",
+      "cases": 25083
+    },
+    {
+      "period": "2020-W19",
+      "cases": 23637
+    },
+    {
+      "period": "2020-W20",
+      "cases": 22930
+    },
+    {
+      "period": "2020-W21",
+      "cases": 21860
+    },
+    {
+      "period": "2020-W22",
+      "cases": 23005
+    },
+    {
+      "period": "2020-W23",
+      "cases": 24017
+    },
+    {
+      "period": "2020-W24",
+      "cases": 25031
+    },
+    {
+      "period": "2020-W25",
+      "cases": 25764
+    },
+    {
+      "period": "2020-W26",
+      "cases": 23248
+    },
+    {
+      "period": "2020-W27",
+      "cases": 26239
+    },
+    {
+      "period": "2020-W28",
+      "cases": 25051
+    },
+    {
+      "period": "2020-W29",
+      "cases": 24557
+    },
+    {
+      "period": "2020-W30",
+      "cases": 24462
+    },
+    {
+      "period": "2020-W31",
+      "cases": 26039
+    },
+    {
+      "period": "2020-W32",
+      "cases": 27099
+    },
+    {
+      "period": "2020-W33",
+      "cases": 28529
+    },
+    {
+      "period": "2020-W34",
+      "cases": 29576
+    },
+    {
+      "period": "2020-W35",
+      "cases": 28851
+    },
+    {
+      "period": "2020-W36",
+      "cases": 29451
+    },
+    {
+      "period": "2020-W37",
+      "cases": 31728
+    },
+    {
+      "period": "2020-W38",
+      "cases": 30841
+    },
+    {
+      "period": "2020-W39",
+      "cases": 32275
+    },
+    {
+      "period": "2020-W40",
+      "cases": 30094
+    },
+    {
+      "period": "2020-W41",
+      "cases": 33939
+    },
+    {
+      "period": "2020-W42",
+      "cases": 33533
+    },
+    {
+      "period": "2020-W43",
+      "cases": 34459
+    },
+    {
+      "period": "2020-W44",
+      "cases": 36490
+    },
+    {
+      "period": "2020-W45",
+      "cases": 38442
+    },
+    {
+      "period": "2020-W46",
+      "cases": 38855
+    },
+    {
+      "period": "2020-W47",
+      "cases": 39640
+    },
+    {
+      "period": "2020-W48",
+      "cases": 38514
+    },
+    {
+      "period": "2020-W49",
+      "cases": 37370
+    },
+    {
+      "period": "2020-W50",
+      "cases": 36272
+    },
+    {
+      "period": "2020-W51",
+      "cases": 36624
+    },
+    {
+      "period": "2020-W52",
+      "cases": 36266
+    },
+    {
+      "period": "2020-W53",
+      "cases": 34834
+    },
+    {
+      "period": "2021-W01",
+      "cases": 37553
+    },
+    {
+      "period": "2021-W02",
+      "cases": 38224
+    },
+    {
+      "period": "2021-W03",
+      "cases": 39769
+    },
+    {
+      "period": "2021-W04",
+      "cases": 37528
+    },
+    {
+      "period": "2021-W05",
+      "cases": 36961
+    },
+    {
+      "period": "2021-W06",
+      "cases": 26045
+    },
+    {
+      "period": "2021-W07",
+      "cases": 26490
+    },
+    {
+      "period": "2021-W08",
+      "cases": 28532
+    },
+    {
+      "period": "2021-W09",
+      "cases": 26542
+    },
+    {
+      "period": "2021-W10",
+      "cases": 28349
+    },
+    {
+      "period": "2021-W11",
+      "cases": 29900
+    },
+    {
+      "period": "2021-W12",
+      "cases": 30015
+    },
+    {
+      "period": "2021-W13",
+      "cases": 29824
+    },
+    {
+      "period": "2021-W14",
+      "cases": 31583
+    },
+    {
+      "period": "2021-W15",
+      "cases": 30333
+    },
+    {
+      "period": "2021-W16",
+      "cases": 30303
+    },
+    {
+      "period": "2021-W17",
+      "cases": 29549
+    },
+    {
+      "period": "2021-W18",
+      "cases": 29393
+    },
+    {
+      "period": "2021-W19",
+      "cases": 28371
+    },
+    {
+      "period": "2021-W20",
+      "cases": 25336
+    },
+    {
+      "period": "2021-W21",
+      "cases": 24098
+    },
+    {
+      "period": "2021-W22",
+      "cases": 17261
+    },
+    {
+      "period": "2021-W23",
+      "cases": 17314
+    },
+    {
+      "period": "2021-W24",
+      "cases": 14736
+    },
+    {
+      "period": "2021-W25",
+      "cases": 15311
+    },
+    {
+      "period": "2021-W26",
+      "cases": 14325
+    },
+    {
+      "period": "2021-W27",
+      "cases": 14262
+    },
+    {
+      "period": "2021-W28",
+      "cases": 13957
+    },
+    {
+      "period": "2021-W29",
+      "cases": 13682
+    },
+    {
+      "period": "2021-W30",
+      "cases": 13669
+    },
+    {
+      "period": "2021-W31",
+      "cases": 14216
+    },
+    {
+      "period": "2021-W32",
+      "cases": 14687
+    },
+    {
+      "period": "2021-W33",
+      "cases": 14074
+    },
+    {
+      "period": "2021-W34",
+      "cases": 14200
+    },
+    {
+      "period": "2021-W35",
+      "cases": 14378
+    },
+    {
+      "period": "2021-W36",
+      "cases": 14197
+    },
+    {
+      "period": "2021-W37",
+      "cases": 14542
+    },
+    {
+      "period": "2021-W38",
+      "cases": 12360
+    },
+    {
+      "period": "2021-W39",
+      "cases": 14955
+    },
+    {
+      "period": "2021-W40",
+      "cases": 15107
+    },
+    {
+      "period": "2021-W41",
+      "cases": 14279
+    },
+    {
+      "period": "2021-W42",
+      "cases": 15906
+    },
+    {
+      "period": "2021-W43",
+      "cases": 17760
+    },
+    {
+      "period": "2021-W44",
+      "cases": 18320
+    },
+    {
+      "period": "2021-W45",
+      "cases": 17975
+    },
+    {
+      "period": "2021-W46",
+      "cases": 17679
+    },
+    {
+      "period": "2021-W47",
+      "cases": 18248
+    },
+    {
+      "period": "2021-W48",
+      "cases": 18546
+    },
+    {
+      "period": "2021-W49",
+      "cases": 20208
+    },
+    {
+      "period": "2021-W50",
+      "cases": 20428
+    },
+    {
+      "period": "2021-W51",
+      "cases": 21140
+    },
+    {
+      "period": "2021-W52",
+      "cases": 19866
+    },
+    {
+      "period": "2022-W01",
+      "cases": 24307
+    },
+    {
+      "period": "2022-W02",
+      "cases": 25760
+    },
+    {
+      "period": "2022-W03",
+      "cases": 26985
+    },
+    {
+      "period": "2022-W04",
+      "cases": 27559
+    },
+    {
+      "period": "2022-W05",
+      "cases": 7229
+    },
+    {
+      "period": "2022-W06",
+      "cases": 19919
+    },
+    {
+      "period": "2022-W07",
+      "cases": 17959
+    },
+    {
+      "period": "2022-W08",
+      "cases": 18238
+    },
+    {
+      "period": "2022-W09",
+      "cases": 18253
+    },
+    {
+      "period": "2022-W10",
+      "cases": 22845
+    },
+    {
+      "period": "2022-W11",
+      "cases": 24080
+    },
+    {
+      "period": "2022-W12",
+      "cases": 23287
+    },
+    {
+      "period": "2022-W13",
+      "cases": 22713
+    },
+    {
+      "period": "2022-W14",
+      "cases": 20293
+    },
+    {
+      "period": "2022-W15",
+      "cases": 22545
+    },
+    {
+      "period": "2022-W16",
+      "cases": 22669
+    },
+    {
+      "period": "2022-W17",
+      "cases": 20508
+    },
+    {
+      "period": "2022-W18",
+      "cases": 22622
+    },
+    {
+      "period": "2022-W19",
+      "cases": 23590
+    },
+    {
+      "period": "2022-W20",
+      "cases": 26816
+    },
+    {
+      "period": "2022-W21",
+      "cases": 25469
+    },
+    {
+      "period": "2022-W22",
+      "cases": 21712
+    },
+    {
+      "period": "2022-W23",
+      "cases": 25166
+    },
+    {
+      "period": "2022-W24",
+      "cases": 24240
+    },
+    {
+      "period": "2022-W25",
+      "cases": 22487
+    },
+    {
+      "period": "2022-W26",
+      "cases": 20875
+    },
+    {
+      "period": "2022-W27",
+      "cases": 20393
+    },
+    {
+      "period": "2022-W28",
+      "cases": 19772
+    },
+    {
+      "period": "2022-W29",
+      "cases": 18220
+    },
+    {
+      "period": "2022-W30",
+      "cases": 19014
+    },
+    {
+      "period": "2022-W31",
+      "cases": 19333
+    },
+    {
+      "period": "2022-W32",
+      "cases": 21047
+    },
+    {
+      "period": "2022-W33",
+      "cases": 21922
+    },
+    {
+      "period": "2022-W34",
+      "cases": 21867
+    },
+    {
+      "period": "2022-W35",
+      "cases": 24099
+    },
+    {
+      "period": "2022-W36",
+      "cases": 23969
+    },
+    {
+      "period": "2022-W37",
+      "cases": 29354
+    },
+    {
+      "period": "2022-W38",
+      "cases": 30701
+    },
+    {
+      "period": "2022-W39",
+      "cases": 34569
+    },
+    {
+      "period": "2022-W40",
+      "cases": 39359
+    },
+    {
+      "period": "2022-W41",
+      "cases": 41073
+    },
+    {
+      "period": "2022-W42",
+      "cases": 44888
+    },
+    {
+      "period": "2022-W43",
+      "cases": 48366
+    },
+    {
+      "period": "2022-W44",
+      "cases": 46234
+    },
+    {
+      "period": "2022-W45",
+      "cases": 43611
+    },
+    {
+      "period": "2022-W46",
+      "cases": 40959
+    },
+    {
+      "period": "2022-W47",
+      "cases": 37317
+    },
+    {
+      "period": "2022-W48",
+      "cases": 34188
+    },
+    {
+      "period": "2022-W49",
+      "cases": 36040
+    },
+    {
+      "period": "2022-W50",
+      "cases": 36164
+    },
+    {
+      "period": "2022-W51",
+      "cases": 37664
+    },
+    {
+      "period": "2022-W52",
+      "cases": 42366
+    },
+    {
+      "period": "2023-W01",
+      "cases": 39602
+    },
+    {
+      "period": "2023-W02",
+      "cases": 43185
+    },
+    {
+      "period": "2023-W03",
+      "cases": 45150
+    },
+    {
+      "period": "2023-W04",
+      "cases": 21809
+    },
+    {
+      "period": "2023-W05",
+      "cases": 43992
+    },
+    {
+      "period": "2023-W06",
+      "cases": 40637
+    },
+    {
+      "period": "2023-W07",
+      "cases": 41638
+    },
+    {
+      "period": "2023-W08",
+      "cases": 43292
+    },
+    {
+      "period": "2023-W09",
+      "cases": 41650
+    },
+    {
+      "period": "2023-W10",
+      "cases": 45155
+    },
+    {
+      "period": "2023-W11",
+      "cases": 45306
+    },
+    {
+      "period": "2023-W12",
+      "cases": 43180
+    },
+    {
+      "period": "2023-W13",
+      "cases": 45634
+    },
+    {
+      "period": "2023-W14",
+      "cases": 40646
+    },
+    {
+      "period": "2023-W15",
+      "cases": 48528
+    },
+    {
+      "period": "2023-W16",
+      "cases": 48720
+    },
+    {
+      "period": "2023-W17",
+      "cases": 54586
+    },
+    {
+      "period": "2023-W18",
+      "cases": 58385
+    },
+    {
+      "period": "2023-W19",
+      "cases": 62505
+    },
+    {
+      "period": "2023-W20",
+      "cases": 66272
+    },
+    {
+      "period": "2023-W21",
+      "cases": 69532
+    },
+    {
       "period": "2023-W22",
-      "cases": 34005
+      "cases": 71757
     },
     {
       "period": "2023-W23",
-      "cases": 26819
+      "cases": 71957
     },
     {
       "period": "2023-W24",
-      "cases": 19382
+      "cases": 71808
     },
     {
       "period": "2023-W25",
-      "cases": 30447
+      "cases": 65824
     },
     {
       "period": "2023-W26",
-      "cases": 19783
+      "cases": 67671
     },
     {
       "period": "2023-W27",
-      "cases": 23148
+      "cases": 62401
     },
     {
       "period": "2023-W28",
-      "cases": 29895
+      "cases": 59183
     },
     {
       "period": "2023-W29",
-      "cases": 18913
+      "cases": 58002
     },
     {
       "period": "2023-W30",
-      "cases": 31573
+      "cases": 54717
     },
     {
       "period": "2023-W31",
-      "cases": 29721
+      "cases": 55283
     },
     {
       "period": "2023-W32",
-      "cases": 24318
+      "cases": 60745
     },
     {
       "period": "2023-W33",
-      "cases": 13326
+      "cases": 67331
     },
     {
       "period": "2023-W34",
-      "cases": 20624
+      "cases": 73129
     },
     {
       "period": "2023-W35",
-      "cases": 33945
+      "cases": 78769
     },
     {
       "period": "2023-W36",
-      "cases": 39073
+      "cases": 81116
     },
     {
       "period": "2023-W37",
-      "cases": 36451
+      "cases": 93606
     },
     {
       "period": "2023-W38",
-      "cases": 14475
+      "cases": 100014
     },
     {
       "period": "2023-W39",
-      "cases": 23082
+      "cases": 100186
     },
     {
       "period": "2023-W40",
-      "cases": 40671
+      "cases": 98074
     },
     {
       "period": "2023-W41",
-      "cases": 66343
+      "cases": 81359
     },
     {
       "period": "2023-W42",
-      "cases": 54649
+      "cases": 79560
     },
     {
       "period": "2023-W43",
-      "cases": 26633
+      "cases": 77531
     },
     {
       "period": "2023-W44",
-      "cases": 56695
+      "cases": 80827
     },
     {
       "period": "2023-W45",
-      "cases": 96857
+      "cases": 83430
     },
     {
       "period": "2023-W46",
-      "cases": 95001
+      "cases": 77929
     },
     {
       "period": "2023-W47",
-      "cases": 82389
+      "cases": 79909
     },
     {
       "period": "2023-W48",
-      "cases": 108635
+      "cases": 83644
     },
     {
       "period": "2023-W49",
-      "cases": 115757
+      "cases": 80874
     },
     {
       "period": "2023-W50",
-      "cases": 183493
+      "cases": 86215
     },
     {
       "period": "2023-W51",
-      "cases": 103164
+      "cases": 86179
     },
     {
       "period": "2023-W52",
-      "cases": 78326
+      "cases": 108574
     },
     {
       "period": "2024-W01",
-      "cases": 106815
+      "cases": 118731
     },
     {
       "period": "2024-W02",
-      "cases": 91368
+      "cases": 125728
     },
     {
       "period": "2024-W03",
-      "cases": 56441
+      "cases": 125492
     },
     {
       "period": "2024-W04",
-      "cases": 94486
+      "cases": 113632
     },
     {
       "period": "2024-W05",
-      "cases": 85085
+      "cases": 122332
     },
     {
       "period": "2024-W06",
-      "cases": 105899
+      "cases": 101119
     },
     {
       "period": "2024-W07",
-      "cases": 96458
+      "cases": 85781
     },
     {
       "period": "2024-W08",
-      "cases": 115072
+      "cases": 110568
     },
     {
       "period": "2024-W09",
-      "cases": 129177
+      "cases": 100862
     },
     {
       "period": "2024-W10",
-      "cases": 107842
+      "cases": 103414
     },
     {
       "period": "2024-W11",
-      "cases": 149893
+      "cases": 106448
     },
     {
       "period": "2024-W12",
-      "cases": 109082
+      "cases": 103623
     },
     {
       "period": "2024-W13",
-      "cases": 92345
+      "cases": 94198
     },
     {
       "period": "2024-W14",
-      "cases": 21132
+      "cases": 79398
     },
     {
       "period": "2024-W15",
-      "cases": 54269
+      "cases": 87661
     },
     {
       "period": "2024-W16",
-      "cases": 65956
+      "cases": 88633
     },
     {
       "period": "2024-W17",
-      "cases": 39977
+      "cases": 88030
     },
     {
       "period": "2024-W18",
-      "cases": 33893
+      "cases": 89063
     },
     {
       "period": "2024-W19",
-      "cases": 21432
+      "cases": 85657
     },
     {
       "period": "2024-W20",
-      "cases": 21158
+      "cases": 83550
     },
     {
       "period": "2024-W21",
-      "cases": 26863
+      "cases": 76868
     },
     {
       "period": "2024-W22",
-      "cases": 32060
+      "cases": 79686
     },
     {
       "period": "2024-W23",
-      "cases": 22945
+      "cases": 85876
     },
     {
       "period": "2024-W24",
-      "cases": 23551
+      "cases": 86303
     },
     {
       "period": "2024-W25",
-      "cases": 30671
+      "cases": 94385
     },
     {
       "period": "2024-W26",
-      "cases": 16895
+      "cases": 98993
     },
     {
       "period": "2024-W27",
-      "cases": 17909
+      "cases": 103896
     },
     {
       "period": "2024-W28",
-      "cases": 30968
+      "cases": 96357
     },
     {
       "period": "2024-W29",
-      "cases": 34639
+      "cases": 89942
     },
     {
       "period": "2024-W30",
-      "cases": 34435
+      "cases": 67044
     },
     {
       "period": "2024-W31",
-      "cases": 25668
+      "cases": 68205
     },
     {
       "period": "2024-W32",
-      "cases": 29544
+      "cases": 64631
     },
     {
       "period": "2024-W33",
-      "cases": 26599
+      "cases": 67393
     },
     {
       "period": "2024-W34",
-      "cases": 21655
+      "cases": 68336
     },
     {
       "period": "2024-W35",
-      "cases": 32743
+      "cases": 70328
     },
     {
       "period": "2024-W36",
-      "cases": 13911
+      "cases": 68297
     },
     {
       "period": "2024-W37",
-      "cases": 32953
+      "cases": 69218
     },
     {
       "period": "2024-W38",
-      "cases": 19169
+      "cases": 68075
     },
     {
       "period": "2024-W39",
-      "cases": 25804
+      "cases": 76259
     },
     {
       "period": "2024-W40",
-      "cases": 14410
+      "cases": 68526
     },
     {
       "period": "2024-W41",
-      "cases": 70571
+      "cases": 72126
     },
     {
       "period": "2024-W42",
-      "cases": 37337
+      "cases": 73517
     },
     {
       "period": "2024-W43",
-      "cases": 80628
+      "cases": 73683
     },
     {
       "period": "2024-W44",
-      "cases": 39813
+      "cases": 68473
     },
     {
       "period": "2024-W45",
-      "cases": 84379
+      "cases": 72426
     },
     {
       "period": "2024-W46",
-      "cases": 90062
+      "cases": 72363
     },
     {
       "period": "2024-W47",
-      "cases": 118672
+      "cases": 76117
     },
     {
       "period": "2024-W48",
-      "cases": 112069
+      "cases": 77420
     },
     {
       "period": "2024-W49",
-      "cases": 152388
+      "cases": 84783
     },
     {
       "period": "2024-W50",
-      "cases": 88903
+      "cases": 83242
     },
     {
       "period": "2024-W51",
-      "cases": 58474
+      "cases": 89701
     },
     {
       "period": "2024-W52",
-      "cases": 91732
+      "cases": 103573
     },
     {
       "period": "2025-W01",
-      "cases": 97544
+      "cases": 120457
     },
     {
       "period": "2025-W02",
-      "cases": 74117
+      "cases": 134006
     },
     {
       "period": "2025-W03",
-      "cases": 108542
+      "cases": 136377
     },
     {
       "period": "2025-W04",
-      "cases": 67661
+      "cases": 154464
     },
     {
       "period": "2025-W05",
-      "cases": 117610
+      "cases": 64071
     },
     {
       "period": "2025-W06",
-      "cases": 109406
+      "cases": 169061
     },
     {
       "period": "2025-W07",
-      "cases": 144751
+      "cases": 139816
     },
     {
       "period": "2025-W08",
-      "cases": 75168
+      "cases": 129683
     },
     {
       "period": "2025-W09",
-      "cases": 102233
+      "cases": 109195
     },
     {
       "period": "2025-W10",
-      "cases": 70122
+      "cases": 106993
     },
     {
       "period": "2025-W11",
-      "cases": 144691
+      "cases": 104513
     },
     {
       "period": "2025-W12",
-      "cases": 103837
+      "cases": 106576
     },
     {
       "period": "2025-W13",
-      "cases": 92900
+      "cases": 109069
     },
     {
       "period": "2025-W14",
-      "cases": 95345
+      "cases": 88391
     },
     {
       "period": "2025-W15",
-      "cases": 44782
+      "cases": 99302
     },
     {
       "period": "2025-W16",
-      "cases": 48834
+      "cases": 96477
     },
     {
       "period": "2025-W17",
-      "cases": 50354
+      "cases": 89666
     },
     {
       "period": "2025-W18",
-      "cases": 58991
+      "cases": 94832
     },
     {
       "period": "2025-W19",
-      "cases": 21059
+      "cases": 95929
     },
     {
       "period": "2025-W20",
-      "cases": 33442
+      "cases": 102318
     },
     {
       "period": "2025-W21",
-      "cases": 15761
+      "cases": 102408
     },
     {
       "period": "2025-W22",
-      "cases": 43735
+      "cases": 97015
     },
     {
       "period": "2025-W23",
-      "cases": 28833
+      "cases": 99055
     },
     {
       "period": "2025-W24",
-      "cases": 16982
+      "cases": 95255
     },
     {
       "period": "2025-W25",
-      "cases": 17208
+      "cases": 96655
     },
     {
       "period": "2025-W26",
-      "cases": 16607
+      "cases": 89186
     },
     {
       "period": "2025-W27",
-      "cases": 22824
+      "cases": 84825
     },
     {
       "period": "2025-W28",
-      "cases": 18524
+      "cases": 74575
     },
     {
       "period": "2025-W29",
-      "cases": 17129
+      "cases": 75150
     },
     {
       "period": "2025-W30",
-      "cases": 17683
+      "cases": 73553
     },
     {
       "period": "2025-W31",
-      "cases": 25795
+      "cases": 71308
     },
     {
       "period": "2025-W32",
-      "cases": 28359
+      "cases": 74841
     },
     {
       "period": "2025-W33",
-      "cases": 21670
+      "cases": 77681
     },
     {
       "period": "2025-W34",
-      "cases": 38200
+      "cases": 80351
     },
     {
       "period": "2025-W35",
-      "cases": 35045
+      "cases": 81569
     },
     {
       "period": "2025-W36",
-      "cases": 20952
+      "cases": 88425
     },
     {
       "period": "2025-W37",
-      "cases": 27540
+      "cases": 98831
     },
     {
       "period": "2025-W38",
-      "cases": 25352
+      "cases": 113606
     },
     {
       "period": "2025-W39",
-      "cases": 26261
+      "cases": 126101
     },
     {
       "period": "2025-W40",
-      "cases": 22319
+      "cases": 145917
     },
     {
       "period": "2025-W41",
-      "cases": 43229
+      "cases": 129419
     },
     {
       "period": "2025-W42",
-      "cases": 60388
+      "cases": 125416
     },
     {
       "period": "2025-W43",
-      "cases": 82958
+      "cases": 106217
     },
     {
       "period": "2025-W44",
-      "cases": 46375
+      "cases": 104231
     },
     {
       "period": "2025-W45",
-      "cases": 97206
+      "cases": 99897
     },
     {
       "period": "2025-W46",
-      "cases": 97316
+      "cases": 91439
     },
     {
       "period": "2025-W47",
-      "cases": 101148
+      "cases": 83771
     },
     {
       "period": "2025-W48",
-      "cases": 108454
+      "cases": 84823
     },
     {
       "period": "2025-W49",
-      "cases": 79124
+      "cases": 83639
     },
     {
       "period": "2025-W50",
-      "cases": 67095
+      "cases": 83172
     },
     {
       "period": "2025-W51",
-      "cases": 116281
+      "cases": 82812
     },
     {
       "period": "2025-W52",
-      "cases": 132902
+      "cases": 79329
+    },
+    {
+      "period": "2025-W53",
+      "cases": 79648
     },
     {
       "period": "2026-W01",
-      "cases": 106638
+      "cases": 91297
     },
     {
       "period": "2026-W02",
-      "cases": 122788
+      "cases": 103227
     },
     {
       "period": "2026-W03",
-      "cases": 125868
+      "cases": 109224
     },
     {
       "period": "2026-W04",
-      "cases": 45711
+      "cases": 112995
     },
     {
       "period": "2026-W05",
-      "cases": 92514
+      "cases": 111726
     },
     {
       "period": "2026-W06",
-      "cases": 100241
+      "cases": 116113
     },
     {
       "period": "2026-W07",
-      "cases": 106893
+      "cases": 41379
     },
     {
       "period": "2026-W08",
-      "cases": 93317
+      "cases": 90336
     },
     {
       "period": "2026-W09",
-      "cases": 86849
+      "cases": 81418
     },
     {
       "period": "2026-W10",
-      "cases": 94268
+      "cases": 87430
     },
     {
       "period": "2026-W11",
-      "cases": 108931
+      "cases": 93322
     },
     {
       "period": "2026-W12",
-      "cases": 61316
+      "cases": 94701
     },
     {
       "period": "2026-W13",
-      "cases": 108876
+      "cases": 85431
     },
     {
       "period": "2026-W14",
-      "cases": 90186
+      "cases": 82350
     },
     {
       "period": "2026-W15",
-      "cases": 58547
+      "cases": 81185
     },
     {
       "period": "2026-W16",
-      "cases": 69119
+      "cases": 77780
     },
     {
       "period": "2026-W17",
-      "cases": 61824
+      "cases": 73437
     },
     {
       "period": "2026-W18",
-      "cases": 85542
+      "cases": 76825
     },
     {
       "period": "2026-W19",
-      "cases": 24875
-    },
-    {
-      "period": "2026-W20",
-      "cases": 35923
-    },
-    {
-      "period": "2026-W21",
-      "cases": 14705
+      "cases": 69707
     }
   ],
-  "by_region": [],
-  "by_age": [],
+  "by_region": [
+    {
+      "region": "台中市",
+      "cases": 51708
+    },
+    {
+      "region": "新北市",
+      "cases": 40685
+    },
+    {
+      "region": "高雄市",
+      "cases": 32229
+    },
+    {
+      "region": "台北市",
+      "cases": 31093
+    },
+    {
+      "region": "桃園市",
+      "cases": 28716
+    },
+    {
+      "region": "台南市",
+      "cases": 28208
+    },
+    {
+      "region": "彰化縣",
+      "cases": 15334
+    },
+    {
+      "region": "屏東縣",
+      "cases": 8447
+    },
+    {
+      "region": "新竹市",
+      "cases": 8202
+    },
+    {
+      "region": "新竹縣",
+      "cases": 7078
+    },
+    {
+      "region": "宜蘭縣",
+      "cases": 6875
+    },
+    {
+      "region": "苗栗縣",
+      "cases": 6498
+    },
+    {
+      "region": "南投縣",
+      "cases": 6287
+    },
+    {
+      "region": "雲林縣",
+      "cases": 5838
+    },
+    {
+      "region": "嘉義縣",
+      "cases": 4474
+    },
+    {
+      "region": "花蓮縣",
+      "cases": 4237
+    },
+    {
+      "region": "嘉義市",
+      "cases": 4225
+    },
+    {
+      "region": "基隆市",
+      "cases": 4182
+    },
+    {
+      "region": "台東縣",
+      "cases": 2531
+    },
+    {
+      "region": "澎湖縣",
+      "cases": 625
+    },
+    {
+      "region": "金門縣",
+      "cases": 241
+    },
+    {
+      "region": "連江縣",
+      "cases": 36
+    }
+  ],
+  "by_age": [
+    {
+      "age_group": "0~2",
+      "cases": 2127577
+    },
+    {
+      "age_group": "13~15",
+      "cases": 1185914
+    },
+    {
+      "age_group": "16~18",
+      "cases": 932594
+    },
+    {
+      "age_group": "19~24",
+      "cases": 1319543
+    },
+    {
+      "age_group": "25~64",
+      "cases": 12874592
+    },
+    {
+      "age_group": "3~6",
+      "cases": 4688991
+    },
+    {
+      "age_group": "65+",
+      "cases": 6770088
+    },
+    {
+      "age_group": "7~12",
+      "cases": 3607288
+    },
+    {
+      "age_group": "不詳",
+      "cases": 166
+    }
+  ],
   "by_type": {},
   "latest_period": {
-    "period": "2026-W21",
-    "cases": 14705
+    "period": "2026-W19",
+    "cases": 69707
   },
   "disease_id": "influenza",
   "name_zh": "類流感",
@@ -640,8 +2306,8 @@
   "icon": "🤧",
   "color": "#f4a261",
   "advice": "施打流感疫苗、勤洗手、戴口罩、保持室內通風、發燒咳嗽應就醫",
-  "last_updated": "2026-05-24T07:31:51",
-  "alert_level": "normal",
+  "last_updated": "2026-05-24T17:43:13",
+  "alert_level": "medium",
   "alert_thresholds": {
     "low": 30000,
     "medium": 60000,

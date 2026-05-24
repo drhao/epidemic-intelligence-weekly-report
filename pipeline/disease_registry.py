@@ -7,10 +7,12 @@
 - name_zh / name_en: 顯示名稱
 - category: 分類（呼吸道 / 蟲媒 / 腸道 / 接觸 / 新興）
 - data_url: CDC 開放資料 CSV 直連網址
-- date_col / case_col: CSV 中代表「日期」與「病例數」的欄位名稱
+- date_col: CSV 中代表「年週」或「日期」的欄位名稱
+- week_col: 若 date_col 只是「年」、週數另存一欄，這裡填週的欄位名（如「週」/「發病週別」）
+- case_col: 代表「病例數」的欄位名（None 代表每列即一個病例）
 - region_col: 地理欄位（縣市）
 - age_col / gender_col: 年齡、性別欄位（若有）
-- aggregation: 'weekly' 或 'daily'
+- aggregation: 'weekly' / 'daily_to_weekly' / 'yearly'
 - alert_thresholds: 警示等級門檻（單週新增病例）
 - season_months: 流行季月份（用於季節提示）
 """
@@ -24,11 +26,12 @@ DISEASES = {
         "color": "#e63946",
         "data_url": "https://od.cdc.gov.tw/eic/Dengue_Daily.csv",
         "date_col": "發病日",
-        "case_col": None,             # 每列即一個病例，count 即可
+        "week_col": None,
+        "case_col": None,             # 每列即一個病例
         "region_col": "居住縣市",
         "age_col": "年齡層",
         "gender_col": "性別",
-        "type_col": "感染國家",        # 可區分本土/境外
+        "type_col": "是否境外移入",     # 否/是
         "aggregation": "daily_to_weekly",
         "alert_thresholds": {"low": 10, "medium": 50, "high": 100},
         "season_months": [7, 8, 9, 10, 11],
@@ -40,11 +43,13 @@ DISEASES = {
         "category": "呼吸道傳染病",
         "icon": "🤧",
         "color": "#f4a261",
-        "data_url": "https://od.cdc.gov.tw/eic/FluLikeAndCovidILI.csv",
-        "date_col": "年週",
-        "case_col": "急診類流感就診人次",
-        "region_col": None,
-        "age_col": None,
+        # 2026 起 CDC 將原本的 FluLikeAndCovidILI.csv 拆出，改為健保門急診統計
+        "data_url": "https://od.cdc.gov.tw/eic/NHI_Influenza_like_illness.csv",
+        "date_col": "年",
+        "week_col": "週",
+        "case_col": "類流感健保就診人次",
+        "region_col": "縣市",
+        "age_col": "年齡別",
         "gender_col": None,
         "aggregation": "weekly",
         "alert_thresholds": {"low": 30000, "medium": 60000, "high": 100000},
@@ -57,9 +62,11 @@ DISEASES = {
         "category": "腸道傳染病",
         "icon": "🦠",
         "color": "#f1c40f",
-        "data_url": "https://od.cdc.gov.tw/eic/Enterovirus.csv",
-        "date_col": "年週",
-        "case_col": "健保門急診就診人次",
+        # 2026 起 CDC 將原本的 Enterovirus.csv 改為 NHI 健保門急診統計
+        "data_url": "https://od.cdc.gov.tw/eic/NHI_EnteroviralInfection.csv",
+        "date_col": "年",
+        "week_col": "週",
+        "case_col": "腸病毒健保就診人次",
         "region_col": "縣市",
         "age_col": "年齡別",
         "aggregation": "weekly",
@@ -74,50 +81,21 @@ DISEASES = {
         "icon": "😷",
         "color": "#9b59b6",
         "data_url": "https://od.cdc.gov.tw/eic/Weekly_Age_County_Gender_19CoV.csv",
-        "date_col": "年週",
+        # CDC 開放資料把年週拆兩欄
+        "date_col": "發病年份",
+        "week_col": "發病週別",
         "case_col": "確定病例數",
         "region_col": "縣市",
         "age_col": "年齡層",
         "gender_col": "性別",
+        "type_col": "是否為境外移入",
         "aggregation": "weekly",
         "alert_thresholds": {"low": 1000, "medium": 5000, "high": 15000},
         "season_months": [11, 12, 1, 2, 3],
         "advice": "施打疫苗追加劑、有症狀儘速快篩、高風險族群儘早就醫評估抗病毒藥物",
     },
-    "rsv": {
-        "name_zh": "呼吸道融合病毒",
-        "name_en": "RSV",
-        "category": "呼吸道傳染病",
-        "icon": "👶",
-        "color": "#3498db",
-        "data_url": "https://od.cdc.gov.tw/eic/RSV.csv",
-        "date_col": "年週",
-        "case_col": "陽性數",
-        "region_col": None,
-        "age_col": "年齡層",
-        "aggregation": "weekly",
-        "alert_thresholds": {"low": 100, "medium": 300, "high": 600},
-        "season_months": [10, 11, 12, 1, 2, 3],
-        "advice": "二歲以下幼兒避免出入人潮、家有新生兒者照顧前洗手、有早產等風險者諮詢免疫球蛋白",
-    },
-    "notifiable_5y": {
-        "name_zh": "法定傳染病五年統計",
-        "name_en": "Notifiable Diseases 5-Year",
-        "category": "綜合監測",
-        "icon": "📊",
-        "color": "#34495e",
-        "data_url": "https://od.cdc.gov.tw/eic/NotifiableDiseases_5y.csv",
-        "date_col": "年",
-        "case_col": "確定病例數",
-        "region_col": "縣市",
-        "age_col": "年齡層",
-        "gender_col": "性別",
-        "type_col": "病名",
-        "aggregation": "yearly",
-        "alert_thresholds": None,
-        "season_months": None,
-        "advice": None,
-    },
+    # rsv 與 notifiable_5y 於 2026-05 確認 CDC 開放資料平台已下架
+    # 等 CDC 重新發佈再行恢復
 }
 
 

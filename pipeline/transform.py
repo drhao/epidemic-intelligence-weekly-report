@@ -240,8 +240,10 @@ def _process_daily_to_weekly(df: pd.DataFrame, cfg: dict) -> dict | None:
     # 本土 vs 境外（若有）
     by_type = {}
     if type_col and type_col in df.columns:
+        local_values = {"台灣", "臺灣", "本土", "否", "0", "no", "n", "false"}
         for t, n in df[type_col].value_counts().items():
-            label = "本土" if (t == "台灣" or t == "臺灣" or t == "本土") else "境外"
+            tv = str(t).strip().lower()
+            label = "本土" if tv in local_values else "境外"
             by_type[label] = by_type.get(label, 0) + int(n)
 
     latest_row = weekly_list[-1] if weekly_list else {"_yw": "N/A", "cases": 0}
@@ -261,8 +263,10 @@ def _process_daily_to_weekly(df: pd.DataFrame, cfg: dict) -> dict | None:
 def _process_weekly(df: pd.DataFrame, cfg: dict) -> dict | None:
     """
     已是週統計的格式（如類流感、COVID-19、腸病毒）。
+    若 cfg 有 week_col，代表年/週分兩欄，先合併成 'YYYY-Www' 字串再走原本邏輯。
     """
     date_col = cfg["date_col"]
+    week_col = cfg.get("week_col")
     case_col = cfg.get("case_col")
     region_col = cfg.get("region_col")
     age_col = cfg.get("age_col")
@@ -270,6 +274,18 @@ def _process_weekly(df: pd.DataFrame, cfg: dict) -> dict | None:
     if date_col not in df.columns:
         log.error(f"找不到日期欄位 {date_col}")
         return None
+
+    if week_col:
+        if week_col not in df.columns:
+            log.error(f"找不到週欄位 {week_col}")
+            return None
+        df = df.copy()
+        df["_combined_yw"] = (
+            df[date_col].astype(str).str.strip()
+            + "-W"
+            + df[week_col].astype(str).str.strip().str.zfill(2)
+        )
+        date_col = "_combined_yw"
     if case_col and case_col not in df.columns:
         # 嘗試模糊比對
         candidates = [c for c in df.columns if any(k in c for k in ["病例", "人次", "陽性", "確診", "件數"])]
