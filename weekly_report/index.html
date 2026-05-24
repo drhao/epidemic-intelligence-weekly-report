@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每週疫情報告 | 疾病管制署</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700;900&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="slides.css">
+</head>
+<body>
+
+<aside class="print-bar">
+  <div class="print-bar-inner">
+    <span class="print-bar-title">每週疫情報告</span>
+    <span class="print-bar-meta" id="reportWeekLabel">—</span>
+    <span class="print-bar-divider">·</span>
+    <button onclick="window.print()" class="btn-print">列印 / 匯出 PDF</button>
+    <button onclick="toggleNav()" class="btn-nav">跳至…</button>
+    <nav class="page-nav" id="pageNav" hidden>
+      <a href="#slide-1">封面</a>
+      <a href="#slide-2">總覽</a>
+      <a href="#slide-3">分區與人口</a>
+      <a href="#slide-4">警示與建議</a>
+      <a href="#slide-5">歷年同期</a>
+      <a href="#slide-6">結語</a>
+    </nav>
+  </div>
+  <div class="print-hint">提示：列印時請選擇「橫向」「A4」「背景圖形」以取得最佳效果</div>
+</aside>
+
+<section class="slide slide-cover" id="slide-1">
+  <div class="cover-bar"></div>
+  <header class="cover-head">
+    <div class="cover-logo">
+      <div class="brand-mark"></div>
+      <div class="cover-logo-text">
+        <div>衛生福利部</div>
+        <div class="cover-logo-strong">疾病管制署</div>
+      </div>
+    </div>
+    <div class="cover-stamp" id="coverWeekStamp">第 — 週</div>
+  </header>
+  <div class="cover-body">
+    <div class="cover-eyebrow">EPIDEMIC SURVEILLANCE WEEKLY</div>
+    <h1 class="cover-title">每週疫情監測報告</h1>
+    <div class="cover-subtitle" id="coverDateRange">— 統計週期 —</div>
+    <div class="cover-alert-summary" id="coverAlertSummary"></div>
+  </div>
+  <footer class="cover-foot">
+    <div class="cover-foot-left">
+      <div class="cover-foot-label">資料來源</div>
+      <div>衛生福利部疾病管制署開放資料平台</div>
+    </div>
+    <div class="cover-foot-right">
+      <div class="cover-foot-label">生成時間</div>
+      <div id="coverGeneratedAt">—</div>
+    </div>
+  </footer>
+  <div class="page-no">1 / 6</div>
+</section>
+
+<section class="slide" id="slide-2">
+  <header class="slide-head">
+    <div class="slide-eyebrow">第 2 頁 · 本週疫情總覽</div>
+    <h2 class="slide-title">六大疾病監測一覽</h2>
+    <p class="slide-sub">依警示嚴重度排序，紅 / 黃 / 褐 / 灰分別對應高 / 中 / 低 / 正常</p>
+  </header>
+  <div class="overview-grid" id="overviewGrid"></div>
+  <footer class="slide-foot">
+    <span class="src">資料來源：衛生福利部疾病管制署</span>
+    <span class="page-no">2 / 6</span>
+  </footer>
+</section>
+
+<section class="slide" id="slide-3">
+  <header class="slide-head">
+    <div class="slide-eyebrow">第 3 頁 · 分區與人口分布</div>
+    <h2 class="slide-title">
+      <span id="focusDiseaseName3">—</span>
+      <span class="slide-title-tag" id="focusDiseaseTag3">最高警示</span>
+    </h2>
+    <p class="slide-sub" id="focusDiseaseSub3">縣市熱區與年齡層風險辨識</p>
+  </header>
+  <div class="grid-2-col">
+    <div class="chart-block">
+      <div class="chart-block-head">
+        <h3 class="chart-block-h">縣市病例分布</h3>
+        <div class="chart-block-sub">近 4 週累計（前 12 名）</div>
+      </div>
+      <div class="chart-block-body"><canvas id="s3RegionChart"></canvas></div>
+    </div>
+    <div class="chart-block">
+      <div class="chart-block-head">
+        <h3 class="chart-block-h">年齡層分布</h3>
+        <div class="chart-block-sub">累計病例數</div>
+      </div>
+      <div class="chart-block-body"><canvas id="s3AgeChart"></canvas></div>
+    </div>
+  </div>
+  <div class="callout-row" id="s3Callouts"></div>
+  <footer class="slide-foot">
+    <span class="src">資料來源：衛生福利部疾病管制署</span>
+    <span class="page-no">3 / 6</span>
+  </footer>
+</section>
+
+<section class="slide" id="slide-4">
+  <header class="slide-head">
+    <div class="slide-eyebrow">第 4 頁 · 風險警示與防疫建議</div>
+    <h2 class="slide-title">本週警示疾病及應對措施</h2>
+    <p class="slide-sub">紅 / 黃 / 褐三色警示等級對應之公衛行動</p>
+  </header>
+  <div class="advisory-list" id="s4AdvisoryList"></div>
+  <footer class="slide-foot">
+    <span class="src">資料來源：衛生福利部疾病管制署</span>
+    <span class="page-no">4 / 6</span>
+  </footer>
+</section>
+
+<section class="slide" id="slide-5">
+  <header class="slide-head">
+    <div class="slide-eyebrow">第 5 頁 · 歷年同期比較</div>
+    <h2 class="slide-title">
+      <span id="focusDiseaseName5">—</span>
+      <span class="slide-title-tag" id="focusDiseaseTag5">最高警示</span>
+    </h2>
+    <p class="slide-sub">近 3 年同週疊圖：判讀今年是否異常偏高 / 偏低</p>
+  </header>
+  <div class="chart-block chart-block-wide">
+    <div class="chart-block-body chart-block-body-tall">
+      <canvas id="s5HistoryChart"></canvas>
+    </div>
+  </div>
+  <div class="comparison-callouts" id="s5Callouts"></div>
+  <footer class="slide-foot">
+    <span class="src">資料來源：衛生福利部疾病管制署 · 統計週次依 ISO-8601</span>
+    <span class="page-no">5 / 6</span>
+  </footer>
+</section>
+
+<section class="slide slide-closing" id="slide-6">
+  <header class="slide-head">
+    <div class="slide-eyebrow">第 6 頁 · 報告說明</div>
+    <h2 class="slide-title">資料來源與引用方式</h2>
+  </header>
+  <div class="closing-body">
+    <div class="closing-block">
+      <h3 class="closing-h">資料來源</h3>
+      <p>本報告所有疾病監測數據引用自 <strong>衛生福利部疾病管制署</strong>開放資料平台
+         （<code>data.cdc.gov.tw</code> / <code>od.cdc.gov.tw</code>），
+         依「政府資料開放授權條款」釋出。</p>
+      <ul class="closing-list" id="closingDataList"></ul>
+    </div>
+    <div class="closing-block">
+      <h3 class="closing-h">統計說明</h3>
+      <ul class="closing-list">
+        <li><strong>週次定義</strong>：依 ISO-8601 國際標準週次，週一為一週之始</li>
+        <li><strong>警示等級</strong>：依各疾病歷史閾值分為高 / 中 / 低 / 正常四級</li>
+        <li><strong>變化率</strong>：本週對前週（百分比）；同期比較對去年同 ISO 週</li>
+        <li><strong>移動平均</strong>：4 週後尾追平均（trailing），符合 WHO / CDC 慣例</li>
+      </ul>
+    </div>
+    <div class="closing-block">
+      <h3 class="closing-h">設計規範</h3>
+      <p>本報告之圖表與配色遵循「<em>Epidemic Data Visualization Style Guide</em>」，
+         確保色彩通用性（WCAG AA）與圖表標準化。</p>
+    </div>
+  </div>
+  <footer class="slide-foot closing-foot">
+    <span>本報告由疫情監測儀表板自動生成</span>
+    <span class="page-no">6 / 6</span>
+  </footer>
+</section>
+
+<script src="vendor/chart.umd.min.js"></script>
+<script src="vendor/chartjs-adapter-date-fns.bundle.min.js"></script>
+<script src="vendor/chartjs-plugin-annotation.min.js"></script>
+<script src="slides.js"></script>
+</body>
+</html>

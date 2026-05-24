@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>疫情監測儀表板 | 疾病管制署</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ─────────────────  Header  ───────────────── -->
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      <div class="brand-text">
+        <div class="brand-line-1">疫情監測儀表板</div>
+        <div class="brand-line-2">Epidemic Surveillance Dashboard</div>
+      </div>
+    </div>
+    <div class="header-meta">
+      <span id="generatedAt" class="meta-time">資料載入中…</span>
+      <span class="meta-source">資料來源：衛生福利部疾病管制署</span>
+    </div>
+  </div>
+</header>
+
+<!-- ─────────────────  Alert Banner  ───────────────── -->
+<section id="alertBanner" class="alert-banner" hidden>
+  <div class="wrap"></div>
+</section>
+
+<!-- ─────────────────  Disease Cards Grid  ───────────────── -->
+<main class="wrap main">
+
+  <section class="section-block">
+    <h2 class="section-h">本週疫情概況</h2>
+    <p class="section-sub">點選任一卡片可查看該疾病詳細監測圖表</p>
+    <div id="cardsGrid" class="cards-grid">
+      <!-- JS 填入卡片 -->
+    </div>
+  </section>
+
+  <!-- ─────────────────  Disease Detail  ───────────────── -->
+  <section id="detailSection" class="section-block detail-section" hidden>
+    <header class="detail-header">
+      <div class="detail-title-row">
+        <div>
+          <div class="detail-eyebrow" id="detailCategory">類別</div>
+          <h2 class="detail-title">
+            <span id="detailIcon"></span>
+            <span id="detailNameZh">疾病名稱</span>
+            <span class="detail-name-en" id="detailNameEn">Disease Name</span>
+          </h2>
+        </div>
+        <button class="btn-secondary" onclick="closeDetail()" aria-label="關閉詳細頁">
+          <span aria-hidden="true">×</span> 關閉
+        </button>
+      </div>
+
+      <div class="kpi-strip" id="kpiStrip"></div>
+    </header>
+
+    <!-- 主要週趨勢 + 同期比較 -->
+    <div class="chart-card chart-card-wide">
+      <div class="chart-card-head">
+        <h3 class="chart-h">週病例趨勢與歷年同期比較</h3>
+        <p class="chart-sub">深色實線為當年度；灰色帶為近 3 年同期範圍；虛線為近 3 年平均</p>
+      </div>
+      <div class="chart-body"><canvas id="trendChart"></canvas></div>
+      <div class="chart-foot">
+        <span class="chart-source">資料來源：衛生福利部疾病管制署開放資料</span>
+        <span class="chart-controls">
+          <label><input type="radio" name="trendRange" value="52" checked> 近 1 年</label>
+          <label><input type="radio" name="trendRange" value="156"> 近 3 年</label>
+        </span>
+      </div>
+    </div>
+
+    <div class="chart-grid-2">
+      <!-- 縣市分布 -->
+      <div class="chart-card">
+        <div class="chart-card-head">
+          <h3 class="chart-h">縣市病例分布</h3>
+          <p class="chart-sub">近 4 週累計（前 15 名）</p>
+        </div>
+        <div class="chart-body"><canvas id="regionChart"></canvas></div>
+      </div>
+
+      <!-- 年齡分布 -->
+      <div class="chart-card">
+        <div class="chart-card-head">
+          <h3 class="chart-h">年齡層分布</h3>
+          <p class="chart-sub">累計病例數</p>
+        </div>
+        <div class="chart-body"><canvas id="ageChart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="chart-grid-2">
+      <!-- 本土/境外 -->
+      <div class="chart-card" id="typeCardWrap">
+        <div class="chart-card-head">
+          <h3 class="chart-h">感染來源分布</h3>
+          <p class="chart-sub">本土 vs 境外移入</p>
+        </div>
+        <div class="chart-body chart-body-sm"><canvas id="typeChart"></canvas></div>
+      </div>
+
+      <!-- 防疫建議 -->
+      <div class="chart-card advisory-card">
+        <div class="chart-card-head">
+          <h3 class="chart-h">防疫建議</h3>
+        </div>
+        <div class="advisory-body" id="adviceBody"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>本儀表板資料引用自衛生福利部疾病管制署開放資料平台，
+       依「政府資料開放授權條款」釋出。</p>
+    <p class="footer-sub">Designed in accordance with the Epidemic Data Visualization Style Guide.</p>
+  </div>
+</footer>
+
+<!-- Chart.js stack (local copies, no CDN required) -->
+<script src="vendor/chart.umd.min.js"></script>
+<script src="vendor/chartjs-adapter-date-fns.bundle.min.js"></script>
+<script src="vendor/chartjs-plugin-annotation.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

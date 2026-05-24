@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Data
+data/raw/*.csv
+data/raw/*.json
+# 處理後 JSON 是否要 commit 看團隊決定；預設 commit
+# data/processed/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+
+# Local
+.env
+.env.local

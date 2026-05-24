@@ -1,0 +1,124 @@
+{
+  "total_cases": 37315,
+  "weekly_series": [
+    {
+      "period": "2021",
+      "cases": 7880
+    },
+    {
+      "period": "2022",
+      "cases": 7152
+    },
+    {
+      "period": "2023",
+      "cases": 7980
+    },
+    {
+      "period": "2024",
+      "cases": 7421
+    },
+    {
+      "period": "2025",
+      "cases": 6882
+    }
+  ],
+  "by_region": [],
+  "by_age": [],
+  "by_type": {},
+  "by_disease": [
+    {
+      "disease": "侵襲性肺炎鏈球菌感染症",
+      "cases": 2307
+    },
+    {
+      "disease": "桿菌性痢疾",
+      "cases": 2277
+    },
+    {
+      "disease": "急性病毒性C型肝炎",
+      "cases": 2183
+    },
+    {
+      "disease": "淋病",
+      "cases": 2153
+    },
+    {
+      "disease": "流感併發重症",
+      "cases": 2097
+    },
+    {
+      "disease": "腸病毒感染併發重症",
+      "cases": 2083
+    },
+    {
+      "disease": "愛滋病",
+      "cases": 2071
+    },
+    {
+      "disease": "新型A型流感",
+      "cases": 2044
+    },
+    {
+      "disease": "麻疹",
+      "cases": 2024
+    },
+    {
+      "disease": "退伍軍人病",
+      "cases": 1966
+    },
+    {
+      "disease": "急性病毒性B型肝炎",
+      "cases": 1909
+    },
+    {
+      "disease": "百日咳",
+      "cases": 1859
+    },
+    {
+      "disease": "梅毒",
+      "cases": 1751
+    },
+    {
+      "disease": "結核病",
+      "cases": 1685
+    },
+    {
+      "disease": "傷寒",
+      "cases": 1682
+    },
+    {
+      "disease": "登革熱",
+      "cases": 1641
+    },
+    {
+      "disease": "德國麻疹",
+      "cases": 1611
+    },
+    {
+      "disease": "霍亂",
+      "cases": 1463
+    },
+    {
+      "disease": "腸道出血性大腸桿菌感染症",
+      "cases": 1288
+    },
+    {
+      "disease": "急性病毒性A型肝炎",
+      "cases": 1221
+    }
+  ],
+  "latest_period": {
+    "period": "2025",
+    "cases": 6882
+  },
+  "disease_id": "notifiable_5y",
+  "name_zh": "法定傳染病五年統計",
+  "name_en": "Notifiable Diseases 5-Year",
+  "category": "綜合監測",
+  "icon": "📊",
+  "color": "#34495e",
+  "advice": null,
+  "last_updated": "2026-05-24T07:31:51",
+  "alert_level": null,
+  "alert_thresholds": null
+}

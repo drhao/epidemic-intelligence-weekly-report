@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-05-24T07:31:51",
+  "total_diseases": 6,
+  "alert_summary": {
+    "high": 1,
+    "medium": 1,
+    "low": 2,
+    "normal": 2
+  },
+  "cards": [
+    {
+      "disease_id": "enterovirus",
+      "name_zh": "腸病毒",
+      "category": "腸道傳染病",
+      "icon": "🦠",
+      "color": "#f1c40f",
+      "latest_period": "2026-W21",
+      "latest_cases": 15429,
+      "change_pct": -22.8,
+      "alert_level": "high",
+      "advice": "勤洗手、避免出入擁擠場所、玩具定期消毒、家中有兒童者注意手足口症徵兆",
+      "total_cases": 1970041
+    },
+    {
+      "disease_id": "covid19",
+      "name_zh": "COVID-19",
+      "category": "新興呼吸道傳染病",
+      "icon": "😷",
+      "color": "#9b59b6",
+      "latest_period": "2026-W21",
+      "latest_cases": 7869,
+      "change_pct": -29.0,
+      "alert_level": "medium",
+      "advice": "施打疫苗追加劑、有症狀儘速快篩、高風險族群儘早就醫評估抗病毒藥物",
+      "total_cases": 4189894
+    },
+    {
+      "disease_id": "dengue",
+      "name_zh": "登革熱",
+      "category": "蟲媒傳染病",
+      "icon": "🦟",
+      "color": "#e63946",
+      "latest_period": "2026-W21",
+      "latest_cases": 22,
+      "change_pct": 83.3,
+      "alert_level": "low",
+      "advice": "清除積水容器、安裝紗窗紗門、外出穿著淺色長袖、使用防蚊液",
+      "total_cases": 10852
+    },
+    {
+      "disease_id": "rsv",
+      "name_zh": "呼吸道融合病毒",
+      "category": "呼吸道傳染病",
+      "icon": "👶",
+      "color": "#3498db",
+      "latest_period": "2026-W21",
+      "latest_cases": 263,
+      "change_pct": 6.5,
+      "alert_level": "low",
+      "advice": "二歲以下幼兒避免出入人潮、家有新生兒者照顧前洗手、有早產等風險者諮詢免疫球蛋白",
+      "total_cases": 97232
+    },
+    {
+      "disease_id": "influenza",
+      "name_zh": "類流感",
+      "category": "呼吸道傳染病",
+      "icon": "🤧",
+      "color": "#f4a261",
+      "latest_period": "2026-W21",
+      "latest_cases": 14705,
+      "change_pct": -59.1,
+      "alert_level": "normal",
+      "advice": "施打流感疫苗、勤洗手、戴口罩、保持室內通風、發燒咳嗽應就醫",
+      "total_cases": 9589368
+    },
+    {
+      "disease_id": "notifiable_5y",
+      "name_zh": "法定傳染病五年統計",
+      "category": "綜合監測",
+      "icon": "📊",
+      "color": "#34495e",
+      "latest_period": "2025",
+      "latest_cases": 6882,
+      "change_pct": -7.3,
+      "alert_level": "normal",
+      "advice": null,
+      "total_cases": 37315
+    }
+  ]
+}
