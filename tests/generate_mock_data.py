@@ -198,15 +198,16 @@ def gen_enterovirus_severe(path: Path, num_weeks: int = 260):
             age = random.choices(severe_age_groups,
                                  weights=[age_weights[a] for a in severe_age_groups])[0]
             rows.append({
-                "發病年份": y,
-                "發病週別": w,
+                "確定病名": "腸病毒感染併發重症",
+                "研判年份": y,
+                "研判週別": w,
                 "縣市": county,
                 "年齡層": age,
                 "性別": random.choice(GENDERS),
                 "確定病例數": 1,
             })
 
-    fieldnames = ["發病年份", "發病週別", "縣市", "年齡層", "性別", "確定病例數"]
+    fieldnames = ["確定病名", "研判年份", "研判週別", "縣市", "年齡層", "性別", "確定病例數"]
     with path.open("w", encoding="utf-8", newline="") as f:
         wr = csv.DictWriter(f, fieldnames=fieldnames)
         wr.writeheader()
