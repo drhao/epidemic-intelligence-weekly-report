@@ -1,13 +1,26 @@
 {
-  "generated_at": "2026-05-24T17:43:16",
+  "generated_at": "2026-05-25T08:22:38",
   "total_diseases": 4,
   "alert_summary": {
-    "high": 0,
+    "high": 1,
     "medium": 1,
     "low": 1,
-    "normal": 2
+    "normal": 1
   },
   "cards": [
+    {
+      "disease_id": "enterovirus",
+      "name_zh": "腸病毒",
+      "category": "腸道傳染病",
+      "icon": "🦠",
+      "color": "#f1c40f",
+      "latest_period": "2026-W21",
+      "latest_cases": 79684,
+      "change_pct": 0.9,
+      "alert_level": "high",
+      "advice": "勤洗手、避免出入擁擠場所、玩具定期消毒、家中有兒童者注意手足口症徵兆",
+      "total_cases": 24830228
+    },
     {
       "disease_id": "influenza",
       "name_zh": "類流感",
@@ -22,30 +35,17 @@
       "total_cases": 33506753
     },
     {
-      "disease_id": "enterovirus",
-      "name_zh": "腸病毒",
-      "category": "腸道傳染病",
-      "icon": "🦠",
-      "color": "#f1c40f",
-      "latest_period": "2026-W19",
-      "latest_cases": 4439,
-      "change_pct": 11.3,
-      "alert_level": "low",
-      "advice": "勤洗手、避免出入擁擠場所、玩具定期消毒、家中有兒童者注意手足口症徵兆",
-      "total_cases": 3693523
-    },
-    {
       "disease_id": "dengue",
       "name_zh": "登革熱",
       "category": "蟲媒傳染病",
       "icon": "🦟",
       "color": "#e63946",
       "latest_period": "2026-W21",
-      "latest_cases": 3,
-      "change_pct": -25.0,
-      "alert_level": "normal",
+      "latest_cases": 22,
+      "change_pct": 83.3,
+      "alert_level": "low",
       "advice": "清除積水容器、安裝紗窗紗門、外出穿著淺色長袖、使用防蚊液",
-      "total_cases": 107619
+      "total_cases": 10852
     },
     {
       "disease_id": "covid19",

@@ -130,6 +130,63 @@ def fetch_one(disease_id: str, force: bool = False) -> Optional[Path]:
     return None
 
 
+def fetch_aux(disease_id: str, kind: str, force: bool = False) -> Optional[Path]:
+    """
+    下載某個疾病的次要 CSV（如腸病毒重症），URL 由 cfg[f'{kind}_data_url'] 決定。
+    存到 data/raw/{disease_id}_{kind}_latest.csv。
+    """
+    cfg = get_disease(disease_id)
+    url = cfg.get(f"{kind}_data_url")
+    if not url:
+        return None
+
+    today = date.today().isoformat()
+    target = RAW_DIR / f"{disease_id}_{kind}_{today}.csv"
+    latest = RAW_DIR / f"{disease_id}_{kind}_latest.csv"
+
+    if target.exists() and not force:
+        log.info(f"⏭  {disease_id}/{kind}: 今日已下載過，跳過")
+        return target
+
+    last_err = None
+    for attempt in range(1, RETRY + 1):
+        try:
+            log.info(f"⬇  {disease_id}/{kind}: 嘗試第 {attempt} 次下載 {url}")
+            resp = requests.get(
+                url,
+                headers={"User-Agent": USER_AGENT, "Accept": "text/csv,*/*"},
+                timeout=TIMEOUT,
+                stream=True,
+            )
+            resp.raise_for_status()
+            raw = resp.content
+            if len(raw) < 100:
+                raise ValueError(f"檔案太小，疑似錯誤回應: {raw[:100]!r}")
+            text = _decode_csv_bytes(raw)
+            first_line = text.splitlines()[0] if text else ""
+            if "," not in first_line and "\t" not in first_line:
+                raise ValueError(f"非 CSV 格式: {first_line[:80]}")
+            target.write_text(text, encoding="utf-8")
+            latest.write_text(text, encoding="utf-8")
+            rows = text.count("\n")
+            log.info(f"✓  {disease_id}/{kind}: 下載完成，約 {rows:,} 列")
+            _append_log(f"{disease_id}/{kind}", url, "ok", rows, str(target))
+            return target
+        except Exception as e:
+            last_err = e
+            log.warning(f"✗  {disease_id}/{kind}: 第 {attempt} 次失敗 — {e}")
+            if attempt < RETRY:
+                time.sleep(RETRY_DELAY)
+
+    log.error(f"💥 {disease_id}/{kind}: 三次都失敗，放棄。最後錯誤：{last_err}")
+    _append_log(f"{disease_id}/{kind}", url, f"error: {last_err}", 0, None)
+    return None
+
+
+# 已知的次要資料種類；如未來新增（如 enterovirus 'outbreak'）只要加到這個 tuple
+AUX_KINDS = ("severe",)
+
+
 def fetch_all(disease_ids=None, force: bool = False) -> dict:
     """
     批次下載多個疾病的 CSV。
@@ -152,6 +209,11 @@ def fetch_all(disease_ids=None, force: bool = False) -> dict:
     results = {}
     for did in disease_ids:
         results[did] = fetch_one(did, force=force)
+        # 連帶下載註冊在 registry 內的次要資料
+        cfg = get_disease(did)
+        for kind in AUX_KINDS:
+            if cfg.get(f"{kind}_data_url"):
+                fetch_aux(did, kind, force=force)
     return results
 
 

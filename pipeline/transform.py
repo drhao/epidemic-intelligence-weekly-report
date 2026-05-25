@@ -25,6 +25,7 @@ from typing import Any
 import pandas as pd
 
 from disease_registry import DISEASES, get_disease, get_alert_level
+from region_mapping import REGION_CENTER_ORDER, get_region_center
 
 # ───── 路徑設定 ─────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -165,6 +166,15 @@ def transform_disease(disease_id: str) -> dict[str, Any] | None:
     latest_count = summary.get("latest_period", {}).get("cases", 0)
     summary["alert_level"] = get_alert_level(disease_id, latest_count)
     summary["alert_thresholds"] = cfg.get("alert_thresholds")
+
+    # 重症資料（若有設定）— 如腸病毒感染併發重症
+    if cfg.get("severe_data_url"):
+        sev_series = _process_severe(disease_id, cfg)
+        if sev_series:
+            summary["severe_weekly_series"] = sev_series
+            summary["severe_total"] = sum(r["cases"] for r in sev_series)
+            summary["severe_latest"] = sev_series[-1]
+            log.info(f"   重症週序列：{len(sev_series)} 週、累計 {summary['severe_total']} 例")
 
     # 儲存主檔
     out_path = PROCESSED_DIR / f"{disease_id}_summary.json"
@@ -314,8 +324,9 @@ def _process_weekly(df: pd.DataFrame, cfg: dict) -> dict | None:
     weekly_list = weekly.to_dict("records")
 
     by_region = []
+    weekly_by_region_center: dict[str, list[dict]] = {}
     if region_col and region_col in df.columns:
-        # 取最近 4 週
+        # 取最近 4 週的縣市分布
         latest_weeks = weekly["_yw"].tail(4).tolist()
         recent = df[df["_yw"].isin(latest_weeks)]
         by_region = (
@@ -327,7 +338,25 @@ def _process_weekly(df: pd.DataFrame, cfg: dict) -> dict | None:
                   .to_dict("records")
         )
 
+        # 依 6 區管中心彙整每週時序（給腸病毒分區趨勢圖用）
+        df["_zone"] = df[region_col].apply(get_region_center)
+        zone_df = df[df["_zone"].notna()]
+        if not zone_df.empty:
+            grouped = (
+                zone_df.groupby(["_zone", "_yw"])["_cases"]
+                       .sum()
+                       .reset_index()
+                       .sort_values("_yw")
+            )
+            for zone in REGION_CENTER_ORDER:
+                sub = grouped[grouped["_zone"] == zone]
+                weekly_by_region_center[zone] = [
+                    {"period": r["_yw"], "cases": int(r["_cases"])}
+                    for _, r in sub.iterrows()
+                ]
+
     by_age = []
+    by_age_recent_2y: list[dict] = []
     if age_col and age_col in df.columns:
         by_age = (
             df.groupby(age_col)["_cases"]
@@ -336,6 +365,17 @@ def _process_weekly(df: pd.DataFrame, cfg: dict) -> dict | None:
               .rename(columns={age_col: "age_group"})
               .to_dict("records")
         )
+        # 近 2 年彙整（給「2025-2026 年齡別就診人次」這類報告頁使用）
+        latest_year = int(df["_year"].max())
+        recent = df[df["_year"] >= latest_year - 1]
+        if not recent.empty:
+            by_age_recent_2y = (
+                recent.groupby(age_col)["_cases"]
+                      .sum()
+                      .reset_index(name="cases")
+                      .rename(columns={age_col: "age_group"})
+                      .to_dict("records")
+            )
 
     latest = weekly_list[-1] if weekly_list else {"_yw": "N/A", "cases": 0}
 
@@ -345,10 +385,68 @@ def _process_weekly(df: pd.DataFrame, cfg: dict) -> dict | None:
             {"period": r["_yw"], "cases": int(r["cases"])} for r in weekly_list
         ],
         "by_region": by_region,
+        "weekly_by_region_center": weekly_by_region_center,
         "by_age": by_age,
+        "by_age_recent_2y": by_age_recent_2y,
         "by_type": {},
         "latest_period": {"period": latest["_yw"], "cases": int(latest["cases"])},
     }
+
+
+def _process_severe(disease_id: str, cfg: dict) -> list[dict] | None:
+    """
+    處理重症 CSV（如腸病毒感染併發重症），輸出 weekly_series。
+    每列代表一筆確定病例（確定病例數=1）或彙整數。
+    """
+    sev_path = RAW_DIR / f"{disease_id}_severe_latest.csv"
+    if not sev_path.exists():
+        log.warning(f"⚠  {disease_id}: 無重症 CSV ({sev_path.name})，跳過")
+        return None
+
+    try:
+        df = _read_csv(sev_path)
+    except Exception as e:
+        log.error(f"✗ 讀重症 CSV 失敗：{e}")
+        return None
+
+    if df.empty:
+        return None
+
+    date_col = cfg.get("severe_date_col")
+    week_col = cfg.get("severe_week_col")
+    case_col = cfg.get("severe_case_col")
+
+    if date_col not in df.columns or (week_col and week_col not in df.columns):
+        log.error(f"重症 CSV 找不到年/週欄位，現有：{list(df.columns)}")
+        return None
+
+    df = df.copy()
+    df["_combined_yw"] = (
+        df[date_col].astype(str).str.strip()
+        + "-W"
+        + df[week_col].astype(str).str.strip().str.zfill(2)
+    )
+    df["_yw_parsed"] = df["_combined_yw"].apply(_parse_yearweek)
+    df = df[df["_yw_parsed"].notna()].copy()
+    if df.empty:
+        return None
+    df["_yw"] = (
+        df["_yw_parsed"].apply(lambda x: x[0]).astype(str)
+        + "-W"
+        + df["_yw_parsed"].apply(lambda x: x[1]).astype(str).str.zfill(2)
+    )
+    df["_cases"] = df[case_col].apply(_safe_int) if case_col else 1
+
+    weekly = (
+        df.groupby("_yw")["_cases"]
+          .sum()
+          .reset_index(name="cases")
+          .sort_values("_yw")
+    )
+    return [
+        {"period": r["_yw"], "cases": int(r["cases"])}
+        for _, r in weekly.iterrows()
+    ]
 
 
 def _process_yearly(df: pd.DataFrame, cfg: dict) -> dict | None:

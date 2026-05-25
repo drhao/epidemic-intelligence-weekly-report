@@ -136,8 +136,17 @@ def gen_influenza(path: Path, num_weeks: int = 156):
     print(f"  influenza: {len(rows):,} rows -> {path.name}")
 
 
-def gen_enterovirus(path: Path, num_weeks: int = 156):
-    """腸病毒：週統計 × 縣市 × 年齡別。"""
+# 腸病毒專用 8 組年齡別（對齊 CDC NHI_EnteroviralInfection.csv 原始分組）
+ENTERO_AGE_GROUPS = ["0~2", "3~6", "7~12", "13~15", "16~18", "19~24", "25~64", "65+"]
+ENTERO_AGE_WEIGHTS = {
+    "0~2": 5.5, "3~6": 8.5, "7~12": 3.5,
+    "13~15": 0.4, "16~18": 0.18, "19~24": 0.2,
+    "25~64": 0.9, "65+": 0.08,
+}
+
+
+def gen_enterovirus(path: Path, num_weeks: int = 520):
+    """腸病毒健保門急診：週 × 縣市 × 年齡別。10 年資料。"""
     weeks = _gen_weeks(num_weeks)
     rows = []
     for (y, w, monday) in weeks:
@@ -146,20 +155,63 @@ def gen_enterovirus(path: Path, num_weeks: int = 156):
         for county in COUNTIES:
             county_weight = {"臺北市": 1.5, "新北市": 1.8, "桃園市": 1.4, "臺中市": 1.6,
                              "臺南市": 1.2, "高雄市": 1.5}.get(county, 0.5)
-            for age in ["0-4", "5-9", "10-14"]:
-                age_weight = {"0-4": 3.0, "5-9": 1.5, "10-14": 0.5}[age]
-                cases = max(0, int(random.gauss(80, 25) * factor * county_weight * age_weight))
+            for age in ENTERO_AGE_GROUPS:
+                cases = max(0, int(random.gauss(80, 25) * factor * county_weight * ENTERO_AGE_WEIGHTS[age]))
                 rows.append({
-                    "年週": f"{y}-W{w:02d}",
+                    "年": y,
+                    "週": w,
                     "縣市": county,
                     "年齡別": age,
-                    "健保門急診就診人次": cases,
+                    "腸病毒健保就診人次": cases,
                 })
     with path.open("w", encoding="utf-8", newline="") as f:
         wr = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         wr.writeheader()
         wr.writerows(rows)
     print(f"  enterovirus: {len(rows):,} rows -> {path.name}")
+
+
+def gen_enterovirus_severe(path: Path, num_weeks: int = 260):
+    """腸病毒感染併發重症：週 × 縣市 × 年齡 × 性別。約 10–200 例/週，3~6 歲為主。"""
+    weeks = _gen_weeks(num_weeks)
+    rows = []
+    # 縣市加權（人口/兒童密度近似）
+    county_weights = {
+        "臺北市": 1.4, "新北市": 2.2, "桃園市": 1.6, "臺中市": 1.8,
+        "臺南市": 1.1, "高雄市": 1.5, "基隆市": 0.3, "新竹市": 0.5,
+        "新竹縣": 0.6, "苗栗縣": 0.4, "彰化縣": 0.9, "南投縣": 0.4,
+        "雲林縣": 0.5, "嘉義市": 0.3, "嘉義縣": 0.4, "屏東縣": 0.6,
+        "宜蘭縣": 0.4, "花蓮縣": 0.3, "臺東縣": 0.2, "澎湖縣": 0.1,
+        "金門縣": 0.1, "連江縣": 0.05,
+    }
+    severe_age_groups = ["0~2", "3~6", "7~12", "13~15"]
+    age_weights = {"0~2": 6.0, "3~6": 4.0, "7~12": 1.0, "13~15": 0.3}
+
+    for (y, w, monday) in weeks:
+        month = monday.month
+        factor = _seasonal_factor(month, [4, 5, 6, 7, 8, 9])
+        # 全國基線 ~30 例/週，高峰 ~150
+        total = max(0, int(random.gauss(30, 8) * factor))
+        for _ in range(total):
+            county = random.choices(list(county_weights.keys()),
+                                    weights=list(county_weights.values()))[0]
+            age = random.choices(severe_age_groups,
+                                 weights=[age_weights[a] for a in severe_age_groups])[0]
+            rows.append({
+                "發病年份": y,
+                "發病週別": w,
+                "縣市": county,
+                "年齡層": age,
+                "性別": random.choice(GENDERS),
+                "確定病例數": 1,
+            })
+
+    fieldnames = ["發病年份", "發病週別", "縣市", "年齡層", "性別", "確定病例數"]
+    with path.open("w", encoding="utf-8", newline="") as f:
+        wr = csv.DictWriter(f, fieldnames=fieldnames)
+        wr.writeheader()
+        wr.writerows(rows)
+    print(f"  enterovirus_severe: {len(rows):,} rows -> {path.name}")
 
 
 def gen_covid19(path: Path, num_weeks: int = 156):
@@ -257,6 +309,7 @@ def generate_all():
     gen_dengue(RAW_DIR / "dengue_latest.csv")
     gen_influenza(RAW_DIR / "influenza_latest.csv")
     gen_enterovirus(RAW_DIR / "enterovirus_latest.csv")
+    gen_enterovirus_severe(RAW_DIR / "enterovirus_severe_latest.csv")
     gen_covid19(RAW_DIR / "covid19_latest.csv")
     gen_rsv(RAW_DIR / "rsv_latest.csv")
     gen_notifiable_5y(RAW_DIR / "notifiable_5y_latest.csv")

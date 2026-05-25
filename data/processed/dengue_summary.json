@@ -1,5110 +1,710 @@
 {
-  "total_cases": 107619,
+  "total_cases": 10852,
   "weekly_series": [
     {
-      "period": "1998-W01",
-      "cases": 2
-    },
-    {
-      "period": "1998-W03",
-      "cases": 2
-    },
-    {
-      "period": "1998-W04",
-      "cases": 3
-    },
-    {
-      "period": "1998-W05",
-      "cases": 1
-    },
-    {
-      "period": "1998-W07",
-      "cases": 1
-    },
-    {
-      "period": "1998-W08",
-      "cases": 2
-    },
-    {
-      "period": "1998-W09",
-      "cases": 1
-    },
-    {
-      "period": "1998-W10",
-      "cases": 2
-    },
-    {
-      "period": "1998-W11",
-      "cases": 1
-    },
-    {
-      "period": "1998-W12",
-      "cases": 2
-    },
-    {
-      "period": "1998-W13",
-      "cases": 1
-    },
-    {
-      "period": "1998-W14",
-      "cases": 2
-    },
-    {
-      "period": "1998-W15",
-      "cases": 2
-    },
-    {
-      "period": "1998-W16",
-      "cases": 2
-    },
-    {
-      "period": "1998-W17",
-      "cases": 2
-    },
-    {
-      "period": "1998-W18",
-      "cases": 1
-    },
-    {
-      "period": "1998-W20",
-      "cases": 3
-    },
-    {
-      "period": "1998-W21",
-      "cases": 2
-    },
-    {
-      "period": "1998-W22",
-      "cases": 1
-    },
-    {
-      "period": "1998-W23",
-      "cases": 1
-    },
-    {
-      "period": "1998-W25",
-      "cases": 1
-    },
-    {
-      "period": "1998-W26",
-      "cases": 1
-    },
-    {
-      "period": "1998-W27",
-      "cases": 1
-    },
-    {
-      "period": "1998-W28",
-      "cases": 4
-    },
-    {
-      "period": "1998-W29",
-      "cases": 4
-    },
-    {
-      "period": "1998-W30",
-      "cases": 3
-    },
-    {
-      "period": "1998-W31",
-      "cases": 5
-    },
-    {
-      "period": "1998-W32",
-      "cases": 3
-    },
-    {
-      "period": "1998-W33",
-      "cases": 4
-    },
-    {
-      "period": "1998-W34",
-      "cases": 1
-    },
-    {
-      "period": "1998-W35",
-      "cases": 3
-    },
-    {
-      "period": "1998-W36",
-      "cases": 11
-    },
-    {
-      "period": "1998-W37",
-      "cases": 8
-    },
-    {
-      "period": "1998-W38",
-      "cases": 6
-    },
-    {
-      "period": "1998-W39",
-      "cases": 16
-    },
-    {
-      "period": "1998-W40",
-      "cases": 5
-    },
-    {
-      "period": "1998-W41",
-      "cases": 5
-    },
-    {
-      "period": "1998-W42",
-      "cases": 5
-    },
-    {
-      "period": "1998-W43",
-      "cases": 9
-    },
-    {
-      "period": "1998-W44",
-      "cases": 6
-    },
-    {
-      "period": "1998-W45",
-      "cases": 11
-    },
-    {
-      "period": "1998-W46",
-      "cases": 16
-    },
-    {
-      "period": "1998-W47",
-      "cases": 33
-    },
-    {
-      "period": "1998-W48",
-      "cases": 41
-    },
-    {
-      "period": "1998-W49",
-      "cases": 27
-    },
-    {
-      "period": "1998-W50",
-      "cases": 25
-    },
-    {
-      "period": "1998-W51",
-      "cases": 24
-    },
-    {
-      "period": "1998-W52",
-      "cases": 21
-    },
-    {
-      "period": "1998-W53",
-      "cases": 15
-    },
-    {
-      "period": "1999-W01",
-      "cases": 8
-    },
-    {
-      "period": "1999-W02",
-      "cases": 6
-    },
-    {
-      "period": "1999-W03",
-      "cases": 2
-    },
-    {
-      "period": "1999-W04",
-      "cases": 2
-    },
-    {
-      "period": "1999-W05",
-      "cases": 2
-    },
-    {
-      "period": "1999-W09",
-      "cases": 1
-    },
-    {
-      "period": "1999-W10",
-      "cases": 1
-    },
-    {
-      "period": "1999-W12",
-      "cases": 3
-    },
-    {
-      "period": "1999-W14",
-      "cases": 1
-    },
-    {
-      "period": "1999-W15",
-      "cases": 1
-    },
-    {
-      "period": "1999-W16",
-      "cases": 1
-    },
-    {
-      "period": "1999-W20",
-      "cases": 1
-    },
-    {
-      "period": "1999-W22",
-      "cases": 4
-    },
-    {
-      "period": "1999-W23",
-      "cases": 1
-    },
-    {
-      "period": "1999-W25",
-      "cases": 1
-    },
-    {
-      "period": "1999-W26",
-      "cases": 4
-    },
-    {
-      "period": "1999-W27",
-      "cases": 2
-    },
-    {
-      "period": "1999-W28",
-      "cases": 2
-    },
-    {
-      "period": "1999-W30",
-      "cases": 4
-    },
-    {
-      "period": "1999-W31",
-      "cases": 2
-    },
-    {
-      "period": "1999-W32",
-      "cases": 2
-    },
-    {
-      "period": "1999-W33",
-      "cases": 2
-    },
-    {
-      "period": "1999-W36",
-      "cases": 1
-    },
-    {
-      "period": "1999-W39",
-      "cases": 1
-    },
-    {
-      "period": "1999-W40",
-      "cases": 1
-    },
-    {
-      "period": "1999-W46",
-      "cases": 2
-    },
-    {
-      "period": "1999-W48",
-      "cases": 2
-    },
-    {
-      "period": "1999-W50",
-      "cases": 3
-    },
-    {
-      "period": "1999-W51",
-      "cases": 1
-    },
-    {
-      "period": "2000-W01",
-      "cases": 1
-    },
-    {
-      "period": "2000-W02",
-      "cases": 2
-    },
-    {
-      "period": "2000-W05",
-      "cases": 1
-    },
-    {
-      "period": "2000-W08",
-      "cases": 1
-    },
-    {
-      "period": "2000-W11",
-      "cases": 2
-    },
-    {
-      "period": "2000-W18",
-      "cases": 1
-    },
-    {
-      "period": "2000-W24",
-      "cases": 1
-    },
-    {
-      "period": "2000-W25",
-      "cases": 2
-    },
-    {
-      "period": "2000-W26",
-      "cases": 2
-    },
-    {
-      "period": "2000-W28",
-      "cases": 4
-    },
-    {
-      "period": "2000-W29",
-      "cases": 1
-    },
-    {
-      "period": "2000-W31",
-      "cases": 9
-    },
-    {
-      "period": "2000-W32",
-      "cases": 5
-    },
-    {
-      "period": "2000-W33",
-      "cases": 14
-    },
-    {
-      "period": "2000-W34",
-      "cases": 9
-    },
-    {
-      "period": "2000-W35",
-      "cases": 15
-    },
-    {
-      "period": "2000-W36",
-      "cases": 16
-    },
-    {
-      "period": "2000-W37",
-      "cases": 10
-    },
-    {
-      "period": "2000-W38",
-      "cases": 5
-    },
-    {
-      "period": "2000-W39",
-      "cases": 4
-    },
-    {
-      "period": "2000-W40",
-      "cases": 6
-    },
-    {
-      "period": "2000-W41",
-      "cases": 4
-    },
-    {
-      "period": "2000-W42",
-      "cases": 8
-    },
-    {
-      "period": "2000-W43",
-      "cases": 6
-    },
-    {
-      "period": "2000-W44",
-      "cases": 4
-    },
-    {
-      "period": "2000-W45",
-      "cases": 3
-    },
-    {
-      "period": "2000-W48",
-      "cases": 1
-    },
-    {
-      "period": "2000-W49",
-      "cases": 1
-    },
-    {
-      "period": "2000-W50",
-      "cases": 1
-    },
-    {
-      "period": "2001-W04",
-      "cases": 1
-    },
-    {
-      "period": "2001-W05",
-      "cases": 1
-    },
-    {
-      "period": "2001-W06",
-      "cases": 1
-    },
-    {
-      "period": "2001-W08",
-      "cases": 1
-    },
-    {
-      "period": "2001-W10",
-      "cases": 2
-    },
-    {
-      "period": "2001-W18",
-      "cases": 1
-    },
-    {
-      "period": "2001-W19",
-      "cases": 1
-    },
-    {
-      "period": "2001-W22",
-      "cases": 1
-    },
-    {
-      "period": "2001-W23",
-      "cases": 1
-    },
-    {
-      "period": "2001-W24",
-      "cases": 2
-    },
-    {
-      "period": "2001-W26",
-      "cases": 2
-    },
-    {
-      "period": "2001-W27",
-      "cases": 4
-    },
-    {
-      "period": "2001-W28",
-      "cases": 6
-    },
-    {
-      "period": "2001-W29",
-      "cases": 4
-    },
-    {
-      "period": "2001-W30",
-      "cases": 3
-    },
-    {
-      "period": "2001-W31",
-      "cases": 6
-    },
-    {
-      "period": "2001-W33",
-      "cases": 6
-    },
-    {
-      "period": "2001-W34",
-      "cases": 4
-    },
-    {
-      "period": "2001-W35",
-      "cases": 2
-    },
-    {
-      "period": "2001-W36",
-      "cases": 1
-    },
-    {
-      "period": "2001-W37",
-      "cases": 1
-    },
-    {
-      "period": "2001-W38",
-      "cases": 1
-    },
-    {
-      "period": "2001-W39",
-      "cases": 4
-    },
-    {
-      "period": "2001-W40",
-      "cases": 20
-    },
-    {
-      "period": "2001-W41",
-      "cases": 10
-    },
-    {
-      "period": "2001-W42",
-      "cases": 22
-    },
-    {
-      "period": "2001-W43",
-      "cases": 20
-    },
-    {
-      "period": "2001-W44",
-      "cases": 22
-    },
-    {
-      "period": "2001-W45",
-      "cases": 17
-    },
-    {
-      "period": "2001-W46",
-      "cases": 36
-    },
-    {
-      "period": "2001-W47",
-      "cases": 24
-    },
-    {
-      "period": "2001-W48",
-      "cases": 11
-    },
-    {
-      "period": "2001-W49",
-      "cases": 17
-    },
-    {
-      "period": "2001-W50",
-      "cases": 12
-    },
-    {
-      "period": "2001-W51",
-      "cases": 9
-    },
-    {
-      "period": "2001-W52",
-      "cases": 3
-    },
-    {
-      "period": "2002-W01",
-      "cases": 1
-    },
-    {
-      "period": "2002-W02",
-      "cases": 1
-    },
-    {
-      "period": "2002-W03",
-      "cases": 3
-    },
-    {
-      "period": "2002-W04",
-      "cases": 2
-    },
-    {
-      "period": "2002-W05",
-      "cases": 3
-    },
-    {
-      "period": "2002-W06",
-      "cases": 1
-    },
-    {
-      "period": "2002-W07",
-      "cases": 2
-    },
-    {
-      "period": "2002-W11",
-      "cases": 1
-    },
-    {
-      "period": "2002-W13",
-      "cases": 1
-    },
-    {
-      "period": "2002-W14",
-      "cases": 2
-    },
-    {
-      "period": "2002-W15",
-      "cases": 4
-    },
-    {
-      "period": "2002-W16",
-      "cases": 1
-    },
-    {
-      "period": "2002-W18",
-      "cases": 2
-    },
-    {
-      "period": "2002-W19",
-      "cases": 1
-    },
-    {
-      "period": "2002-W22",
-      "cases": 6
-    },
-    {
-      "period": "2002-W23",
-      "cases": 1
-    },
-    {
-      "period": "2002-W24",
-      "cases": 19
-    },
-    {
-      "period": "2002-W25",
-      "cases": 44
-    },
-    {
-      "period": "2002-W26",
-      "cases": 80
-    },
-    {
-      "period": "2002-W27",
-      "cases": 137
-    },
-    {
-      "period": "2002-W28",
-      "cases": 134
-    },
-    {
-      "period": "2002-W29",
-      "cases": 123
-    },
-    {
-      "period": "2002-W30",
-      "cases": 158
-    },
-    {
-      "period": "2002-W31",
-      "cases": 205
-    },
-    {
-      "period": "2002-W32",
-      "cases": 213
-    },
-    {
-      "period": "2002-W33",
-      "cases": 238
-    },
-    {
-      "period": "2002-W34",
-      "cases": 283
-    },
-    {
-      "period": "2002-W35",
-      "cases": 280
-    },
-    {
-      "period": "2002-W36",
-      "cases": 348
-    },
-    {
-      "period": "2002-W37",
-      "cases": 318
-    },
-    {
-      "period": "2002-W38",
-      "cases": 277
-    },
-    {
-      "period": "2002-W39",
-      "cases": 253
-    },
-    {
-      "period": "2002-W40",
-      "cases": 270
-    },
-    {
-      "period": "2002-W41",
-      "cases": 234
-    },
-    {
-      "period": "2002-W42",
-      "cases": 244
-    },
-    {
-      "period": "2002-W43",
-      "cases": 271
-    },
-    {
-      "period": "2002-W44",
-      "cases": 281
-    },
-    {
-      "period": "2002-W45",
-      "cases": 187
-    },
-    {
-      "period": "2002-W46",
-      "cases": 181
-    },
-    {
-      "period": "2002-W47",
-      "cases": 179
-    },
-    {
-      "period": "2002-W48",
-      "cases": 132
-    },
-    {
-      "period": "2002-W49",
-      "cases": 80
-    },
-    {
-      "period": "2002-W50",
-      "cases": 96
-    },
-    {
-      "period": "2002-W51",
-      "cases": 39
-    },
-    {
-      "period": "2002-W52",
-      "cases": 21
-    },
-    {
-      "period": "2003-W01",
-      "cases": 18
-    },
-    {
-      "period": "2003-W02",
-      "cases": 9
-    },
-    {
-      "period": "2003-W03",
-      "cases": 11
-    },
-    {
-      "period": "2003-W04",
-      "cases": 14
-    },
-    {
-      "period": "2003-W05",
-      "cases": 7
-    },
-    {
-      "period": "2003-W06",
-      "cases": 1
-    },
-    {
-      "period": "2003-W07",
-      "cases": 2
-    },
-    {
-      "period": "2003-W08",
-      "cases": 2
-    },
-    {
-      "period": "2003-W10",
-      "cases": 3
-    },
-    {
-      "period": "2003-W14",
-      "cases": 1
-    },
-    {
-      "period": "2003-W18",
-      "cases": 1
-    },
-    {
-      "period": "2003-W22",
-      "cases": 1
-    },
-    {
-      "period": "2003-W23",
-      "cases": 1
-    },
-    {
-      "period": "2003-W24",
-      "cases": 1
-    },
-    {
-      "period": "2003-W26",
-      "cases": 1
-    },
-    {
-      "period": "2003-W27",
-      "cases": 2
-    },
-    {
-      "period": "2003-W28",
-      "cases": 1
-    },
-    {
-      "period": "2003-W29",
-      "cases": 1
-    },
-    {
-      "period": "2003-W30",
-      "cases": 1
-    },
-    {
-      "period": "2003-W31",
-      "cases": 2
-    },
-    {
-      "period": "2003-W32",
-      "cases": 2
-    },
-    {
-      "period": "2003-W33",
-      "cases": 2
-    },
-    {
-      "period": "2003-W34",
-      "cases": 2
-    },
-    {
-      "period": "2003-W35",
-      "cases": 2
-    },
-    {
-      "period": "2003-W36",
-      "cases": 1
-    },
-    {
-      "period": "2003-W38",
-      "cases": 4
-    },
-    {
-      "period": "2003-W39",
-      "cases": 9
-    },
-    {
-      "period": "2003-W40",
-      "cases": 8
-    },
-    {
-      "period": "2003-W41",
-      "cases": 4
-    },
-    {
-      "period": "2003-W42",
-      "cases": 7
-    },
-    {
-      "period": "2003-W43",
-      "cases": 8
-    },
-    {
-      "period": "2003-W44",
-      "cases": 6
-    },
-    {
-      "period": "2003-W45",
-      "cases": 2
-    },
-    {
-      "period": "2003-W46",
-      "cases": 1
-    },
-    {
-      "period": "2003-W47",
-      "cases": 2
-    },
-    {
-      "period": "2003-W49",
-      "cases": 2
-    },
-    {
-      "period": "2003-W50",
-      "cases": 1
-    },
-    {
-      "period": "2003-W51",
-      "cases": 4
-    },
-    {
-      "period": "2004-W01",
-      "cases": 2
-    },
-    {
-      "period": "2004-W02",
-      "cases": 2
-    },
-    {
-      "period": "2004-W03",
-      "cases": 1
-    },
-    {
-      "period": "2004-W05",
-      "cases": 1
-    },
-    {
-      "period": "2004-W06",
-      "cases": 2
-    },
-    {
-      "period": "2004-W07",
-      "cases": 4
-    },
-    {
-      "period": "2004-W08",
-      "cases": 2
-    },
-    {
-      "period": "2004-W09",
-      "cases": 1
-    },
-    {
-      "period": "2004-W10",
-      "cases": 1
-    },
-    {
-      "period": "2004-W11",
-      "cases": 1
-    },
-    {
-      "period": "2004-W12",
-      "cases": 1
-    },
-    {
-      "period": "2004-W13",
-      "cases": 1
-    },
-    {
-      "period": "2004-W14",
-      "cases": 2
-    },
-    {
-      "period": "2004-W15",
-      "cases": 1
-    },
-    {
-      "period": "2004-W16",
-      "cases": 3
-    },
-    {
-      "period": "2004-W17",
-      "cases": 1
-    },
-    {
-      "period": "2004-W18",
-      "cases": 1
-    },
-    {
-      "period": "2004-W19",
-      "cases": 1
-    },
-    {
-      "period": "2004-W20",
-      "cases": 1
-    },
-    {
-      "period": "2004-W21",
-      "cases": 1
-    },
-    {
-      "period": "2004-W22",
-      "cases": 1
-    },
-    {
-      "period": "2004-W24",
-      "cases": 2
-    },
-    {
-      "period": "2004-W26",
-      "cases": 3
-    },
-    {
-      "period": "2004-W28",
-      "cases": 8
-    },
-    {
-      "period": "2004-W29",
-      "cases": 6
-    },
-    {
-      "period": "2004-W30",
-      "cases": 4
-    },
-    {
-      "period": "2004-W31",
-      "cases": 3
-    },
-    {
-      "period": "2004-W32",
-      "cases": 4
-    },
-    {
-      "period": "2004-W33",
-      "cases": 7
-    },
-    {
-      "period": "2004-W34",
-      "cases": 8
-    },
-    {
-      "period": "2004-W35",
-      "cases": 4
-    },
-    {
-      "period": "2004-W36",
-      "cases": 15
-    },
-    {
-      "period": "2004-W37",
-      "cases": 13
-    },
-    {
-      "period": "2004-W38",
-      "cases": 22
-    },
-    {
-      "period": "2004-W39",
-      "cases": 14
-    },
-    {
-      "period": "2004-W40",
-      "cases": 19
-    },
-    {
-      "period": "2004-W41",
-      "cases": 35
-    },
-    {
-      "period": "2004-W42",
-      "cases": 36
-    },
-    {
-      "period": "2004-W43",
-      "cases": 31
-    },
-    {
-      "period": "2004-W44",
-      "cases": 30
-    },
-    {
-      "period": "2004-W45",
-      "cases": 30
-    },
-    {
-      "period": "2004-W46",
-      "cases": 19
-    },
-    {
-      "period": "2004-W47",
-      "cases": 27
-    },
-    {
-      "period": "2004-W48",
-      "cases": 21
-    },
-    {
-      "period": "2004-W49",
-      "cases": 14
-    },
-    {
-      "period": "2004-W50",
-      "cases": 8
-    },
-    {
-      "period": "2004-W51",
-      "cases": 5
-    },
-    {
-      "period": "2004-W52",
-      "cases": 5
-    },
-    {
-      "period": "2004-W53",
-      "cases": 5
-    },
-    {
-      "period": "2005-W01",
-      "cases": 3
-    },
-    {
-      "period": "2005-W02",
-      "cases": 1
-    },
-    {
-      "period": "2005-W03",
-      "cases": 1
-    },
-    {
-      "period": "2005-W04",
-      "cases": 4
-    },
-    {
-      "period": "2005-W05",
-      "cases": 1
-    },
-    {
-      "period": "2005-W06",
-      "cases": 4
-    },
-    {
-      "period": "2005-W07",
-      "cases": 1
-    },
-    {
-      "period": "2005-W08",
-      "cases": 1
-    },
-    {
-      "period": "2005-W09",
-      "cases": 1
-    },
-    {
-      "period": "2005-W11",
-      "cases": 1
-    },
-    {
-      "period": "2005-W14",
-      "cases": 1
-    },
-    {
-      "period": "2005-W15",
-      "cases": 3
-    },
-    {
-      "period": "2005-W16",
-      "cases": 2
-    },
-    {
-      "period": "2005-W17",
-      "cases": 2
-    },
-    {
-      "period": "2005-W20",
-      "cases": 2
-    },
-    {
-      "period": "2005-W21",
-      "cases": 1
-    },
-    {
-      "period": "2005-W22",
-      "cases": 1
-    },
-    {
-      "period": "2005-W23",
-      "cases": 3
-    },
-    {
-      "period": "2005-W24",
-      "cases": 4
-    },
-    {
-      "period": "2005-W25",
-      "cases": 2
-    },
-    {
-      "period": "2005-W26",
-      "cases": 2
-    },
-    {
-      "period": "2005-W27",
-      "cases": 4
-    },
-    {
-      "period": "2005-W28",
-      "cases": 3
-    },
-    {
-      "period": "2005-W29",
-      "cases": 3
-    },
-    {
-      "period": "2005-W30",
-      "cases": 2
-    },
-    {
-      "period": "2005-W31",
-      "cases": 6
-    },
-    {
-      "period": "2005-W32",
-      "cases": 9
-    },
-    {
-      "period": "2005-W33",
-      "cases": 13
-    },
-    {
-      "period": "2005-W34",
-      "cases": 10
-    },
-    {
-      "period": "2005-W35",
-      "cases": 9
-    },
-    {
-      "period": "2005-W36",
-      "cases": 7
-    },
-    {
-      "period": "2005-W37",
-      "cases": 15
-    },
-    {
-      "period": "2005-W38",
-      "cases": 3
-    },
-    {
-      "period": "2005-W39",
-      "cases": 7
-    },
-    {
-      "period": "2005-W40",
-      "cases": 10
-    },
-    {
-      "period": "2005-W41",
-      "cases": 11
-    },
-    {
-      "period": "2005-W42",
-      "cases": 22
-    },
-    {
-      "period": "2005-W43",
-      "cases": 14
-    },
-    {
-      "period": "2005-W44",
-      "cases": 21
-    },
-    {
-      "period": "2005-W45",
-      "cases": 31
-    },
-    {
-      "period": "2005-W46",
-      "cases": 18
-    },
-    {
-      "period": "2005-W47",
-      "cases": 7
-    },
-    {
-      "period": "2005-W48",
-      "cases": 18
-    },
-    {
-      "period": "2005-W49",
-      "cases": 12
-    },
-    {
-      "period": "2005-W50",
-      "cases": 7
-    },
-    {
-      "period": "2005-W51",
-      "cases": 2
-    },
-    {
-      "period": "2006-W01",
-      "cases": 3
-    },
-    {
-      "period": "2006-W04",
-      "cases": 1
-    },
-    {
-      "period": "2006-W06",
-      "cases": 2
-    },
-    {
-      "period": "2006-W07",
-      "cases": 2
-    },
-    {
-      "period": "2006-W09",
-      "cases": 2
-    },
-    {
-      "period": "2006-W10",
-      "cases": 2
-    },
-    {
-      "period": "2006-W11",
-      "cases": 3
-    },
-    {
-      "period": "2006-W13",
-      "cases": 2
-    },
-    {
-      "period": "2006-W14",
-      "cases": 1
-    },
-    {
-      "period": "2006-W15",
-      "cases": 1
-    },
-    {
-      "period": "2006-W16",
-      "cases": 1
-    },
-    {
-      "period": "2006-W18",
-      "cases": 1
-    },
-    {
-      "period": "2006-W19",
-      "cases": 1
-    },
-    {
-      "period": "2006-W20",
-      "cases": 4
-    },
-    {
-      "period": "2006-W22",
-      "cases": 1
-    },
-    {
-      "period": "2006-W23",
-      "cases": 3
-    },
-    {
-      "period": "2006-W24",
-      "cases": 2
-    },
-    {
-      "period": "2006-W25",
-      "cases": 2
-    },
-    {
-      "period": "2006-W26",
-      "cases": 5
-    },
-    {
-      "period": "2006-W27",
-      "cases": 9
-    },
-    {
-      "period": "2006-W28",
-      "cases": 22
-    },
-    {
-      "period": "2006-W29",
-      "cases": 12
-    },
-    {
-      "period": "2006-W30",
-      "cases": 20
-    },
-    {
-      "period": "2006-W31",
-      "cases": 7
-    },
-    {
-      "period": "2006-W32",
-      "cases": 19
-    },
-    {
-      "period": "2006-W33",
-      "cases": 46
-    },
-    {
-      "period": "2006-W34",
-      "cases": 44
-    },
-    {
-      "period": "2006-W35",
-      "cases": 29
-    },
-    {
-      "period": "2006-W36",
-      "cases": 31
-    },
-    {
-      "period": "2006-W37",
-      "cases": 48
-    },
-    {
-      "period": "2006-W38",
-      "cases": 49
-    },
-    {
-      "period": "2006-W39",
-      "cases": 47
-    },
-    {
-      "period": "2006-W40",
-      "cases": 61
-    },
-    {
-      "period": "2006-W41",
-      "cases": 51
-    },
-    {
-      "period": "2006-W42",
-      "cases": 67
-    },
-    {
-      "period": "2006-W43",
-      "cases": 95
-    },
-    {
-      "period": "2006-W44",
-      "cases": 78
-    },
-    {
-      "period": "2006-W45",
-      "cases": 61
-    },
-    {
-      "period": "2006-W46",
-      "cases": 39
-    },
-    {
-      "period": "2006-W47",
-      "cases": 59
-    },
-    {
-      "period": "2006-W48",
-      "cases": 60
-    },
-    {
-      "period": "2006-W49",
-      "cases": 43
-    },
-    {
-      "period": "2006-W50",
-      "cases": 21
-    },
-    {
-      "period": "2006-W51",
-      "cases": 5
-    },
-    {
-      "period": "2006-W52",
-      "cases": 12
-    },
-    {
-      "period": "2007-W01",
-      "cases": 7
-    },
-    {
-      "period": "2007-W02",
-      "cases": 7
-    },
-    {
-      "period": "2007-W03",
-      "cases": 3
-    },
-    {
-      "period": "2007-W04",
-      "cases": 1
-    },
-    {
-      "period": "2007-W05",
-      "cases": 3
-    },
-    {
-      "period": "2007-W06",
-      "cases": 1
-    },
-    {
-      "period": "2007-W07",
-      "cases": 1
-    },
-    {
-      "period": "2007-W08",
-      "cases": 2
-    },
-    {
-      "period": "2007-W09",
-      "cases": 4
-    },
-    {
-      "period": "2007-W12",
-      "cases": 1
-    },
-    {
-      "period": "2007-W13",
-      "cases": 2
-    },
-    {
-      "period": "2007-W14",
-      "cases": 1
-    },
-    {
-      "period": "2007-W15",
-      "cases": 2
-    },
-    {
-      "period": "2007-W16",
-      "cases": 6
-    },
-    {
-      "period": "2007-W18",
-      "cases": 1
-    },
-    {
-      "period": "2007-W19",
-      "cases": 4
-    },
-    {
-      "period": "2007-W21",
-      "cases": 1
-    },
-    {
-      "period": "2007-W22",
-      "cases": 5
-    },
-    {
-      "period": "2007-W23",
-      "cases": 11
-    },
-    {
-      "period": "2007-W24",
-      "cases": 3
-    },
-    {
-      "period": "2007-W25",
-      "cases": 15
-    },
-    {
-      "period": "2007-W26",
-      "cases": 36
-    },
-    {
-      "period": "2007-W27",
-      "cases": 31
-    },
-    {
-      "period": "2007-W28",
-      "cases": 37
-    },
-    {
-      "period": "2007-W29",
-      "cases": 22
-    },
-    {
-      "period": "2007-W30",
-      "cases": 68
-    },
-    {
-      "period": "2007-W31",
-      "cases": 67
-    },
-    {
-      "period": "2007-W32",
-      "cases": 44
-    },
-    {
-      "period": "2007-W33",
-      "cases": 97
-    },
-    {
-      "period": "2007-W34",
-      "cases": 30
-    },
-    {
-      "period": "2007-W35",
-      "cases": 26
-    },
-    {
-      "period": "2007-W36",
-      "cases": 36
-    },
-    {
-      "period": "2007-W37",
-      "cases": 49
-    },
-    {
-      "period": "2007-W38",
-      "cases": 54
-    },
-    {
-      "period": "2007-W39",
-      "cases": 63
-    },
-    {
-      "period": "2007-W40",
-      "cases": 120
-    },
-    {
-      "period": "2007-W41",
-      "cases": 95
-    },
-    {
-      "period": "2007-W42",
-      "cases": 163
-    },
-    {
-      "period": "2007-W43",
-      "cases": 181
-    },
-    {
-      "period": "2007-W44",
-      "cases": 128
-    },
-    {
-      "period": "2007-W45",
-      "cases": 201
-    },
-    {
-      "period": "2007-W46",
-      "cases": 149
-    },
-    {
-      "period": "2007-W47",
-      "cases": 130
-    },
-    {
-      "period": "2007-W48",
-      "cases": 115
-    },
-    {
-      "period": "2007-W49",
-      "cases": 61
-    },
-    {
-      "period": "2007-W50",
-      "cases": 43
-    },
-    {
-      "period": "2007-W51",
-      "cases": 36
-    },
-    {
-      "period": "2007-W52",
-      "cases": 14
-    },
-    {
-      "period": "2008-W01",
-      "cases": 16
-    },
-    {
-      "period": "2008-W02",
-      "cases": 1
-    },
-    {
-      "period": "2008-W03",
-      "cases": 4
-    },
-    {
-      "period": "2008-W04",
-      "cases": 4
-    },
-    {
-      "period": "2008-W05",
-      "cases": 5
-    },
-    {
-      "period": "2008-W06",
-      "cases": 1
-    },
-    {
-      "period": "2008-W07",
-      "cases": 5
-    },
-    {
-      "period": "2008-W08",
-      "cases": 1
-    },
-    {
-      "period": "2008-W11",
-      "cases": 3
-    },
-    {
-      "period": "2008-W12",
-      "cases": 2
-    },
-    {
-      "period": "2008-W13",
-      "cases": 7
-    },
-    {
-      "period": "2008-W15",
-      "cases": 4
-    },
-    {
-      "period": "2008-W16",
-      "cases": 4
-    },
-    {
-      "period": "2008-W17",
-      "cases": 1
-    },
-    {
-      "period": "2008-W18",
-      "cases": 4
-    },
-    {
-      "period": "2008-W19",
-      "cases": 1
-    },
-    {
-      "period": "2008-W20",
-      "cases": 1
-    },
-    {
-      "period": "2008-W21",
-      "cases": 4
-    },
-    {
-      "period": "2008-W22",
-      "cases": 6
-    },
-    {
-      "period": "2008-W24",
-      "cases": 4
-    },
-    {
-      "period": "2008-W25",
-      "cases": 3
-    },
-    {
-      "period": "2008-W26",
-      "cases": 11
-    },
-    {
-      "period": "2008-W27",
-      "cases": 21
-    },
-    {
-      "period": "2008-W28",
-      "cases": 16
-    },
-    {
-      "period": "2008-W29",
-      "cases": 23
-    },
-    {
-      "period": "2008-W30",
-      "cases": 14
-    },
-    {
-      "period": "2008-W31",
-      "cases": 20
-    },
-    {
-      "period": "2008-W32",
-      "cases": 31
-    },
-    {
-      "period": "2008-W33",
-      "cases": 23
-    },
-    {
-      "period": "2008-W34",
-      "cases": 36
-    },
-    {
-      "period": "2008-W35",
-      "cases": 29
-    },
-    {
-      "period": "2008-W36",
-      "cases": 21
-    },
-    {
-      "period": "2008-W37",
-      "cases": 22
-    },
-    {
-      "period": "2008-W38",
-      "cases": 14
-    },
-    {
-      "period": "2008-W39",
-      "cases": 11
-    },
-    {
-      "period": "2008-W40",
-      "cases": 14
-    },
-    {
-      "period": "2008-W41",
-      "cases": 29
-    },
-    {
-      "period": "2008-W42",
-      "cases": 40
-    },
-    {
-      "period": "2008-W43",
-      "cases": 48
-    },
-    {
-      "period": "2008-W44",
-      "cases": 38
-    },
-    {
-      "period": "2008-W45",
-      "cases": 53
-    },
-    {
-      "period": "2008-W46",
-      "cases": 36
-    },
-    {
-      "period": "2008-W47",
-      "cases": 33
-    },
-    {
-      "period": "2008-W48",
-      "cases": 17
-    },
-    {
-      "period": "2008-W49",
-      "cases": 15
-    },
-    {
-      "period": "2008-W50",
-      "cases": 9
-    },
-    {
-      "period": "2008-W51",
-      "cases": 9
-    },
-    {
-      "period": "2008-W52",
-      "cases": 2
-    },
-    {
-      "period": "2009-W01",
-      "cases": 2
-    },
-    {
-      "period": "2009-W02",
-      "cases": 5
-    },
-    {
-      "period": "2009-W03",
-      "cases": 6
-    },
-    {
-      "period": "2009-W04",
-      "cases": 6
-    },
-    {
-      "period": "2009-W05",
-      "cases": 3
-    },
-    {
-      "period": "2009-W06",
-      "cases": 2
-    },
-    {
-      "period": "2009-W07",
-      "cases": 5
-    },
-    {
-      "period": "2009-W08",
-      "cases": 2
-    },
-    {
-      "period": "2009-W09",
-      "cases": 1
-    },
-    {
-      "period": "2009-W10",
-      "cases": 1
-    },
-    {
-      "period": "2009-W11",
-      "cases": 5
-    },
-    {
-      "period": "2009-W12",
-      "cases": 3
-    },
-    {
-      "period": "2009-W14",
-      "cases": 4
-    },
-    {
-      "period": "2009-W15",
-      "cases": 6
-    },
-    {
-      "period": "2009-W16",
-      "cases": 3
-    },
-    {
-      "period": "2009-W17",
-      "cases": 6
-    },
-    {
-      "period": "2009-W18",
-      "cases": 4
-    },
-    {
-      "period": "2009-W19",
-      "cases": 2
-    },
-    {
-      "period": "2009-W20",
-      "cases": 4
-    },
-    {
-      "period": "2009-W21",
-      "cases": 1
-    },
-    {
-      "period": "2009-W22",
-      "cases": 2
-    },
-    {
-      "period": "2009-W23",
-      "cases": 6
-    },
-    {
-      "period": "2009-W24",
-      "cases": 5
-    },
-    {
-      "period": "2009-W25",
-      "cases": 7
-    },
-    {
-      "period": "2009-W26",
-      "cases": 3
-    },
-    {
-      "period": "2009-W27",
-      "cases": 4
-    },
-    {
-      "period": "2009-W28",
-      "cases": 8
-    },
-    {
-      "period": "2009-W29",
-      "cases": 2
-    },
-    {
-      "period": "2009-W30",
-      "cases": 8
-    },
-    {
-      "period": "2009-W31",
-      "cases": 21
-    },
-    {
-      "period": "2009-W32",
-      "cases": 34
-    },
-    {
-      "period": "2009-W33",
-      "cases": 20
-    },
-    {
-      "period": "2009-W34",
-      "cases": 16
-    },
-    {
-      "period": "2009-W35",
-      "cases": 10
-    },
-    {
-      "period": "2009-W36",
-      "cases": 12
-    },
-    {
-      "period": "2009-W37",
-      "cases": 11
-    },
-    {
-      "period": "2009-W38",
-      "cases": 10
-    },
-    {
-      "period": "2009-W39",
-      "cases": 13
-    },
-    {
-      "period": "2009-W40",
-      "cases": 17
-    },
-    {
-      "period": "2009-W41",
-      "cases": 32
-    },
-    {
-      "period": "2009-W42",
-      "cases": 22
-    },
-    {
-      "period": "2009-W43",
-      "cases": 57
-    },
-    {
-      "period": "2009-W44",
-      "cases": 74
-    },
-    {
-      "period": "2009-W45",
-      "cases": 90
-    },
-    {
-      "period": "2009-W46",
-      "cases": 102
-    },
-    {
-      "period": "2009-W47",
-      "cases": 93
-    },
-    {
-      "period": "2009-W48",
-      "cases": 66
-    },
-    {
-      "period": "2009-W49",
-      "cases": 87
-    },
-    {
-      "period": "2009-W50",
-      "cases": 49
-    },
-    {
-      "period": "2009-W51",
-      "cases": 52
-    },
-    {
-      "period": "2009-W52",
-      "cases": 40
-    },
-    {
-      "period": "2009-W53",
-      "cases": 20
-    },
-    {
-      "period": "2010-W01",
-      "cases": 10
-    },
-    {
-      "period": "2010-W02",
-      "cases": 8
-    },
-    {
-      "period": "2010-W03",
-      "cases": 6
-    },
-    {
-      "period": "2010-W04",
-      "cases": 6
-    },
-    {
-      "period": "2010-W05",
-      "cases": 7
-    },
-    {
-      "period": "2010-W06",
-      "cases": 4
-    },
-    {
-      "period": "2010-W07",
-      "cases": 1
-    },
-    {
-      "period": "2010-W08",
-      "cases": 11
-    },
-    {
-      "period": "2010-W09",
-      "cases": 6
-    },
-    {
-      "period": "2010-W10",
-      "cases": 3
-    },
-    {
-      "period": "2010-W11",
-      "cases": 4
-    },
-    {
-      "period": "2010-W12",
-      "cases": 1
-    },
-    {
-      "period": "2010-W13",
-      "cases": 5
-    },
-    {
-      "period": "2010-W14",
-      "cases": 3
-    },
-    {
-      "period": "2010-W15",
-      "cases": 4
-    },
-    {
-      "period": "2010-W16",
-      "cases": 2
-    },
-    {
-      "period": "2010-W18",
-      "cases": 7
-    },
-    {
-      "period": "2010-W19",
-      "cases": 3
-    },
-    {
-      "period": "2010-W20",
-      "cases": 2
-    },
-    {
-      "period": "2010-W22",
-      "cases": 6
-    },
-    {
-      "period": "2010-W23",
-      "cases": 4
-    },
-    {
-      "period": "2010-W24",
-      "cases": 3
-    },
-    {
-      "period": "2010-W25",
-      "cases": 8
-    },
-    {
-      "period": "2010-W26",
-      "cases": 8
-    },
-    {
-      "period": "2010-W27",
-      "cases": 7
-    },
-    {
-      "period": "2010-W28",
-      "cases": 6
-    },
-    {
-      "period": "2010-W29",
-      "cases": 9
-    },
-    {
-      "period": "2010-W30",
-      "cases": 14
-    },
-    {
-      "period": "2010-W31",
-      "cases": 13
-    },
-    {
-      "period": "2010-W32",
-      "cases": 23
-    },
-    {
-      "period": "2010-W33",
-      "cases": 52
-    },
-    {
-      "period": "2010-W34",
-      "cases": 41
-    },
-    {
-      "period": "2010-W35",
-      "cases": 57
-    },
-    {
-      "period": "2010-W36",
-      "cases": 67
-    },
-    {
-      "period": "2010-W37",
-      "cases": 113
-    },
-    {
-      "period": "2010-W38",
-      "cases": 96
-    },
-    {
-      "period": "2010-W39",
-      "cases": 140
-    },
-    {
-      "period": "2010-W40",
-      "cases": 112
-    },
-    {
-      "period": "2010-W41",
-      "cases": 148
-    },
-    {
-      "period": "2010-W42",
-      "cases": 162
-    },
-    {
-      "period": "2010-W43",
-      "cases": 121
-    },
-    {
-      "period": "2010-W44",
-      "cases": 109
-    },
-    {
-      "period": "2010-W45",
-      "cases": 99
-    },
-    {
-      "period": "2010-W46",
-      "cases": 89
-    },
-    {
-      "period": "2010-W47",
-      "cases": 80
-    },
-    {
-      "period": "2010-W48",
-      "cases": 59
-    },
-    {
-      "period": "2010-W49",
-      "cases": 74
-    },
-    {
-      "period": "2010-W50",
-      "cases": 35
-    },
-    {
-      "period": "2010-W51",
-      "cases": 22
-    },
-    {
-      "period": "2010-W52",
-      "cases": 16
-    },
-    {
-      "period": "2011-W01",
-      "cases": 7
-    },
-    {
-      "period": "2011-W02",
-      "cases": 4
-    },
-    {
-      "period": "2011-W03",
-      "cases": 3
-    },
-    {
-      "period": "2011-W04",
-      "cases": 1
-    },
-    {
-      "period": "2011-W05",
-      "cases": 3
-    },
-    {
-      "period": "2011-W06",
-      "cases": 8
-    },
-    {
-      "period": "2011-W07",
-      "cases": 5
-    },
-    {
-      "period": "2011-W08",
-      "cases": 2
-    },
-    {
-      "period": "2011-W13",
-      "cases": 1
-    },
-    {
-      "period": "2011-W14",
-      "cases": 2
-    },
-    {
-      "period": "2011-W15",
-      "cases": 1
-    },
-    {
-      "period": "2011-W20",
-      "cases": 4
-    },
-    {
-      "period": "2011-W21",
-      "cases": 2
-    },
-    {
-      "period": "2011-W22",
-      "cases": 1
-    },
-    {
-      "period": "2011-W23",
-      "cases": 5
-    },
-    {
-      "period": "2011-W24",
-      "cases": 6
-    },
-    {
-      "period": "2011-W25",
-      "cases": 2
-    },
-    {
-      "period": "2011-W26",
-      "cases": 4
-    },
-    {
-      "period": "2011-W27",
-      "cases": 1
-    },
-    {
-      "period": "2011-W28",
-      "cases": 1
-    },
-    {
-      "period": "2011-W29",
-      "cases": 6
-    },
-    {
-      "period": "2011-W30",
-      "cases": 11
-    },
-    {
-      "period": "2011-W31",
-      "cases": 12
-    },
-    {
-      "period": "2011-W32",
-      "cases": 20
-    },
-    {
-      "period": "2011-W33",
-      "cases": 42
-    },
-    {
-      "period": "2011-W34",
-      "cases": 65
-    },
-    {
-      "period": "2011-W35",
-      "cases": 39
-    },
-    {
-      "period": "2011-W36",
-      "cases": 31
-    },
-    {
-      "period": "2011-W37",
-      "cases": 38
-    },
-    {
-      "period": "2011-W38",
-      "cases": 47
-    },
-    {
-      "period": "2011-W39",
-      "cases": 61
-    },
-    {
-      "period": "2011-W40",
-      "cases": 66
-    },
-    {
-      "period": "2011-W41",
-      "cases": 70
-    },
-    {
-      "period": "2011-W42",
-      "cases": 136
-    },
-    {
-      "period": "2011-W43",
-      "cases": 102
-    },
-    {
-      "period": "2011-W44",
-      "cases": 127
-    },
-    {
-      "period": "2011-W45",
-      "cases": 173
-    },
-    {
-      "period": "2011-W46",
-      "cases": 134
-    },
-    {
-      "period": "2011-W47",
-      "cases": 132
-    },
-    {
-      "period": "2011-W48",
-      "cases": 112
-    },
-    {
-      "period": "2011-W49",
-      "cases": 86
-    },
-    {
-      "period": "2011-W50",
-      "cases": 66
-    },
-    {
-      "period": "2011-W51",
-      "cases": 45
-    },
-    {
-      "period": "2011-W52",
-      "cases": 18
-    },
-    {
-      "period": "2012-W01",
-      "cases": 9
-    },
-    {
-      "period": "2012-W02",
-      "cases": 6
-    },
-    {
-      "period": "2012-W03",
-      "cases": 4
-    },
-    {
-      "period": "2012-W04",
-      "cases": 7
-    },
-    {
-      "period": "2012-W05",
-      "cases": 6
-    },
-    {
-      "period": "2012-W06",
-      "cases": 4
-    },
-    {
-      "period": "2012-W07",
-      "cases": 2
-    },
-    {
-      "period": "2012-W09",
-      "cases": 2
-    },
-    {
-      "period": "2012-W10",
-      "cases": 1
-    },
-    {
-      "period": "2012-W12",
-      "cases": 4
-    },
-    {
-      "period": "2012-W13",
-      "cases": 7
-    },
-    {
-      "period": "2012-W14",
-      "cases": 6
-    },
-    {
-      "period": "2012-W15",
-      "cases": 5
-    },
-    {
-      "period": "2012-W16",
-      "cases": 4
-    },
-    {
-      "period": "2012-W17",
-      "cases": 3
-    },
-    {
-      "period": "2012-W18",
-      "cases": 8
-    },
-    {
-      "period": "2012-W19",
-      "cases": 4
-    },
-    {
-      "period": "2012-W20",
-      "cases": 7
-    },
-    {
-      "period": "2012-W21",
-      "cases": 7
-    },
-    {
-      "period": "2012-W22",
-      "cases": 4
-    },
-    {
-      "period": "2012-W23",
-      "cases": 4
-    },
-    {
-      "period": "2012-W24",
-      "cases": 4
-    },
-    {
-      "period": "2012-W25",
-      "cases": 5
-    },
-    {
-      "period": "2012-W26",
-      "cases": 7
-    },
-    {
-      "period": "2012-W27",
-      "cases": 13
-    },
-    {
-      "period": "2012-W28",
-      "cases": 22
-    },
-    {
-      "period": "2012-W29",
-      "cases": 13
-    },
-    {
-      "period": "2012-W30",
-      "cases": 19
-    },
-    {
-      "period": "2012-W31",
-      "cases": 26
-    },
-    {
-      "period": "2012-W32",
-      "cases": 17
-    },
-    {
-      "period": "2012-W33",
-      "cases": 29
-    },
-    {
-      "period": "2012-W34",
-      "cases": 34
-    },
-    {
-      "period": "2012-W35",
-      "cases": 70
-    },
-    {
-      "period": "2012-W36",
-      "cases": 102
-    },
-    {
-      "period": "2012-W37",
-      "cases": 116
-    },
-    {
-      "period": "2012-W38",
-      "cases": 118
-    },
-    {
-      "period": "2012-W39",
-      "cases": 67
-    },
-    {
-      "period": "2012-W40",
-      "cases": 75
-    },
-    {
-      "period": "2012-W41",
-      "cases": 78
-    },
-    {
-      "period": "2012-W42",
-      "cases": 84
-    },
-    {
-      "period": "2012-W43",
-      "cases": 72
-    },
-    {
-      "period": "2012-W44",
-      "cases": 84
-    },
-    {
-      "period": "2012-W45",
-      "cases": 76
-    },
-    {
-      "period": "2012-W46",
-      "cases": 72
-    },
-    {
-      "period": "2012-W47",
-      "cases": 46
-    },
-    {
-      "period": "2012-W48",
-      "cases": 31
-    },
-    {
-      "period": "2012-W49",
-      "cases": 24
-    },
-    {
-      "period": "2012-W50",
-      "cases": 26
-    },
-    {
-      "period": "2012-W51",
-      "cases": 26
-    },
-    {
-      "period": "2012-W52",
-      "cases": 15
-    },
-    {
-      "period": "2013-W01",
-      "cases": 11
-    },
-    {
-      "period": "2013-W02",
-      "cases": 4
-    },
-    {
-      "period": "2013-W03",
-      "cases": 7
-    },
-    {
-      "period": "2013-W04",
-      "cases": 7
-    },
-    {
-      "period": "2013-W05",
-      "cases": 1
-    },
-    {
-      "period": "2013-W06",
-      "cases": 2
-    },
-    {
-      "period": "2013-W07",
-      "cases": 6
-    },
-    {
-      "period": "2013-W08",
-      "cases": 6
-    },
-    {
-      "period": "2013-W09",
-      "cases": 8
-    },
-    {
-      "period": "2013-W10",
-      "cases": 8
-    },
-    {
-      "period": "2013-W11",
-      "cases": 2
-    },
-    {
-      "period": "2013-W12",
-      "cases": 3
-    },
-    {
-      "period": "2013-W13",
-      "cases": 6
-    },
-    {
-      "period": "2013-W14",
-      "cases": 1
-    },
-    {
-      "period": "2013-W15",
-      "cases": 2
-    },
-    {
-      "period": "2013-W16",
-      "cases": 2
-    },
-    {
-      "period": "2013-W17",
-      "cases": 9
-    },
-    {
-      "period": "2013-W18",
-      "cases": 12
-    },
-    {
-      "period": "2013-W19",
-      "cases": 4
-    },
-    {
-      "period": "2013-W20",
-      "cases": 3
-    },
-    {
-      "period": "2013-W21",
-      "cases": 3
-    },
-    {
-      "period": "2013-W22",
-      "cases": 8
-    },
-    {
-      "period": "2013-W23",
-      "cases": 4
-    },
-    {
-      "period": "2013-W24",
-      "cases": 15
-    },
-    {
-      "period": "2013-W25",
-      "cases": 14
-    },
-    {
-      "period": "2013-W26",
-      "cases": 19
-    },
-    {
-      "period": "2013-W27",
-      "cases": 14
-    },
-    {
-      "period": "2013-W28",
-      "cases": 13
-    },
-    {
-      "period": "2013-W29",
-      "cases": 9
-    },
-    {
-      "period": "2013-W30",
-      "cases": 12
-    },
-    {
-      "period": "2013-W31",
-      "cases": 14
-    },
-    {
-      "period": "2013-W32",
-      "cases": 12
-    },
-    {
-      "period": "2013-W33",
-      "cases": 12
-    },
-    {
-      "period": "2013-W34",
-      "cases": 20
-    },
-    {
-      "period": "2013-W35",
-      "cases": 15
-    },
-    {
-      "period": "2013-W36",
-      "cases": 22
-    },
-    {
-      "period": "2013-W37",
-      "cases": 20
-    },
-    {
-      "period": "2013-W38",
-      "cases": 21
-    },
-    {
-      "period": "2013-W39",
-      "cases": 25
-    },
-    {
-      "period": "2013-W40",
-      "cases": 18
-    },
-    {
-      "period": "2013-W41",
-      "cases": 11
-    },
-    {
-      "period": "2013-W42",
-      "cases": 31
-    },
-    {
-      "period": "2013-W43",
-      "cases": 28
-    },
-    {
-      "period": "2013-W44",
-      "cases": 27
-    },
-    {
-      "period": "2013-W45",
-      "cases": 43
-    },
-    {
-      "period": "2013-W46",
-      "cases": 49
-    },
-    {
-      "period": "2013-W47",
-      "cases": 41
-    },
-    {
-      "period": "2013-W48",
-      "cases": 73
-    },
-    {
-      "period": "2013-W49",
-      "cases": 59
-    },
-    {
-      "period": "2013-W50",
-      "cases": 59
-    },
-    {
-      "period": "2013-W51",
-      "cases": 28
-    },
-    {
-      "period": "2013-W52",
-      "cases": 16
-    },
-    {
-      "period": "2014-W01",
-      "cases": 9
-    },
-    {
-      "period": "2014-W02",
-      "cases": 4
-    },
-    {
-      "period": "2014-W03",
-      "cases": 3
-    },
-    {
-      "period": "2014-W04",
-      "cases": 5
-    },
-    {
-      "period": "2014-W05",
-      "cases": 7
-    },
-    {
-      "period": "2014-W06",
-      "cases": 7
-    },
-    {
-      "period": "2014-W07",
-      "cases": 3
-    },
-    {
-      "period": "2014-W08",
-      "cases": 5
-    },
-    {
-      "period": "2014-W09",
-      "cases": 1
-    },
-    {
-      "period": "2014-W10",
-      "cases": 3
-    },
-    {
-      "period": "2014-W11",
-      "cases": 4
-    },
-    {
-      "period": "2014-W12",
-      "cases": 3
-    },
-    {
-      "period": "2014-W13",
-      "cases": 4
-    },
-    {
-      "period": "2014-W14",
-      "cases": 3
-    },
-    {
-      "period": "2014-W15",
-      "cases": 2
-    },
-    {
-      "period": "2014-W16",
-      "cases": 5
-    },
-    {
-      "period": "2014-W17",
-      "cases": 6
-    },
-    {
-      "period": "2014-W18",
-      "cases": 2
-    },
-    {
-      "period": "2014-W19",
-      "cases": 2
-    },
-    {
-      "period": "2014-W20",
-      "cases": 2
-    },
-    {
-      "period": "2014-W21",
-      "cases": 9
-    },
-    {
-      "period": "2014-W22",
-      "cases": 14
-    },
-    {
-      "period": "2014-W23",
-      "cases": 12
-    },
-    {
-      "period": "2014-W24",
-      "cases": 33
-    },
-    {
-      "period": "2014-W25",
-      "cases": 20
-    },
-    {
-      "period": "2014-W26",
-      "cases": 41
-    },
-    {
-      "period": "2014-W27",
-      "cases": 47
-    },
-    {
-      "period": "2014-W28",
-      "cases": 56
-    },
-    {
-      "period": "2014-W29",
-      "cases": 84
-    },
-    {
-      "period": "2014-W30",
-      "cases": 104
-    },
-    {
-      "period": "2014-W31",
-      "cases": 197
-    },
-    {
-      "period": "2014-W32",
-      "cases": 145
-    },
-    {
-      "period": "2014-W33",
-      "cases": 252
-    },
-    {
-      "period": "2014-W34",
-      "cases": 241
-    },
-    {
-      "period": "2014-W35",
-      "cases": 263
-    },
-    {
-      "period": "2014-W36",
-      "cases": 388
-    },
-    {
-      "period": "2014-W37",
-      "cases": 473
-    },
-    {
-      "period": "2014-W38",
-      "cases": 556
-    },
-    {
-      "period": "2014-W39",
-      "cases": 622
-    },
-    {
-      "period": "2014-W40",
-      "cases": 939
-    },
-    {
-      "period": "2014-W41",
-      "cases": 932
-    },
-    {
-      "period": "2014-W42",
-      "cases": 1442
-    },
-    {
-      "period": "2014-W43",
-      "cases": 1418
-    },
-    {
-      "period": "2014-W44",
-      "cases": 1447
-    },
-    {
-      "period": "2014-W45",
-      "cases": 1510
-    },
-    {
-      "period": "2014-W46",
-      "cases": 1199
-    },
-    {
-      "period": "2014-W47",
-      "cases": 986
-    },
-    {
-      "period": "2014-W48",
-      "cases": 860
-    },
-    {
-      "period": "2014-W49",
-      "cases": 680
-    },
-    {
-      "period": "2014-W50",
-      "cases": 374
-    },
-    {
-      "period": "2014-W51",
-      "cases": 210
-    },
-    {
-      "period": "2014-W52",
-      "cases": 75
-    },
-    {
-      "period": "2015-W01",
-      "cases": 46
-    },
-    {
-      "period": "2015-W02",
-      "cases": 22
-    },
-    {
-      "period": "2015-W03",
-      "cases": 27
-    },
-    {
-      "period": "2015-W04",
-      "cases": 19
-    },
-    {
-      "period": "2015-W05",
-      "cases": 7
-    },
-    {
-      "period": "2015-W06",
-      "cases": 16
-    },
-    {
-      "period": "2015-W07",
-      "cases": 6
-    },
-    {
-      "period": "2015-W08",
-      "cases": 2
-    },
-    {
-      "period": "2015-W09",
-      "cases": 7
-    },
-    {
-      "period": "2015-W10",
-      "cases": 11
-    },
-    {
-      "period": "2015-W11",
-      "cases": 9
-    },
-    {
-      "period": "2015-W12",
-      "cases": 1
-    },
-    {
-      "period": "2015-W13",
-      "cases": 6
-    },
-    {
-      "period": "2015-W14",
-      "cases": 7
-    },
-    {
-      "period": "2015-W15",
-      "cases": 6
-    },
-    {
-      "period": "2015-W16",
-      "cases": 4
-    },
-    {
-      "period": "2015-W17",
-      "cases": 4
-    },
-    {
-      "period": "2015-W18",
-      "cases": 5
-    },
-    {
-      "period": "2015-W19",
-      "cases": 9
-    },
-    {
-      "period": "2015-W20",
-      "cases": 10
-    },
-    {
-      "period": "2015-W21",
-      "cases": 9
-    },
-    {
-      "period": "2015-W22",
-      "cases": 11
-    },
-    {
-      "period": "2015-W23",
-      "cases": 17
-    },
-    {
-      "period": "2015-W24",
-      "cases": 16
-    },
-    {
-      "period": "2015-W25",
-      "cases": 15
-    },
-    {
-      "period": "2015-W26",
-      "cases": 16
-    },
-    {
-      "period": "2015-W27",
-      "cases": 20
-    },
-    {
-      "period": "2015-W28",
-      "cases": 44
-    },
-    {
-      "period": "2015-W29",
-      "cases": 48
-    },
-    {
-      "period": "2015-W30",
-      "cases": 143
-    },
-    {
-      "period": "2015-W31",
-      "cases": 182
-    },
-    {
-      "period": "2015-W32",
-      "cases": 413
-    },
-    {
-      "period": "2015-W33",
-      "cases": 671
-    },
-    {
-      "period": "2015-W34",
-      "cases": 1329
-    },
-    {
-      "period": "2015-W35",
-      "cases": 1598
-    },
-    {
-      "period": "2015-W36",
-      "cases": 3386
-    },
-    {
-      "period": "2015-W37",
-      "cases": 3278
-    },
-    {
-      "period": "2015-W38",
-      "cases": 4214
-    },
-    {
-      "period": "2015-W39",
-      "cases": 3490
-    },
-    {
-      "period": "2015-W40",
-      "cases": 2827
-    },
-    {
-      "period": "2015-W41",
-      "cases": 2550
-    },
-    {
-      "period": "2015-W42",
-      "cases": 2146
-    },
-    {
-      "period": "2015-W43",
-      "cases": 2095
-    },
-    {
-      "period": "2015-W44",
-      "cases": 2227
-    },
-    {
-      "period": "2015-W45",
-      "cases": 2141
-    },
-    {
-      "period": "2015-W46",
-      "cases": 2588
-    },
-    {
-      "period": "2015-W47",
-      "cases": 2711
-    },
-    {
-      "period": "2015-W48",
-      "cases": 1943
-    },
-    {
-      "period": "2015-W49",
-      "cases": 1359
-    },
-    {
-      "period": "2015-W50",
-      "cases": 912
-    },
-    {
-      "period": "2015-W51",
-      "cases": 633
-    },
-    {
-      "period": "2015-W52",
-      "cases": 386
-    },
-    {
-      "period": "2015-W53",
-      "cases": 260
-    },
-    {
-      "period": "2016-W01",
-      "cases": 133
-    },
-    {
-      "period": "2016-W02",
-      "cases": 92
-    },
-    {
-      "period": "2016-W03",
-      "cases": 37
-    },
-    {
-      "period": "2016-W04",
-      "cases": 35
-    },
-    {
-      "period": "2016-W05",
-      "cases": 12
-    },
-    {
-      "period": "2016-W06",
-      "cases": 12
-    },
-    {
-      "period": "2016-W07",
-      "cases": 5
-    },
-    {
-      "period": "2016-W08",
-      "cases": 6
-    },
-    {
-      "period": "2016-W09",
-      "cases": 4
-    },
-    {
-      "period": "2016-W10",
-      "cases": 4
-    },
-    {
-      "period": "2016-W11",
-      "cases": 1
-    },
-    {
-      "period": "2016-W12",
-      "cases": 6
-    },
-    {
-      "period": "2016-W13",
-      "cases": 4
-    },
-    {
-      "period": "2016-W14",
-      "cases": 4
-    },
-    {
-      "period": "2016-W15",
-      "cases": 7
-    },
-    {
-      "period": "2016-W16",
-      "cases": 8
-    },
-    {
-      "period": "2016-W17",
-      "cases": 4
-    },
-    {
-      "period": "2016-W18",
-      "cases": 4
-    },
-    {
-      "period": "2016-W19",
-      "cases": 6
-    },
-    {
-      "period": "2016-W20",
-      "cases": 5
-    },
-    {
-      "period": "2016-W21",
-      "cases": 4
-    },
-    {
-      "period": "2016-W22",
-      "cases": 9
-    },
-    {
-      "period": "2016-W23",
-      "cases": 4
-    },
-    {
-      "period": "2016-W24",
-      "cases": 3
-    },
-    {
-      "period": "2016-W25",
-      "cases": 8
-    },
-    {
-      "period": "2016-W26",
-      "cases": 2
-    },
-    {
-      "period": "2016-W27",
-      "cases": 8
-    },
-    {
-      "period": "2016-W28",
-      "cases": 9
-    },
-    {
-      "period": "2016-W29",
-      "cases": 12
-    },
-    {
-      "period": "2016-W30",
-      "cases": 12
-    },
-    {
-      "period": "2016-W31",
-      "cases": 17
-    },
-    {
-      "period": "2016-W32",
-      "cases": 16
-    },
-    {
-      "period": "2016-W33",
-      "cases": 17
-    },
-    {
-      "period": "2016-W34",
-      "cases": 20
-    },
-    {
-      "period": "2016-W35",
-      "cases": 11
-    },
-    {
-      "period": "2016-W36",
-      "cases": 4
-    },
-    {
-      "period": "2016-W37",
-      "cases": 4
-    },
-    {
-      "period": "2016-W38",
-      "cases": 2
-    },
-    {
-      "period": "2016-W39",
-      "cases": 7
-    },
-    {
-      "period": "2016-W40",
-      "cases": 7
-    },
-    {
-      "period": "2016-W41",
-      "cases": 7
-    },
-    {
-      "period": "2016-W42",
-      "cases": 13
-    },
-    {
-      "period": "2016-W43",
-      "cases": 14
-    },
-    {
-      "period": "2016-W44",
-      "cases": 5
-    },
-    {
-      "period": "2016-W45",
-      "cases": 4
-    },
-    {
-      "period": "2016-W46",
-      "cases": 10
-    },
-    {
-      "period": "2016-W47",
-      "cases": 5
-    },
-    {
-      "period": "2016-W48",
-      "cases": 7
-    },
-    {
-      "period": "2016-W49",
-      "cases": 6
-    },
-    {
-      "period": "2016-W50",
-      "cases": 7
-    },
-    {
-      "period": "2016-W51",
-      "cases": 4
-    },
-    {
-      "period": "2016-W52",
-      "cases": 3
-    },
-    {
-      "period": "2017-W01",
-      "cases": 8
-    },
-    {
-      "period": "2017-W02",
-      "cases": 7
-    },
-    {
-      "period": "2017-W03",
-      "cases": 8
-    },
-    {
-      "period": "2017-W04",
-      "cases": 4
-    },
-    {
-      "period": "2017-W05",
-      "cases": 7
-    },
-    {
-      "period": "2017-W06",
-      "cases": 5
-    },
-    {
-      "period": "2017-W07",
-      "cases": 9
-    },
-    {
-      "period": "2017-W08",
-      "cases": 3
-    },
-    {
-      "period": "2017-W09",
-      "cases": 4
-    },
-    {
-      "period": "2017-W10",
-      "cases": 1
-    },
-    {
-      "period": "2017-W11",
-      "cases": 5
-    },
-    {
-      "period": "2017-W12",
-      "cases": 2
-    },
-    {
-      "period": "2017-W13",
-      "cases": 2
-    },
-    {
-      "period": "2017-W14",
-      "cases": 2
-    },
-    {
-      "period": "2017-W15",
-      "cases": 4
-    },
-    {
-      "period": "2017-W17",
-      "cases": 5
-    },
-    {
-      "period": "2017-W18",
-      "cases": 3
-    },
-    {
-      "period": "2017-W19",
-      "cases": 2
-    },
-    {
-      "period": "2017-W20",
-      "cases": 6
-    },
-    {
-      "period": "2017-W21",
-      "cases": 1
-    },
-    {
-      "period": "2017-W22",
-      "cases": 3
-    },
-    {
-      "period": "2017-W23",
-      "cases": 5
-    },
-    {
-      "period": "2017-W24",
-      "cases": 3
-    },
-    {
-      "period": "2017-W25",
-      "cases": 5
-    },
-    {
-      "period": "2017-W26",
-      "cases": 10
-    },
-    {
-      "period": "2017-W27",
-      "cases": 7
-    },
-    {
-      "period": "2017-W28",
-      "cases": 15
-    },
-    {
-      "period": "2017-W29",
-      "cases": 10
-    },
-    {
-      "period": "2017-W30",
-      "cases": 11
-    },
-    {
-      "period": "2017-W31",
-      "cases": 16
-    },
-    {
-      "period": "2017-W32",
-      "cases": 15
-    },
-    {
-      "period": "2017-W33",
-      "cases": 17
-    },
-    {
-      "period": "2017-W34",
-      "cases": 5
-    },
-    {
-      "period": "2017-W35",
-      "cases": 9
-    },
-    {
-      "period": "2017-W36",
-      "cases": 8
-    },
-    {
-      "period": "2017-W37",
-      "cases": 6
-    },
-    {
-      "period": "2017-W38",
-      "cases": 9
-    },
-    {
-      "period": "2017-W39",
-      "cases": 13
-    },
-    {
-      "period": "2017-W40",
-      "cases": 10
-    },
-    {
-      "period": "2017-W41",
-      "cases": 13
-    },
-    {
-      "period": "2017-W42",
-      "cases": 8
-    },
-    {
-      "period": "2017-W43",
-      "cases": 6
-    },
-    {
-      "period": "2017-W44",
-      "cases": 10
-    },
-    {
-      "period": "2017-W45",
-      "cases": 4
-    },
-    {
-      "period": "2017-W46",
-      "cases": 5
-    },
-    {
-      "period": "2017-W47",
-      "cases": 5
-    },
-    {
-      "period": "2017-W48",
-      "cases": 9
-    },
-    {
-      "period": "2017-W49",
-      "cases": 4
-    },
-    {
-      "period": "2017-W50",
-      "cases": 3
-    },
-    {
-      "period": "2017-W51",
-      "cases": 9
-    },
-    {
-      "period": "2017-W52",
-      "cases": 2
-    },
-    {
-      "period": "2018-W02",
-      "cases": 2
-    },
-    {
-      "period": "2018-W03",
-      "cases": 2
-    },
-    {
-      "period": "2018-W04",
-      "cases": 1
-    },
-    {
-      "period": "2018-W05",
-      "cases": 3
-    },
-    {
-      "period": "2018-W06",
-      "cases": 3
-    },
-    {
-      "period": "2018-W07",
-      "cases": 2
-    },
-    {
-      "period": "2018-W08",
-      "cases": 6
-    },
-    {
-      "period": "2018-W09",
-      "cases": 3
-    },
-    {
-      "period": "2018-W10",
-      "cases": 1
-    },
-    {
-      "period": "2018-W11",
-      "cases": 1
-    },
-    {
-      "period": "2018-W12",
-      "cases": 1
-    },
-    {
-      "period": "2018-W13",
-      "cases": 1
-    },
-    {
-      "period": "2018-W14",
-      "cases": 2
-    },
-    {
-      "period": "2018-W15",
-      "cases": 7
-    },
-    {
-      "period": "2018-W16",
-      "cases": 3
-    },
-    {
-      "period": "2018-W17",
-      "cases": 3
-    },
-    {
-      "period": "2018-W18",
-      "cases": 4
-    },
-    {
-      "period": "2018-W19",
-      "cases": 4
-    },
-    {
-      "period": "2018-W20",
-      "cases": 5
-    },
-    {
-      "period": "2018-W21",
-      "cases": 9
-    },
-    {
-      "period": "2018-W22",
-      "cases": 8
-    },
-    {
-      "period": "2018-W23",
-      "cases": 4
-    },
-    {
-      "period": "2018-W24",
-      "cases": 7
-    },
-    {
-      "period": "2018-W25",
-      "cases": 12
-    },
-    {
-      "period": "2018-W26",
-      "cases": 6
-    },
-    {
-      "period": "2018-W27",
-      "cases": 7
-    },
-    {
-      "period": "2018-W28",
-      "cases": 8
-    },
-    {
-      "period": "2018-W29",
-      "cases": 9
-    },
-    {
-      "period": "2018-W30",
-      "cases": 13
-    },
-    {
-      "period": "2018-W31",
-      "cases": 14
-    },
-    {
-      "period": "2018-W32",
-      "cases": 17
-    },
-    {
-      "period": "2018-W33",
-      "cases": 33
-    },
-    {
-      "period": "2018-W34",
-      "cases": 29
-    },
-    {
-      "period": "2018-W35",
-      "cases": 49
-    },
-    {
-      "period": "2018-W36",
-      "cases": 30
-    },
-    {
-      "period": "2018-W37",
-      "cases": 23
-    },
-    {
-      "period": "2018-W38",
-      "cases": 24
-    },
-    {
-      "period": "2018-W39",
-      "cases": 17
-    },
-    {
-      "period": "2018-W40",
-      "cases": 15
-    },
-    {
-      "period": "2018-W41",
-      "cases": 13
-    },
-    {
-      "period": "2018-W42",
-      "cases": 15
-    },
-    {
-      "period": "2018-W43",
-      "cases": 17
-    },
-    {
-      "period": "2018-W44",
-      "cases": 14
-    },
-    {
-      "period": "2018-W45",
-      "cases": 10
-    },
-    {
-      "period": "2018-W46",
-      "cases": 11
-    },
-    {
-      "period": "2018-W47",
-      "cases": 13
-    },
-    {
-      "period": "2018-W48",
-      "cases": 10
-    },
-    {
-      "period": "2018-W49",
-      "cases": 9
-    },
-    {
-      "period": "2018-W50",
-      "cases": 14
-    },
-    {
-      "period": "2018-W51",
-      "cases": 6
-    },
-    {
-      "period": "2018-W52",
-      "cases": 11
-    },
-    {
-      "period": "2019-W01",
-      "cases": 10
-    },
-    {
-      "period": "2019-W02",
-      "cases": 7
-    },
-    {
-      "period": "2019-W03",
-      "cases": 7
-    },
-    {
-      "period": "2019-W04",
-      "cases": 9
-    },
-    {
-      "period": "2019-W05",
-      "cases": 7
-    },
-    {
-      "period": "2019-W06",
-      "cases": 6
-    },
-    {
-      "period": "2019-W07",
-      "cases": 17
-    },
-    {
-      "period": "2019-W08",
-      "cases": 5
-    },
-    {
-      "period": "2019-W09",
-      "cases": 9
-    },
-    {
-      "period": "2019-W10",
-      "cases": 6
-    },
-    {
-      "period": "2019-W11",
-      "cases": 8
-    },
-    {
-      "period": "2019-W12",
-      "cases": 6
-    },
-    {
-      "period": "2019-W13",
-      "cases": 2
-    },
-    {
-      "period": "2019-W14",
-      "cases": 8
-    },
-    {
-      "period": "2019-W15",
-      "cases": 6
-    },
-    {
-      "period": "2019-W16",
-      "cases": 7
-    },
-    {
-      "period": "2019-W17",
-      "cases": 8
-    },
-    {
-      "period": "2019-W18",
-      "cases": 8
-    },
-    {
-      "period": "2019-W19",
-      "cases": 4
-    },
-    {
-      "period": "2019-W20",
-      "cases": 6
-    },
-    {
-      "period": "2019-W21",
-      "cases": 7
-    },
-    {
-      "period": "2019-W22",
-      "cases": 22
-    },
-    {
-      "period": "2019-W23",
-      "cases": 13
-    },
-    {
-      "period": "2019-W24",
-      "cases": 8
-    },
-    {
-      "period": "2019-W25",
-      "cases": 13
-    },
-    {
-      "period": "2019-W26",
-      "cases": 27
-    },
-    {
-      "period": "2019-W27",
-      "cases": 20
-    },
-    {
-      "period": "2019-W28",
-      "cases": 26
-    },
-    {
-      "period": "2019-W29",
-      "cases": 41
-    },
-    {
-      "period": "2019-W30",
-      "cases": 26
-    },
-    {
-      "period": "2019-W31",
-      "cases": 16
-    },
-    {
-      "period": "2019-W32",
-      "cases": 22
-    },
-    {
-      "period": "2019-W33",
-      "cases": 21
-    },
-    {
-      "period": "2019-W34",
-      "cases": 23
-    },
-    {
-      "period": "2019-W35",
-      "cases": 16
-    },
-    {
-      "period": "2019-W36",
-      "cases": 13
-    },
-    {
-      "period": "2019-W37",
-      "cases": 15
-    },
-    {
-      "period": "2019-W38",
-      "cases": 10
-    },
-    {
-      "period": "2019-W39",
-      "cases": 14
-    },
-    {
-      "period": "2019-W40",
-      "cases": 16
-    },
-    {
-      "period": "2019-W41",
-      "cases": 10
-    },
-    {
-      "period": "2019-W42",
-      "cases": 15
-    },
-    {
-      "period": "2019-W43",
-      "cases": 14
-    },
-    {
-      "period": "2019-W44",
-      "cases": 13
-    },
-    {
-      "period": "2019-W45",
-      "cases": 14
-    },
-    {
-      "period": "2019-W46",
-      "cases": 11
-    },
-    {
-      "period": "2019-W47",
-      "cases": 11
-    },
-    {
-      "period": "2019-W48",
-      "cases": 9
-    },
-    {
-      "period": "2019-W49",
-      "cases": 6
-    },
-    {
-      "period": "2019-W50",
-      "cases": 8
-    },
-    {
-      "period": "2019-W51",
-      "cases": 9
-    },
-    {
-      "period": "2019-W52",
-      "cases": 4
-    },
-    {
-      "period": "2020-W01",
-      "cases": 11
-    },
-    {
-      "period": "2020-W02",
-      "cases": 5
-    },
-    {
-      "period": "2020-W03",
-      "cases": 6
-    },
-    {
-      "period": "2020-W04",
-      "cases": 5
-    },
-    {
-      "period": "2020-W05",
-      "cases": 3
-    },
-    {
-      "period": "2020-W06",
-      "cases": 6
-    },
-    {
-      "period": "2020-W08",
-      "cases": 3
-    },
-    {
-      "period": "2020-W09",
-      "cases": 4
-    },
-    {
-      "period": "2020-W10",
-      "cases": 1
-    },
-    {
-      "period": "2020-W11",
-      "cases": 4
-    },
-    {
-      "period": "2020-W12",
-      "cases": 3
-    },
-    {
-      "period": "2020-W13",
-      "cases": 2
-    },
-    {
-      "period": "2020-W17",
-      "cases": 1
-    },
-    {
-      "period": "2020-W20",
-      "cases": 1
-    },
-    {
-      "period": "2020-W23",
-      "cases": 2
-    },
-    {
-      "period": "2020-W24",
-      "cases": 1
-    },
-    {
-      "period": "2020-W26",
-      "cases": 1
-    },
-    {
-      "period": "2020-W27",
-      "cases": 3
-    },
-    {
-      "period": "2020-W28",
-      "cases": 4
-    },
-    {
-      "period": "2020-W29",
-      "cases": 4
-    },
-    {
-      "period": "2020-W30",
-      "cases": 4
-    },
-    {
-      "period": "2020-W33",
-      "cases": 1
-    },
-    {
-      "period": "2020-W34",
-      "cases": 1
-    },
-    {
-      "period": "2020-W35",
-      "cases": 2
-    },
-    {
-      "period": "2020-W36",
-      "cases": 5
-    },
-    {
-      "period": "2020-W37",
-      "cases": 4
-    },
-    {
-      "period": "2020-W38",
-      "cases": 6
-    },
-    {
-      "period": "2020-W39",
-      "cases": 15
-    },
-    {
-      "period": "2020-W40",
-      "cases": 15
-    },
-    {
-      "period": "2020-W41",
-      "cases": 5
-    },
-    {
-      "period": "2020-W42",
-      "cases": 4
-    },
-    {
-      "period": "2020-W44",
-      "cases": 3
-    },
-    {
-      "period": "2020-W45",
-      "cases": 1
-    },
-    {
-      "period": "2020-W48",
-      "cases": 1
-    },
-    {
-      "period": "2020-W49",
-      "cases": 2
-    },
-    {
-      "period": "2020-W51",
-      "cases": 1
-    },
-    {
-      "period": "2021-W01",
-      "cases": 1
-    },
-    {
-      "period": "2021-W03",
-      "cases": 1
-    },
-    {
-      "period": "2021-W07",
-      "cases": 1
-    },
-    {
-      "period": "2021-W11",
-      "cases": 1
-    },
-    {
-      "period": "2021-W15",
-      "cases": 1
-    },
-    {
-      "period": "2021-W32",
-      "cases": 1
-    },
-    {
-      "period": "2021-W33",
-      "cases": 1
-    },
-    {
-      "period": "2021-W35",
-      "cases": 1
-    },
-    {
-      "period": "2021-W37",
-      "cases": 1
-    },
-    {
-      "period": "2021-W44",
-      "cases": 2
-    },
-    {
-      "period": "2021-W47",
-      "cases": 1
-    },
-    {
-      "period": "2022-W17",
-      "cases": 1
-    },
-    {
-      "period": "2022-W19",
-      "cases": 1
-    },
-    {
-      "period": "2022-W23",
-      "cases": 1
-    },
-    {
-      "period": "2022-W24",
-      "cases": 2
-    },
-    {
-      "period": "2022-W25",
-      "cases": 3
-    },
-    {
-      "period": "2022-W26",
-      "cases": 2
-    },
-    {
-      "period": "2022-W27",
-      "cases": 1
-    },
-    {
-      "period": "2022-W28",
-      "cases": 3
-    },
-    {
-      "period": "2022-W29",
-      "cases": 2
-    },
-    {
-      "period": "2022-W30",
-      "cases": 1
-    },
-    {
-      "period": "2022-W31",
-      "cases": 5
-    },
-    {
-      "period": "2022-W32",
-      "cases": 3
-    },
-    {
-      "period": "2022-W33",
-      "cases": 2
-    },
-    {
-      "period": "2022-W34",
-      "cases": 4
-    },
-    {
-      "period": "2022-W35",
-      "cases": 4
-    },
-    {
-      "period": "2022-W36",
-      "cases": 16
-    },
-    {
-      "period": "2022-W37",
-      "cases": 4
-    },
-    {
-      "period": "2022-W38",
-      "cases": 2
-    },
-    {
-      "period": "2022-W39",
-      "cases": 4
-    },
-    {
-      "period": "2022-W40",
-      "cases": 2
-    },
-    {
-      "period": "2022-W41",
-      "cases": 3
-    },
-    {
-      "period": "2022-W42",
-      "cases": 4
-    },
-    {
-      "period": "2022-W43",
-      "cases": 2
-    },
-    {
-      "period": "2022-W44",
-      "cases": 2
-    },
-    {
-      "period": "2022-W45",
-      "cases": 3
-    },
-    {
-      "period": "2022-W46",
-      "cases": 2
-    },
-    {
-      "period": "2022-W47",
-      "cases": 1
-    },
-    {
-      "period": "2022-W49",
-      "cases": 1
-    },
-    {
-      "period": "2022-W50",
-      "cases": 1
-    },
-    {
-      "period": "2022-W51",
-      "cases": 3
-    },
-    {
-      "period": "2022-W52",
-      "cases": 4
-    },
-    {
-      "period": "2023-W01",
-      "cases": 1
-    },
-    {
-      "period": "2023-W02",
-      "cases": 2
-    },
-    {
-      "period": "2023-W04",
-      "cases": 1
-    },
-    {
-      "period": "2023-W05",
-      "cases": 3
-    },
-    {
-      "period": "2023-W06",
-      "cases": 1
-    },
-    {
-      "period": "2023-W07",
-      "cases": 1
-    },
-    {
-      "period": "2023-W09",
-      "cases": 2
-    },
-    {
-      "period": "2023-W10",
-      "cases": 1
-    },
-    {
-      "period": "2023-W11",
-      "cases": 1
-    },
-    {
-      "period": "2023-W12",
-      "cases": 1
-    },
-    {
-      "period": "2023-W13",
-      "cases": 6
-    },
-    {
-      "period": "2023-W14",
-      "cases": 5
-    },
-    {
-      "period": "2023-W15",
-      "cases": 5
-    },
-    {
-      "period": "2023-W16",
-      "cases": 2
-    },
-    {
-      "period": "2023-W17",
-      "cases": 2
-    },
-    {
-      "period": "2023-W19",
-      "cases": 4
-    },
-    {
-      "period": "2023-W20",
-      "cases": 2
-    },
-    {
       "period": "2023-W22",
-      "cases": 8
+      "cases": 19
     },
     {
       "period": "2023-W23",
-      "cases": 8
+      "cases": 67
     },
     {
       "period": "2023-W24",
-      "cases": 37
+      "cases": 90
     },
     {
       "period": "2023-W25",
-      "cases": 75
+      "cases": 72
     },
     {
       "period": "2023-W26",
-      "cases": 115
+      "cases": 64
     },
     {
       "period": "2023-W27",
-      "cases": 147
+      "cases": 124
     },
     {
       "period": "2023-W28",
-      "cases": 135
+      "cases": 141
     },
     {
       "period": "2023-W29",
-      "cases": 215
+      "cases": 107
     },
     {
       "period": "2023-W30",
-      "cases": 209
+      "cases": 71
     },
     {
       "period": "2023-W31",
-      "cases": 353
+      "cases": 144
     },
     {
       "period": "2023-W32",
-      "cases": 491
+      "cases": 173
     },
     {
       "period": "2023-W33",
-      "cases": 609
+      "cases": 42
     },
     {
       "period": "2023-W34",
-      "cases": 956
+      "cases": 158
     },
     {
       "period": "2023-W35",
-      "cases": 1566
+      "cases": 161
     },
     {
       "period": "2023-W36",
-      "cases": 2141
+      "cases": 112
     },
     {
       "period": "2023-W37",
-      "cases": 1923
+      "cases": 52
     },
     {
       "period": "2023-W38",
-      "cases": 2136
+      "cases": 148
     },
     {
       "period": "2023-W39",
-      "cases": 2613
+      "cases": 112
     },
     {
       "period": "2023-W40",
-      "cases": 2151
+      "cases": 114
     },
     {
       "period": "2023-W41",
-      "cases": 1767
+      "cases": 113
     },
     {
       "period": "2023-W42",
-      "cases": 1726
+      "cases": 146
     },
     {
       "period": "2023-W43",
-      "cases": 1514
+      "cases": 141
     },
     {
       "period": "2023-W44",
-      "cases": 1555
+      "cases": 169
     },
     {
       "period": "2023-W45",
-      "cases": 1321
+      "cases": 126
     },
     {
       "period": "2023-W46",
-      "cases": 1017
+      "cases": 173
     },
     {
       "period": "2023-W47",
-      "cases": 633
+      "cases": 123
     },
     {
       "period": "2023-W48",
-      "cases": 410
+      "cases": 71
     },
     {
       "period": "2023-W49",
-      "cases": 355
+      "cases": 13
     },
     {
       "period": "2023-W50",
-      "cases": 246
+      "cases": 77
     },
     {
       "period": "2023-W51",
-      "cases": 150
+      "cases": 57
     },
     {
       "period": "2023-W52",
-      "cases": 83
+      "cases": 57
     },
     {
       "period": "2024-W01",
-      "cases": 38
+      "cases": 21
     },
     {
       "period": "2024-W02",
-      "cases": 41
+      "cases": 13
     },
     {
       "period": "2024-W03",
-      "cases": 23
+      "cases": 26
     },
     {
       "period": "2024-W04",
-      "cases": 12
+      "cases": 28
     },
     {
       "period": "2024-W05",
-      "cases": 11
+      "cases": 12
     },
     {
       "period": "2024-W06",
-      "cases": 9
+      "cases": 18
     },
     {
       "period": "2024-W07",
-      "cases": 17
+      "cases": 24
     },
     {
       "period": "2024-W08",
-      "cases": 20
+      "cases": 26
     },
     {
       "period": "2024-W09",
-      "cases": 8
-    },
-    {
-      "period": "2024-W10",
-      "cases": 5
-    },
-    {
-      "period": "2024-W11",
-      "cases": 2
-    },
-    {
-      "period": "2024-W12",
-      "cases": 3
-    },
-    {
-      "period": "2024-W13",
-      "cases": 8
-    },
-    {
-      "period": "2024-W14",
-      "cases": 8
-    },
-    {
-      "period": "2024-W15",
-      "cases": 6
-    },
-    {
-      "period": "2024-W16",
-      "cases": 19
-    },
-    {
-      "period": "2024-W17",
-      "cases": 5
-    },
-    {
-      "period": "2024-W18",
-      "cases": 7
-    },
-    {
-      "period": "2024-W19",
-      "cases": 6
-    },
-    {
-      "period": "2024-W20",
-      "cases": 2
-    },
-    {
-      "period": "2024-W21",
-      "cases": 9
-    },
-    {
-      "period": "2024-W22",
-      "cases": 5
-    },
-    {
-      "period": "2024-W23",
-      "cases": 6
-    },
-    {
-      "period": "2024-W24",
-      "cases": 4
-    },
-    {
-      "period": "2024-W25",
-      "cases": 4
-    },
-    {
-      "period": "2024-W26",
-      "cases": 6
-    },
-    {
-      "period": "2024-W27",
-      "cases": 5
-    },
-    {
-      "period": "2024-W28",
-      "cases": 12
-    },
-    {
-      "period": "2024-W29",
       "cases": 15
     },
     {
-      "period": "2024-W30",
-      "cases": 10
+      "period": "2024-W10",
+      "cases": 33
     },
     {
-      "period": "2024-W31",
-      "cases": 5
+      "period": "2024-W11",
+      "cases": 18
     },
     {
-      "period": "2024-W32",
-      "cases": 8
+      "period": "2024-W12",
+      "cases": 28
     },
     {
-      "period": "2024-W33",
-      "cases": 8
-    },
-    {
-      "period": "2024-W34",
-      "cases": 5
-    },
-    {
-      "period": "2024-W35",
-      "cases": 7
-    },
-    {
-      "period": "2024-W36",
-      "cases": 7
-    },
-    {
-      "period": "2024-W37",
+      "period": "2024-W13",
       "cases": 13
     },
     {
-      "period": "2024-W38",
-      "cases": 36
+      "period": "2024-W14",
+      "cases": 35
     },
     {
-      "period": "2024-W39",
-      "cases": 32
-    },
-    {
-      "period": "2024-W40",
-      "cases": 11
-    },
-    {
-      "period": "2024-W41",
-      "cases": 7
-    },
-    {
-      "period": "2024-W42",
-      "cases": 7
-    },
-    {
-      "period": "2024-W43",
-      "cases": 6
-    },
-    {
-      "period": "2024-W44",
-      "cases": 6
-    },
-    {
-      "period": "2024-W45",
-      "cases": 8
-    },
-    {
-      "period": "2024-W46",
-      "cases": 1
-    },
-    {
-      "period": "2024-W47",
-      "cases": 2
-    },
-    {
-      "period": "2024-W48",
-      "cases": 5
-    },
-    {
-      "period": "2024-W49",
-      "cases": 4
-    },
-    {
-      "period": "2024-W50",
-      "cases": 3
-    },
-    {
-      "period": "2024-W51",
-      "cases": 5
-    },
-    {
-      "period": "2024-W52",
-      "cases": 7
-    },
-    {
-      "period": "2025-W01",
-      "cases": 6
-    },
-    {
-      "period": "2025-W02",
-      "cases": 3
-    },
-    {
-      "period": "2025-W03",
-      "cases": 1
-    },
-    {
-      "period": "2025-W04",
-      "cases": 5
-    },
-    {
-      "period": "2025-W05",
-      "cases": 5
-    },
-    {
-      "period": "2025-W06",
-      "cases": 8
-    },
-    {
-      "period": "2025-W07",
-      "cases": 6
-    },
-    {
-      "period": "2025-W08",
-      "cases": 1
-    },
-    {
-      "period": "2025-W09",
-      "cases": 1
-    },
-    {
-      "period": "2025-W10",
-      "cases": 3
-    },
-    {
-      "period": "2025-W11",
-      "cases": 1
-    },
-    {
-      "period": "2025-W12",
-      "cases": 1
-    },
-    {
-      "period": "2025-W14",
-      "cases": 1
-    },
-    {
-      "period": "2025-W15",
-      "cases": 3
-    },
-    {
-      "period": "2025-W16",
-      "cases": 3
-    },
-    {
-      "period": "2025-W17",
-      "cases": 6
-    },
-    {
-      "period": "2025-W18",
-      "cases": 1
-    },
-    {
-      "period": "2025-W19",
-      "cases": 8
-    },
-    {
-      "period": "2025-W20",
-      "cases": 4
-    },
-    {
-      "period": "2025-W21",
-      "cases": 4
-    },
-    {
-      "period": "2025-W22",
-      "cases": 1
-    },
-    {
-      "period": "2025-W23",
-      "cases": 5
-    },
-    {
-      "period": "2025-W24",
-      "cases": 4
-    },
-    {
-      "period": "2025-W25",
-      "cases": 6
-    },
-    {
-      "period": "2025-W26",
-      "cases": 2
-    },
-    {
-      "period": "2025-W27",
-      "cases": 4
-    },
-    {
-      "period": "2025-W28",
-      "cases": 13
-    },
-    {
-      "period": "2025-W29",
-      "cases": 7
-    },
-    {
-      "period": "2025-W30",
-      "cases": 9
-    },
-    {
-      "period": "2025-W31",
-      "cases": 10
-    },
-    {
-      "period": "2025-W32",
-      "cases": 8
-    },
-    {
-      "period": "2025-W33",
-      "cases": 6
-    },
-    {
-      "period": "2025-W34",
-      "cases": 10
-    },
-    {
-      "period": "2025-W35",
+      "period": "2024-W15",
       "cases": 16
     },
     {
+      "period": "2024-W16",
+      "cases": 23
+    },
+    {
+      "period": "2024-W17",
+      "cases": 29
+    },
+    {
+      "period": "2024-W18",
+      "cases": 30
+    },
+    {
+      "period": "2024-W19",
+      "cases": 21
+    },
+    {
+      "period": "2024-W20",
+      "cases": 29
+    },
+    {
+      "period": "2024-W21",
+      "cases": 26
+    },
+    {
+      "period": "2024-W22",
+      "cases": 8
+    },
+    {
+      "period": "2024-W23",
+      "cases": 55
+    },
+    {
+      "period": "2024-W24",
+      "cases": 90
+    },
+    {
+      "period": "2024-W25",
+      "cases": 54
+    },
+    {
+      "period": "2024-W26",
+      "cases": 82
+    },
+    {
+      "period": "2024-W27",
+      "cases": 122
+    },
+    {
+      "period": "2024-W28",
+      "cases": 170
+    },
+    {
+      "period": "2024-W29",
+      "cases": 117
+    },
+    {
+      "period": "2024-W30",
+      "cases": 98
+    },
+    {
+      "period": "2024-W31",
+      "cases": 131
+    },
+    {
+      "period": "2024-W32",
+      "cases": 52
+    },
+    {
+      "period": "2024-W33",
+      "cases": 194
+    },
+    {
+      "period": "2024-W34",
+      "cases": 119
+    },
+    {
+      "period": "2024-W35",
+      "cases": 90
+    },
+    {
+      "period": "2024-W36",
+      "cases": 142
+    },
+    {
+      "period": "2024-W37",
+      "cases": 147
+    },
+    {
+      "period": "2024-W38",
+      "cases": 161
+    },
+    {
+      "period": "2024-W39",
+      "cases": 73
+    },
+    {
+      "period": "2024-W40",
+      "cases": 91
+    },
+    {
+      "period": "2024-W41",
+      "cases": 96
+    },
+    {
+      "period": "2024-W42",
+      "cases": 75
+    },
+    {
+      "period": "2024-W43",
+      "cases": 150
+    },
+    {
+      "period": "2024-W44",
+      "cases": 146
+    },
+    {
+      "period": "2024-W45",
+      "cases": 65
+    },
+    {
+      "period": "2024-W46",
+      "cases": 120
+    },
+    {
+      "period": "2024-W47",
+      "cases": 218
+    },
+    {
+      "period": "2024-W48",
+      "cases": 88
+    },
+    {
+      "period": "2024-W49",
+      "cases": 55
+    },
+    {
+      "period": "2024-W50",
+      "cases": 33
+    },
+    {
+      "period": "2024-W51",
+      "cases": 92
+    },
+    {
+      "period": "2024-W52",
+      "cases": 30
+    },
+    {
+      "period": "2025-W01",
+      "cases": 55
+    },
+    {
+      "period": "2025-W02",
+      "cases": 38
+    },
+    {
+      "period": "2025-W03",
+      "cases": 20
+    },
+    {
+      "period": "2025-W04",
+      "cases": 9
+    },
+    {
+      "period": "2025-W05",
+      "cases": 47
+    },
+    {
+      "period": "2025-W06",
+      "cases": 31
+    },
+    {
+      "period": "2025-W07",
+      "cases": 20
+    },
+    {
+      "period": "2025-W08",
+      "cases": 15
+    },
+    {
+      "period": "2025-W09",
+      "cases": 38
+    },
+    {
+      "period": "2025-W10",
+      "cases": 28
+    },
+    {
+      "period": "2025-W11",
+      "cases": 21
+    },
+    {
+      "period": "2025-W12",
+      "cases": 19
+    },
+    {
+      "period": "2025-W13",
+      "cases": 25
+    },
+    {
+      "period": "2025-W14",
+      "cases": 15
+    },
+    {
+      "period": "2025-W15",
+      "cases": 23
+    },
+    {
+      "period": "2025-W16",
+      "cases": 13
+    },
+    {
+      "period": "2025-W17",
+      "cases": 20
+    },
+    {
+      "period": "2025-W18",
+      "cases": 35
+    },
+    {
+      "period": "2025-W19",
+      "cases": 24
+    },
+    {
+      "period": "2025-W20",
+      "cases": 39
+    },
+    {
+      "period": "2025-W21",
+      "cases": 23
+    },
+    {
+      "period": "2025-W22",
+      "cases": 12
+    },
+    {
+      "period": "2025-W23",
+      "cases": 62
+    },
+    {
+      "period": "2025-W24",
+      "cases": 58
+    },
+    {
+      "period": "2025-W25",
+      "cases": 51
+    },
+    {
+      "period": "2025-W26",
+      "cases": 63
+    },
+    {
+      "period": "2025-W27",
+      "cases": 48
+    },
+    {
+      "period": "2025-W28",
+      "cases": 146
+    },
+    {
+      "period": "2025-W29",
+      "cases": 131
+    },
+    {
+      "period": "2025-W30",
+      "cases": 136
+    },
+    {
+      "period": "2025-W31",
+      "cases": 110
+    },
+    {
+      "period": "2025-W32",
+      "cases": 68
+    },
+    {
+      "period": "2025-W33",
+      "cases": 159
+    },
+    {
+      "period": "2025-W34",
+      "cases": 131
+    },
+    {
+      "period": "2025-W35",
+      "cases": 51
+    },
+    {
       "period": "2025-W36",
-      "cases": 4
+      "cases": 105
     },
     {
       "period": "2025-W37",
-      "cases": 6
+      "cases": 97
     },
     {
       "period": "2025-W38",
-      "cases": 12
+      "cases": 116
     },
     {
       "period": "2025-W39",
-      "cases": 12
+      "cases": 112
     },
     {
       "period": "2025-W40",
-      "cases": 12
+      "cases": 135
     },
     {
       "period": "2025-W41",
-      "cases": 12
+      "cases": 107
     },
     {
       "period": "2025-W42",
-      "cases": 12
+      "cases": 158
     },
     {
       "period": "2025-W43",
-      "cases": 3
+      "cases": 183
     },
     {
       "period": "2025-W44",
-      "cases": 6
+      "cases": 68
     },
     {
       "period": "2025-W45",
-      "cases": 7
+      "cases": 24
     },
     {
       "period": "2025-W46",
-      "cases": 6
+      "cases": 94
     },
     {
       "period": "2025-W47",
-      "cases": 4
+      "cases": 126
     },
     {
       "period": "2025-W48",
-      "cases": 1
+      "cases": 130
     },
     {
       "period": "2025-W49",
-      "cases": 3
+      "cases": 38
     },
     {
       "period": "2025-W50",
-      "cases": 7
+      "cases": 71
     },
     {
       "period": "2025-W51",
-      "cases": 4
+      "cases": 72
     },
     {
       "period": "2025-W52",
-      "cases": 8
+      "cases": 96
     },
     {
       "period": "2026-W01",
-      "cases": 4
+      "cases": 50
     },
     {
       "period": "2026-W02",
-      "cases": 3
+      "cases": 13
     },
     {
       "period": "2026-W03",
-      "cases": 2
-    },
-    {
-      "period": "2026-W04",
-      "cases": 2
-    },
-    {
-      "period": "2026-W05",
-      "cases": 6
-    },
-    {
-      "period": "2026-W06",
-      "cases": 1
-    },
-    {
-      "period": "2026-W07",
-      "cases": 4
-    },
-    {
-      "period": "2026-W08",
-      "cases": 2
-    },
-    {
-      "period": "2026-W09",
-      "cases": 2
-    },
-    {
-      "period": "2026-W10",
-      "cases": 3
-    },
-    {
-      "period": "2026-W11",
-      "cases": 1
-    },
-    {
-      "period": "2026-W12",
-      "cases": 3
-    },
-    {
-      "period": "2026-W13",
-      "cases": 2
-    },
-    {
-      "period": "2026-W14",
-      "cases": 4
-    },
-    {
-      "period": "2026-W15",
       "cases": 8
     },
     {
+      "period": "2026-W04",
+      "cases": 10
+    },
+    {
+      "period": "2026-W05",
+      "cases": 10
+    },
+    {
+      "period": "2026-W06",
+      "cases": 25
+    },
+    {
+      "period": "2026-W07",
+      "cases": 23
+    },
+    {
+      "period": "2026-W08",
+      "cases": 15
+    },
+    {
+      "period": "2026-W09",
+      "cases": 14
+    },
+    {
+      "period": "2026-W10",
+      "cases": 24
+    },
+    {
+      "period": "2026-W11",
+      "cases": 24
+    },
+    {
+      "period": "2026-W12",
+      "cases": 16
+    },
+    {
+      "period": "2026-W13",
+      "cases": 21
+    },
+    {
+      "period": "2026-W14",
+      "cases": 35
+    },
+    {
+      "period": "2026-W15",
+      "cases": 30
+    },
+    {
       "period": "2026-W16",
-      "cases": 6
+      "cases": 23
     },
     {
       "period": "2026-W17",
-      "cases": 2
+      "cases": 17
     },
     {
       "period": "2026-W18",
-      "cases": 6
+      "cases": 37
     },
     {
       "period": "2026-W19",
-      "cases": 4
+      "cases": 22
+    },
+    {
+      "period": "2026-W20",
+      "cases": 12
     },
     {
       "period": "2026-W21",
-      "cases": 3
+      "cases": 22
     }
   ],
   "by_region": [
     {
-      "region": "新北市",
-      "cases": 4
+      "region": "高雄市",
+      "cases": 19
     },
     {
-      "region": "高雄市",
-      "cases": 3
+      "region": "臺南市",
+      "cases": 16
+    },
+    {
+      "region": "屏東縣",
+      "cases": 7
     },
     {
       "region": "桃園市",
-      "cases": 2
+      "cases": 7
+    },
+    {
+      "region": "新北市",
+      "cases": 6
+    },
+    {
+      "region": "苗栗縣",
+      "cases": 6
+    },
+    {
+      "region": "臺中市",
+      "cases": 4
+    },
+    {
+      "region": "嘉義市",
+      "cases": 3
     },
     {
       "region": "雲林縣",
+      "cases": 3
+    },
+    {
+      "region": "澎湖縣",
+      "cases": 3
+    },
+    {
+      "region": "花蓮縣",
       "cases": 2
     },
     {
-      "region": "台中市",
+      "region": "宜蘭縣",
+      "cases": 2
+    },
+    {
+      "region": "嘉義縣",
+      "cases": 2
+    },
+    {
+      "region": "南投縣",
+      "cases": 2
+    },
+    {
+      "region": "連江縣",
+      "cases": 2
+    },
+    {
+      "region": "臺東縣",
+      "cases": 2
+    },
+    {
+      "region": "彰化縣",
+      "cases": 2
+    },
+    {
+      "region": "基隆市",
       "cases": 1
     },
     {
-      "region": "台南市",
+      "region": "臺北市",
+      "cases": 1
+    },
+    {
+      "region": "新竹縣",
       "cases": 1
     },
     {
@@ -5112,95 +712,47 @@
       "cases": 1
     },
     {
-      "region": "新竹縣",
+      "region": "金門縣",
       "cases": 1
     }
   ],
   "by_age": [
     {
-      "age_group": "0",
-      "cases": 78
-    },
-    {
-      "age_group": "1",
-      "cases": 173
+      "age_group": "0-4",
+      "cases": 430
     },
     {
       "age_group": "10-14",
-      "cases": 4096
+      "cases": 841
     },
     {
-      "age_group": "15-19",
-      "cases": 5321
+      "age_group": "15-24",
+      "cases": 1724
     },
     {
-      "age_group": "2",
-      "cases": 248
-    },
-    {
-      "age_group": "20-24",
-      "cases": 6691
-    },
-    {
-      "age_group": "25-29",
-      "cases": 6906
-    },
-    {
-      "age_group": "3",
-      "cases": 318
-    },
-    {
-      "age_group": "30-34",
-      "cases": 7559
-    },
-    {
-      "age_group": "35-39",
-      "cases": 7796
-    },
-    {
-      "age_group": "4",
-      "cases": 305
-    },
-    {
-      "age_group": "40-44",
-      "cases": 7553
-    },
-    {
-      "age_group": "45-49",
-      "cases": 7710
+      "age_group": "25-49",
+      "cases": 3783
     },
     {
       "age_group": "5-9",
-      "cases": 2525
+      "cases": 629
     },
     {
-      "age_group": "50-54",
-      "cases": 8804
+      "age_group": "50-64",
+      "cases": 2100
     },
     {
-      "age_group": "55-59",
-      "cases": 9812
-    },
-    {
-      "age_group": "60-64",
-      "cases": 9811
-    },
-    {
-      "age_group": "65-69",
-      "cases": 8018
-    },
-    {
-      "age_group": "70+",
-      "cases": 13895
+      "age_group": "65+",
+      "cases": 1345
     }
   ],
   "by_type": {
-    "本土": 102319,
-    "境外": 5300
+    "本土": 8720,
+    "境外": 2132
   },
   "latest_period": {
     "period": "2026-W21",
-    "cases": 3
+    "cases": 22
   },
   "disease_id": "dengue",
   "name_zh": "登革熱",
@@ -5209,8 +761,8 @@
   "icon": "🦟",
   "color": "#e63946",
   "advice": "清除積水容器、安裝紗窗紗門、外出穿著淺色長袖、使用防蚊液",
-  "last_updated": "2026-05-24T17:43:13",
-  "alert_level": "normal",
+  "last_updated": "2026-05-25T08:17:29",
+  "alert_level": "low",
   "alert_thresholds": {
     "low": 10,
     "medium": 50,
