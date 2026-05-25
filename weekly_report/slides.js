@@ -116,7 +116,11 @@ async function init() {
   renderSlide3RegionAge();
   renderSlide4Advisory();
   renderSlide5History();
-  renderSlide6Closing();
+  renderSlide6EnteroLongTrend();
+  renderSlide7EnteroRegionTrend();
+  renderSlide8EnteroAgeBar();
+  renderSlide9EnteroSevereTrend();
+  renderSlide10Closing();
 }
 
 async function fetchJSON(url) {
@@ -593,11 +597,473 @@ function renderComparisonCallouts(summary) {
   `;
 }
 
-function renderSlide6Closing() {
+function renderSlide10Closing() {
   const cards = state.overview.cards;
   document.getElementById('closingDataList').innerHTML = cards.map(c => `
     <li><strong>${c.name_zh}</strong>（${c.category}）— 累計 ${fmt.format(c.total_cases || 0)} 例</li>
   `).join('');
+}
+
+/* ════════════════════════════════════════════════════════════
+ * 腸病毒專屬深度報告（Slide 6–9）
+ * ════════════════════════════════════════════════════════════ */
+
+const ENTERO_AGE_ORDER = ['0~2','3~6','7~12','13~15','16~18','19~24','25~64','65+'];
+
+// 4 週後尾追平均（trailing moving average）
+function trailingMA(values, window = 4) {
+  const out = [];
+  for (let i = 0; i < values.length; i++) {
+    if (i < window - 1) { out.push(null); continue; }
+    let s = 0;
+    for (let j = i - window + 1; j <= i; j++) s += values[j];
+    out.push(s / window);
+  }
+  return out;
+}
+
+// 把 series 依 period 字串範圍篩選（含起訖）
+function filterByPeriod(series, fromPeriod, toPeriod) {
+  return series.filter(r => {
+    if (fromPeriod && r.period < fromPeriod) return false;
+    if (toPeriod && r.period > toPeriod) return false;
+    return true;
+  });
+}
+
+function makeCallouts(containerId, items) {
+  document.getElementById(containerId).innerHTML = items.map(c => `
+    <div class="callout">
+      <div class="callout-label">${c.label}</div>
+      <div class="callout-num">${c.num}</div>
+      ${c.sub ? `<div class="callout-sub">${c.sub}</div>` : ''}
+    </div>
+  `).join('');
+}
+
+// ───── Slide 6: 2017-2026 健保門急診長期趨勢 ─────
+function renderSlide6EnteroLongTrend() {
+  const e = state.summaries.enterovirus;
+  if (!e) return;
+  const series = filterByPeriod(e.weekly_series || [], '2017-W01', null);
+  if (series.length === 0) return;
+
+  drawEnteroLongTrend('s6EnteroLongTrend', series);
+
+  // Callouts：十年累計 / 歷史單週最高 / 本週相較十年同週中位數
+  const total = series.reduce((s, r) => s + r.cases, 0);
+  const peak = series.reduce((p, r) => r.cases > p.cases ? r : p, series[0]);
+
+  // 本週 vs 同 ISO 週的歷年中位數
+  const latest = series[series.length - 1];
+  const latestYw = parseISOWeek(latest.period);
+  const sameWeekValues = series
+    .filter(r => {
+      const yw = parseISOWeek(r.period);
+      return yw && yw.week === latestYw.week && yw.year !== latestYw.year;
+    })
+    .map(r => r.cases)
+    .sort((a, b) => a - b);
+  let median = null;
+  if (sameWeekValues.length > 0) {
+    const m = sameWeekValues.length;
+    median = m % 2 === 0
+      ? (sameWeekValues[m/2 - 1] + sameWeekValues[m/2]) / 2
+      : sameWeekValues[(m-1)/2];
+  }
+  const medianDiff = (median !== null && median > 0)
+    ? (latest.cases - median) / median * 100
+    : null;
+
+  makeCallouts('s6Callouts', [
+    { label: '十年累計就診人次', num: fmt.format(total),
+      sub: `2017-W01 至 ${latest.period}` },
+    { label: '歷史單週最高', num: `${fmt.format(peak.cases)} 人次`,
+      sub: `發生於 ${peak.period}` },
+    { label: '本週相較十年同週中位數',
+      num: medianDiff !== null ? fmtPct(medianDiff) : '—',
+      sub: medianDiff !== null
+        ? `本週 ${fmt.format(latest.cases)} 對比中位數 ${fmt.format(Math.round(median))}`
+        : '歷史資料不足' },
+  ]);
+}
+
+function drawEnteroLongTrend(canvasId, series) {
+  const labels = series.map(r => r.period);
+  const data = series.map(r => r.cases);
+  const ma = trailingMA(data, 4);
+
+  new Chart(document.getElementById(canvasId), {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: '每週就診人次',
+          data,
+          borderColor: PALETTE.line_emphasis,
+          backgroundColor: hexToRgba(PALETTE.p500, 0.08),
+          borderWidth: 1.4,
+          fill: true, tension: 0.28, pointRadius: 0,
+        },
+        {
+          label: '4 週後尾追平均',
+          data: ma,
+          borderColor: PALETTE.p500,
+          borderWidth: 2.2,
+          borderDash: [6, 4],
+          fill: false, tension: 0.25, pointRadius: 0, spanGaps: false,
+        },
+      ],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'top', align: 'end',
+          labels: { boxWidth: 14, boxHeight: 2, padding: 12, font: { size: 10 } },
+        },
+      },
+      scales: {
+        x: {
+          grid: { display: false }, border: { color: PALETTE.n300 },
+          ticks: {
+            color: PALETTE.n500, font: { size: 9 },
+            maxTicksLimit: 12,
+            callback: function(val) {
+              const p = this.getLabelForValue(val);
+              // 只顯示每年第 1 週的 label，如 2018-W01
+              return /-W01$/.test(p) ? p.slice(0, 4) : '';
+            },
+          },
+          title: { display: true, text: '週次（ISO-8601）',
+                   color: PALETTE.n500, font: { size: 9 } },
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: PALETTE.n200 }, border: { display: false },
+          ticks: { color: PALETTE.n500, font: { size: 9 },
+                   callback: v => fmt.format(v) },
+          title: { display: true, text: '就診人次',
+                   color: PALETTE.n500, font: { size: 9 } },
+        },
+      },
+    },
+  });
+}
+
+// ───── Slide 7: 2025-2026 六區管中心趨勢 ─────
+const REGION_ZONE_ORDER = ['台北區','北區','中區','南區','高屏區','東區'];
+
+function renderSlide7EnteroRegionTrend() {
+  const e = state.summaries.enterovirus;
+  if (!e || !e.weekly_by_region_center) return;
+
+  // 篩出 2025-W01 起的所有 period
+  const allPeriods = new Set();
+  for (const zone of REGION_ZONE_ORDER) {
+    for (const r of (e.weekly_by_region_center[zone] || [])) {
+      if (r.period >= '2025-W01') allPeriods.add(r.period);
+    }
+  }
+  const periods = Array.from(allPeriods).sort();
+  if (periods.length === 0) return;
+
+  // 每區的 period→cases
+  const byZone = {};
+  for (const zone of REGION_ZONE_ORDER) {
+    const map = {};
+    for (const r of (e.weekly_by_region_center[zone] || [])) {
+      map[r.period] = r.cases;
+    }
+    byZone[zone] = periods.map(p => map[p] ?? 0);
+  }
+
+  drawEnteroRegionTrend('s7EnteroRegionTrend', periods, byZone, REGION_ZONE_ORDER);
+
+  // Callouts：本週最高區 / 六區合計（含週變動）/ 2025 年累計最多區
+  const latestPeriod = periods[periods.length - 1];
+  let topZone = REGION_ZONE_ORDER[0], topVal = -1;
+  let weekTotal = 0;
+  for (const zone of REGION_ZONE_ORDER) {
+    const v = byZone[zone][byZone[zone].length - 1] || 0;
+    weekTotal += v;
+    if (v > topVal) { topVal = v; topZone = zone; }
+  }
+  let prevTotal = 0;
+  if (periods.length >= 2) {
+    for (const zone of REGION_ZONE_ORDER) {
+      prevTotal += byZone[zone][byZone[zone].length - 2] || 0;
+    }
+  }
+  const wowPct = prevTotal > 0
+    ? (weekTotal - prevTotal) / prevTotal * 100
+    : null;
+
+  // 2025 全年累計最多區
+  const yearSum = {};
+  for (const zone of REGION_ZONE_ORDER) {
+    yearSum[zone] = (e.weekly_by_region_center[zone] || [])
+      .filter(r => r.period >= '2025-W01' && r.period <= '2025-W53')
+      .reduce((s, r) => s + r.cases, 0);
+  }
+  const cumTopZone = Object.entries(yearSum)
+    .sort((a, b) => b[1] - a[1])[0];
+
+  makeCallouts('s7Callouts', [
+    { label: `本週（${latestPeriod}）就診最高區`,
+      num: topZone,
+      sub: `本週 ${fmt.format(topVal)} 人次` },
+    { label: '本週六區合計',
+      num: fmt.format(weekTotal),
+      sub: wowPct !== null
+        ? `對比上週 ${fmtPct(wowPct)}`
+        : '無對照資料' },
+    { label: '2025 年累計就診最多區',
+      num: cumTopZone ? cumTopZone[0] : '—',
+      sub: cumTopZone ? `年累計 ${fmt.format(cumTopZone[1])} 人次` : '' },
+  ]);
+}
+
+function drawEnteroRegionTrend(canvasId, periods, byZone, zoneOrder) {
+  const datasets = zoneOrder.map((zone, i) => ({
+    label: zone,
+    data: byZone[zone],
+    borderColor: PALETTE.cat[i],
+    backgroundColor: PALETTE.cat[i],
+    borderWidth: 1.8,
+    tension: 0.32,
+    pointRadius: 0, pointHoverRadius: 0,
+    fill: false,
+  }));
+
+  new Chart(document.getElementById(canvasId), {
+    type: 'line',
+    data: { labels: periods, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'top', align: 'end',
+          labels: { boxWidth: 14, boxHeight: 2, padding: 10, font: { size: 10 } },
+        },
+      },
+      scales: {
+        x: {
+          grid: { display: false }, border: { color: PALETTE.n300 },
+          ticks: {
+            color: PALETTE.n500, font: { size: 9 },
+            maxTicksLimit: 12,
+            callback: function(val) {
+              const p = this.getLabelForValue(val);
+              const m = /^(\d{4})-W(\d{2})$/.exec(p);
+              if (!m) return '';
+              const w = +m[2];
+              return (w === 1 || w === 13 || w === 26 || w === 40) ? `${m[1]}-W${m[2]}` : '';
+            },
+          },
+          title: { display: true, text: '週次（ISO-8601）',
+                   color: PALETTE.n500, font: { size: 9 } },
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: PALETTE.n200 }, border: { display: false },
+          ticks: { color: PALETTE.n500, font: { size: 9 },
+                   callback: v => fmt.format(v) },
+          title: { display: true, text: '就診人次',
+                   color: PALETTE.n500, font: { size: 9 } },
+        },
+      },
+    },
+  });
+}
+
+// ───── Slide 8: 2025-2026 年齡別分布（CDC 原始 8 組） ─────
+function renderSlide8EnteroAgeBar() {
+  const e = state.summaries.enterovirus;
+  if (!e) return;
+
+  // 優先使用近 2 年（2025-2026）彙整，缺則退回全期 by_age
+  const source = (e.by_age_recent_2y && e.by_age_recent_2y.length > 0)
+    ? e.by_age_recent_2y
+    : (e.by_age || []);
+  if (source.length === 0) return;
+
+  // 過濾「不詳」 + 對齊 ENTERO_AGE_ORDER
+  const map = {};
+  for (const r of source) {
+    if (r.age_group === '不詳') continue;
+    map[r.age_group] = r.cases;
+  }
+  const rows = ENTERO_AGE_ORDER
+    .filter(g => map[g] !== undefined)
+    .map(g => ({ age_group: g, cases: map[g] }));
+
+  if (rows.length === 0) return;
+  drawEnteroAgeBar('s8EnteroAgeBar', rows);
+
+  // Callouts：主要年齡層 / 學齡前(0~6) / 學齡(7~18)
+  const total = rows.reduce((s, r) => s + r.cases, 0);
+  const top = [...rows].sort((a, b) => b.cases - a.cases)[0];
+  const preSchool = (map['0~2'] || 0) + (map['3~6'] || 0);
+  const schoolAge = (map['7~12'] || 0) + (map['13~15'] || 0) + (map['16~18'] || 0);
+
+  makeCallouts('s8Callouts', [
+    { label: '主要影響年齡層',
+      num: top ? top.age_group + ' 歲' : '—',
+      sub: top ? `累計就診 ${fmt.format(top.cases)} 人次` : '' },
+    { label: '學齡前 (0~6 歲) 合計',
+      num: fmt.format(preSchool),
+      sub: total > 0 ? `占整體 ${(preSchool / total * 100).toFixed(1)}%` : '' },
+    { label: '學齡 (7~18 歲) 合計',
+      num: fmt.format(schoolAge),
+      sub: total > 0 ? `占整體 ${(schoolAge / total * 100).toFixed(1)}%` : '' },
+  ]);
+}
+
+function drawEnteroAgeBar(canvasId, rows) {
+  const scale = [PALETTE.p100, PALETTE.p200, PALETTE.p300, PALETTE.p400,
+                 PALETTE.p500, PALETTE.p600, PALETTE.p700, PALETTE.p800];
+
+  new Chart(document.getElementById(canvasId), {
+    type: 'bar',
+    data: {
+      labels: rows.map(r => r.age_group + ' 歲'),
+      datasets: [{
+        data: rows.map(r => r.cases),
+        backgroundColor: rows.map((_, i) => scale[Math.min(i, scale.length - 1)]),
+        borderWidth: 0,
+        barPercentage: 0.66, categoryPercentage: 0.88,
+      }],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: {
+          grid: { display: false }, border: { color: PALETTE.n300 },
+          ticks: { color: PALETTE.n700, font: { size: 10 } },
+          title: { display: true, text: '年齡別',
+                   color: PALETTE.n500, font: { size: 9 } },
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: PALETTE.n200 }, border: { display: false },
+          ticks: { color: PALETTE.n500, font: { size: 9 },
+                   callback: v => fmt.format(v) },
+          title: { display: true, text: '累計就診人次',
+                   color: PALETTE.n500, font: { size: 9 } },
+        },
+      },
+    },
+  });
+}
+
+// ───── Slide 9: 2022-2026 重症趨勢 ─────
+function renderSlide9EnteroSevereTrend() {
+  const e = state.summaries.enterovirus;
+  if (!e || !e.severe_weekly_series || e.severe_weekly_series.length === 0) {
+    const el = document.getElementById('s9EnteroSevereTrend');
+    if (el) el.parentElement.innerHTML =
+      `<div style="height:100%;display:flex;align-items:center;justify-content:center;color:${PALETTE.n500};font-size:11pt">尚無重症資料</div>`;
+    return;
+  }
+
+  const series = filterByPeriod(e.severe_weekly_series, '2022-W01', null);
+  if (series.length === 0) return;
+
+  drawEnteroSevereTrend('s9EnteroSevereTrend', series);
+
+  // Callouts：累計重症 / 本週新增 / 2025-2026 同期比較
+  const total = series.reduce((s, r) => s + r.cases, 0);
+  const latest = series[series.length - 1];
+  const latestYw = parseISOWeek(latest.period);
+
+  // YTD comparison: 2026 vs 2025 同 ISO 週累計
+  let ytd2026 = 0, ytd2025 = 0;
+  for (const r of series) {
+    const yw = parseISOWeek(r.period);
+    if (!yw) continue;
+    if (yw.year === latestYw.year && yw.week <= latestYw.week) ytd2026 += r.cases;
+    if (yw.year === latestYw.year - 1 && yw.week <= latestYw.week) ytd2025 += r.cases;
+  }
+  const yoyPct = ytd2025 > 0 ? (ytd2026 - ytd2025) / ytd2025 * 100 : null;
+
+  makeCallouts('s9Callouts', [
+    { label: '近 4 年累計重症',
+      num: fmt.format(total),
+      sub: `2022-W01 至 ${latest.period}` },
+    { label: '本週新增重症',
+      num: `${fmt.format(latest.cases)} 例`,
+      sub: `最新統計週 ${latest.period}` },
+    { label: '2025–2026 同期累計比較',
+      num: yoyPct !== null ? fmtPct(yoyPct) : '—',
+      sub: yoyPct !== null
+        ? `本年 ${fmt.format(ytd2026)} vs 去年同期 ${fmt.format(ytd2025)}`
+        : '對照資料不足' },
+  ]);
+}
+
+function drawEnteroSevereTrend(canvasId, series) {
+  const labels = series.map(r => r.period);
+  const data = series.map(r => r.cases);
+  const ma = trailingMA(data, 4);
+
+  new Chart(document.getElementById(canvasId), {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: '每週確定病例數',
+          data,
+          borderColor: PALETTE.terracotta,
+          backgroundColor: hexToRgba(PALETTE.terracotta, 0.10),
+          borderWidth: 1.6,
+          fill: true, tension: 0.28, pointRadius: 0,
+        },
+        {
+          label: '4 週後尾追平均',
+          data: ma,
+          borderColor: PALETTE.clay,
+          borderWidth: 2.2,
+          borderDash: [6, 4],
+          fill: false, tension: 0.25, pointRadius: 0, spanGaps: false,
+        },
+      ],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'top', align: 'end',
+          labels: { boxWidth: 14, boxHeight: 2, padding: 12, font: { size: 10 } },
+        },
+      },
+      scales: {
+        x: {
+          grid: { display: false }, border: { color: PALETTE.n300 },
+          ticks: {
+            color: PALETTE.n500, font: { size: 9 },
+            maxTicksLimit: 12,
+            callback: function(val) {
+              const p = this.getLabelForValue(val);
+              return /-W01$/.test(p) ? p.slice(0, 4) : '';
+            },
+          },
+          title: { display: true, text: '週次（ISO-8601）',
+                   color: PALETTE.n500, font: { size: 9 } },
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: PALETTE.n200 }, border: { display: false },
+          ticks: { color: PALETTE.n500, font: { size: 9 } },
+          title: { display: true, text: '確定病例數',
+                   color: PALETTE.n500, font: { size: 9 } },
+        },
+      },
+    },
+  });
 }
 
 function toggleNav() {

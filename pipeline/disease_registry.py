@@ -73,6 +73,13 @@ DISEASES = {
         "alert_thresholds": {"low": 3000, "medium": 8000, "high": 15000},
         "season_months": [4, 5, 6, 7, 8, 9],
         "advice": "勤洗手、避免出入擁擠場所、玩具定期消毒、家中有兒童者注意手足口症徵兆",
+        # 重症資料源：腸病毒感染併發重症（法定傳染病通報）
+        "severe_data_url": "https://od.cdc.gov.tw/eic/Weekly_Confirmation_Age_County_Gender_0749.csv",
+        "severe_date_col": "發病年份",
+        "severe_week_col": "發病週別",
+        "severe_case_col": "確定病例數",
+        "severe_region_col": "縣市",
+        "severe_age_col": "年齡層",
     },
     "covid19": {
         "name_zh": "COVID-19",

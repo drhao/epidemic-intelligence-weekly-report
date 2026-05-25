@@ -24,7 +24,11 @@
       <a href="#slide-3">分區與人口</a>
       <a href="#slide-4">警示與建議</a>
       <a href="#slide-5">歷年同期</a>
-      <a href="#slide-6">結語</a>
+      <a href="#slide-6">腸病毒長期趨勢</a>
+      <a href="#slide-7">腸病毒分區</a>
+      <a href="#slide-8">腸病毒年齡</a>
+      <a href="#slide-9">腸病毒重症</a>
+      <a href="#slide-10">結語</a>
     </nav>
   </div>
   <div class="print-hint">提示：列印時請選擇「橫向」「A4」「背景圖形」以取得最佳效果</div>
@@ -58,7 +62,7 @@
       <div id="coverGeneratedAt">—</div>
     </div>
   </footer>
-  <div class="page-no">1 / 6</div>
+  <div class="page-no">1 / 10</div>
 </section>
 
 <section class="slide" id="slide-2">
@@ -70,7 +74,7 @@
   <div class="overview-grid" id="overviewGrid"></div>
   <footer class="slide-foot">
     <span class="src">資料來源：衛生福利部疾病管制署</span>
-    <span class="page-no">2 / 6</span>
+    <span class="page-no">2 / 10</span>
   </footer>
 </section>
 
@@ -102,7 +106,7 @@
   <div class="callout-row" id="s3Callouts"></div>
   <footer class="slide-foot">
     <span class="src">資料來源：衛生福利部疾病管制署</span>
-    <span class="page-no">3 / 6</span>
+    <span class="page-no">3 / 10</span>
   </footer>
 </section>
 
@@ -115,7 +119,7 @@
   <div class="advisory-list" id="s4AdvisoryList"></div>
   <footer class="slide-foot">
     <span class="src">資料來源：衛生福利部疾病管制署</span>
-    <span class="page-no">4 / 6</span>
+    <span class="page-no">4 / 10</span>
   </footer>
 </section>
 
@@ -136,13 +140,117 @@
   <div class="comparison-callouts" id="s5Callouts"></div>
   <footer class="slide-foot">
     <span class="src">資料來源：衛生福利部疾病管制署 · 統計週次依 ISO-8601</span>
-    <span class="page-no">5 / 6</span>
+    <span class="page-no">5 / 10</span>
   </footer>
 </section>
 
-<section class="slide slide-closing" id="slide-6">
+<!-- ═══════════════════════════════════════════════════════════
+     腸病毒專屬深度報告（slide 6–9）
+     ═══════════════════════════════════════════════════════════ -->
+
+<section class="slide" id="slide-6">
   <header class="slide-head">
-    <div class="slide-eyebrow">第 6 頁 · 報告說明</div>
+    <div class="slide-eyebrow">第 6 頁 · 腸病毒長期趨勢</div>
+    <h2 class="slide-title">
+      腸病毒健保門急診就診人次 · 十年週趨勢
+      <span class="slide-title-tag" id="s6Tag" style="background:#496345">2017–2026</span>
+    </h2>
+    <p class="slide-sub">每週 ISO-8601 統計，疊加 4 週後尾追平均線</p>
+  </header>
+  <div class="chart-block chart-block-wide">
+    <div class="chart-block-head">
+      <h3 class="chart-block-h">健保門急診每週就診人次</h3>
+      <div class="chart-block-sub">資料來源：NHI_EnteroviralInfection.csv（2017-W01 起）</div>
+    </div>
+    <div class="chart-block-body chart-block-body-tall">
+      <canvas id="s6EnteroLongTrend"></canvas>
+    </div>
+  </div>
+  <div class="callout-row" id="s6Callouts"></div>
+  <footer class="slide-foot">
+    <span class="src">資料來源：衛生福利部疾病管制署 · 健保門急診統計</span>
+    <span class="page-no">6 / 10</span>
+  </footer>
+</section>
+
+<section class="slide" id="slide-7">
+  <header class="slide-head">
+    <div class="slide-eyebrow">第 7 頁 · 腸病毒分區趨勢</div>
+    <h2 class="slide-title">
+      六區管中心健保門急診就診人次
+      <span class="slide-title-tag" id="s7Tag" style="background:#496345">2025–2026</span>
+    </h2>
+    <p class="slide-sub">疾管署六區管中心週趨勢比較（每線一區）</p>
+  </header>
+  <div class="chart-block chart-block-wide">
+    <div class="chart-block-head">
+      <h3 class="chart-block-h">分區每週就診人次</h3>
+      <div class="chart-block-sub">台北 / 北 / 中 / 南 / 高屏 / 東 · 2025-W01 起</div>
+    </div>
+    <div class="chart-block-body chart-block-body-tall">
+      <canvas id="s7EnteroRegionTrend"></canvas>
+    </div>
+  </div>
+  <div class="callout-row" id="s7Callouts"></div>
+  <footer class="slide-foot">
+    <span class="src">資料來源：衛生福利部疾病管制署 · 健保門急診統計</span>
+    <span class="page-no">7 / 10</span>
+  </footer>
+</section>
+
+<section class="slide" id="slide-8">
+  <header class="slide-head">
+    <div class="slide-eyebrow">第 8 頁 · 腸病毒年齡分布</div>
+    <h2 class="slide-title">
+      腸病毒就診人次 · 年齡別分布
+      <span class="slide-title-tag" id="s8Tag" style="background:#496345">2025–2026</span>
+    </h2>
+    <p class="slide-sub">依疾管署原始 8 組年齡別統計（不含「不詳」）</p>
+  </header>
+  <div class="chart-block chart-block-wide">
+    <div class="chart-block-head">
+      <h3 class="chart-block-h">各年齡別累計就診人次</h3>
+      <div class="chart-block-sub">0~2 / 3~6 / 7~12 / 13~15 / 16~18 / 19~24 / 25~64 / 65+</div>
+    </div>
+    <div class="chart-block-body chart-block-body-tall">
+      <canvas id="s8EnteroAgeBar"></canvas>
+    </div>
+  </div>
+  <div class="callout-row" id="s8Callouts"></div>
+  <footer class="slide-foot">
+    <span class="src">資料來源：衛生福利部疾病管制署 · 健保門急診統計</span>
+    <span class="page-no">8 / 10</span>
+  </footer>
+</section>
+
+<section class="slide" id="slide-9">
+  <header class="slide-head">
+    <div class="slide-eyebrow">第 9 頁 · 腸病毒重症趨勢</div>
+    <h2 class="slide-title">
+      腸病毒感染併發重症 · 流行趨勢
+      <span class="slide-title-tag" id="s9Tag" style="background:#7A4A33">2022–2026</span>
+    </h2>
+    <p class="slide-sub">每週確定病例數，疊加 4 週後尾追平均線（法定傳染病通報）</p>
+  </header>
+  <div class="chart-block chart-block-wide">
+    <div class="chart-block-head">
+      <h3 class="chart-block-h">重症確定病例週趨勢</h3>
+      <div class="chart-block-sub">資料來源：Weekly_Confirmation_Age_County_Gender_0749.csv</div>
+    </div>
+    <div class="chart-block-body chart-block-body-tall">
+      <canvas id="s9EnteroSevereTrend"></canvas>
+    </div>
+  </div>
+  <div class="callout-row" id="s9Callouts"></div>
+  <footer class="slide-foot">
+    <span class="src">資料來源：衛生福利部疾病管制署 · 法定傳染病通報</span>
+    <span class="page-no">9 / 10</span>
+  </footer>
+</section>
+
+<section class="slide slide-closing" id="slide-10">
+  <header class="slide-head">
+    <div class="slide-eyebrow">第 10 頁 · 報告說明</div>
     <h2 class="slide-title">資料來源與引用方式</h2>
   </header>
   <div class="closing-body">
@@ -170,7 +278,7 @@
   </div>
   <footer class="slide-foot closing-foot">
     <span>本報告由疫情監測儀表板自動生成</span>
-    <span class="page-no">6 / 6</span>
+    <span class="page-no">10 / 10</span>
   </footer>
 </section>
 
